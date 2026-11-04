@@ -149,9 +149,9 @@
 
 각 사이트를 WebSearch 또는 WebFetch로 탐색하여 오늘 날짜 기준 새로운 글을 찾는다. 사이트마다 최신 글 1~3개를 수집하고, 전체 결과를 위 형식으로 정리하여 출력한다.
 
-## 사이트 발행 (ai-it-daily.pages.dev)
+## 발행 (GitHub 저장소)
 
-이 저장소(blovenee-sudo/ai-it-daily)의 main 브랜치에 push하면 Cloudflare Pages가 자동 배포한다. Muse가 이 사이트를 읽어 함께 반영한다.
+이 저장소(blovenee-sudo/ai-it-daily)의 main 브랜치에 push하는 것으로 발행이 끝난다. Muse가 이 저장소를 읽어 함께 반영한다. 별도 웹사이트 배포는 하지 않는다.
 
 - 오늘 호를 `issues/YYYY-MM-DD.html`로 만들고, 같은 내용을 `index.html`에도 덮어쓴다.
 - 디자인·구조는 직전 호(`index.html`)를 템플릿으로 그대로 따른다: 상단 바, 헤더(날짜·SEOUL), 탭 3개(`#ai` AI DAILY / `#local` 용산, 서울 소식 / `#youtube` 유튜브추천), hero, ARCHIVE 목록, stats, 핵심 요약, TOP 3 픽, 섹션 카드, 수집 제한 사이트. 기존 `<style>`과 `<script>`(모아보기 등)는 유지한다.
