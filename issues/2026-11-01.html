@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="ko">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI DAILY — 2026.11.01</title>
+<style>body{margin:0;font:15px/1.65 Arial,sans-serif;color:#111}.bar,.black{background:#000;color:#fff}.bar{padding:8px;text-align:center;font-size:11px;font-weight:bold;letter-spacing:.1em}.wrap{max-width:1040px;margin:auto;padding:0 22px}header{border-bottom:1px solid #ddd;padding:22px 0}.logo{font-size:27px;font-weight:900}.date{float:right;color:#777;font-size:12px}.hero{background:#111;color:#fff;padding:54px 0}.hero h1{margin:8px 0;font:48px/1.05 Georgia,serif}.archive{padding:18px 0;border-bottom:1px solid #ddd}.archive a{display:inline-block;margin:0 8px 8px 0;padding:7px 12px;border:1px solid #111;color:#111;text-decoration:none;font-weight:bold}.stats,.picks{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid #ddd}.stat,.pick{padding:12px;border-right:1px solid #ddd}.stat b{display:block;font-size:40px}.pick{font-size:13px}.pick:first-child{background:#000;color:#fff}.head{margin-top:28px;padding:9px 12px;border:1px solid #111;font-size:25px;font-weight:bold}.note,.tags{color:#666}.item{display:grid;grid-template-columns:1fr 105px;gap:14px;padding:14px 0;border-bottom:1px solid #ddd}.item h3{margin:0;font-size:19px}.item p{margin:4px 0}.item a{align-self:start;background:#000;color:#fff;text-decoration:none;padding:10px;text-align:center;font-weight:bold;font-size:12px}.tags,.limits a{font-size:12px}.actions{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.action{padding:12px;background:#f4f4f4}.limits a{display:inline-block;margin:3px;padding:5px 7px;border:1px solid #ddd;color:#111;text-decoration:none}@media(max-width:650px){.stats,.picks,.actions{grid-template-columns:1fr}.item{grid-template-columns:1fr}.hero h1{font-size:37px}}</style>
+<style>.tabs{display:flex;gap:6px;margin-top:14px}.tab{display:inline-block;border:1px solid #111;background:#fff;padding:6px 10px;color:#111;text-decoration:none;font-weight:bold}.tab:hover,.tab:focus{outline:2px solid #1668d9;outline-offset:-2px}.tab-panel{display:none}#ai{display:block}body:has(.tab-panel:target) #ai{display:none}body:has(#ai:target) #ai{display:block}#ai:target,#local:target,#youtube:target{display:block}body:has(#ai:target) .tab[href="#ai"],body:has(#local:target) .tab[href="#local"],body:has(#youtube:target) .tab[href="#youtube"]{background:#111;color:#fff}.local-table{width:100%;border-collapse:collapse;font-size:13px}.local-table th,.local-table td{padding:10px;border:1px solid #ddd;text-align:left;vertical-align:top}.local-table th{background:#111;color:#fff;white-space:nowrap}.local-table a{color:#111;font-weight:bold}@media(max-width:650px){.local-table{display:block;overflow-x:auto;white-space:normal}}</style>
+<style id="favorites-style">.saved-link{float:right;margin-left:10px;border:1px solid #111;background:#fff;padding:4px 8px;color:#111;font-weight:bold;cursor:pointer}.item{grid-template-columns:1fr 36px 105px}.saved-link span{display:inline-block;min-width:16px;margin-left:3px;background:#111;color:#fff;text-align:center}.fav-toggle{align-self:start;border:1px solid #111;background:#fff;padding:7px 8px;color:#111;font-size:18px;line-height:1;cursor:pointer}.fav-toggle[aria-pressed=true]{background:#111;color:#fff}.table-star{float:right;margin-left:6px;border:0;background:transparent;padding:0;color:#111;font-size:18px;line-height:1;cursor:pointer}.table-star[aria-pressed=true]{color:#d37b00}.favorites-dialog{width:min(620px,calc(100% - 32px));border:1px solid #111;padding:0}.favorites-dialog::backdrop{background:rgba(0,0,0,.45)}.favorites-head{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;border-bottom:1px solid #ddd}.favorites-head h2{margin:0;font-size:20px}.favorites-actions{display:flex;gap:6px}.favorites-close,.favorite-remove,.favorites-export{border:1px solid #111;background:#fff;padding:5px 8px;cursor:pointer}.favorites-export{background:#111;color:#fff}.favorites-list{list-style:none;margin:0;padding:0}.favorites-list li{display:grid;grid-template-columns:1fr auto;gap:12px;padding:14px 16px;border-bottom:1px solid #ddd}.favorites-list a{color:#111;font-weight:bold}.favorites-meta{display:block;color:#666;font-size:12px}.favorites-empty{padding:24px 16px;color:#666}@media(max-width:650px){.date{display:none}.saved-link{margin-left:0}.item{grid-template-columns:1fr 36px 90px}.fav-toggle{padding:7px}.favorites-list li{grid-template-columns:1fr}}</style>
+<body>
+<div class="bar">DAILY AI·IT BRIEF · PRACTICAL SIGNALS ONLY</div>
+<header>
+<div class="wrap">
+<span class="logo">AI DAILY</span>
+<span class="date">2026.11.01 · SEOUL</span>
+<button class="saved-link" type="button" id="favorites-open">모아보기 <span id="favorites-count">0</span>
+</button>
+<nav class="tabs" aria-label="리포트 메뉴">
+<a class="tab" href="#ai">AI DAILY</a>
+<a class="tab" href="#local">용산, 서울 소식</a>
+<a class="tab" href="#youtube">유튜브추천</a>
+</nav>
+</div>
+</header>
+
+
+<main class="wrap">
+<div class="tab-panel active" id="ai">
+<section class="hero">
+<div class="wrap">
+<small>NOVEMBER 1, 2026</small>
+<h1>에이전트의 문맥은 남기고,<br>실행 권한은 좁힌다.</h1>
+<p>최근 14호와 대조해 새로 검증한 원문은 5건뿐입니다. 모델 라우팅·저장소 자동화·장기 기억은 각각 비용과 권한의 경계를 먼저 정했을 때 실무에 남습니다.</p>
+</div>
+</section>
+<div class="wrap archive">
+<b>ARCHIVE — 지난 호 보기</b>
+<p>
+<a href="../issues/2026-11-01.html">NO.18 · 11/01</a>
+<a href="../issues/2026-10-31.html">NO.17 · 10/31</a>
+<a href="../issues/2026-10-30.html">NO.16 · 10/30</a>
+<a href="../issues/2026-10-29.html">NO.15 · 10/29</a>
+<a href="../issues/2026-10-28.html">NO.14 · 10/28</a>
+<a href="../issues/2026-10-27.html">NO.13 · 10/27</a>
+<a href="../issues/2026-10-26.html">NO.12 · 10/26</a>
+<a href="../issues/2026-10-25.html">NO.11 · 10/25</a>
+<a href="../issues/2026-10-24.html">NO.10 · 10/24</a>
+<a href="../issues/2026-10-23.html">NO.9 · 10/23</a>
+<a href="../issues/2026-10-22.html">NO.8 · 10/22</a>
+<a href="../issues/2026-10-21.html">NO.7 · 10/21</a>
+<a href="../issues/2026-10-20.html">NO.6 · 10/20</a>
+<a href="../issues/2026-10-18.html">NO.5 · 10/18</a>
+<a href="../issues/2026-10-17.html">NO.4 · 10/17</a>
+<a href="../issues/2026-10-16.html">NO.3 · 10/16</a>
+<a href="../issues/2026-10-15.html">NO.2 · 10/15</a>
+<a href="../issues/2026-10-14.html">NO.1 · 10/14</a>
+</p>
+</div>
+<section class="stats">
+<div class="stat">
+<b>5건</b>오늘의 전체 소식</div>
+<div class="stat">
+<b>3건</b>발견 신호</div>
+<div class="stat">
+<b>2건</b>실무 검증</div>
+<div class="stat">
+<b>3건</b>주목 항목</div>
+</section>
+<section>
+<h2>핵심 요약</h2>
+<ol>
+<li>Copilot Fusion은 작업별 모델 선택을 라우터에 맡기되, 조직 정책으로 사용할 모델을 제한할 수 있다.</li>
+<li>GitHub Agentic Workflows는 Markdown으로 정의한 자동화를 Actions YAML로 컴파일한다. 읽기 전용 기본값과 격리를 유지한 채 작은 업무부터 시작할 수 있다.</li>
+<li>Copilot Memory·Dreaming은 세션을 넘겨 팀 규칙을 보존하거나 갱신을 제안한다. 저장하는 내용과 승인 경로를 먼저 분리해야 한다.</li>
+</ol>
+</section>
+<section class="picks">
+<div class="pick">
+<b>TOP 1 · Copilot Fusion</b>
+<p>같은 작업으로 Standard와 High의 비용·완료율을 비교합니다.</p>
+</div>
+<div class="pick">
+<b>TOP 2 · Agentic Workflows</b>
+<p>읽기 전용 이슈 분류 한 개로 정책·예산을 검증합니다.</p>
+</div>
+<div class="pick">
+<b>TOP 3 · Copilot Memory</b>
+<p>테스트 명령처럼 검증 가능한 규칙만 저장합니다.</p>
+</div>
+</section>
+<section>
+<div class="head black">발견 신호 <small>DISCOVERY · 3건</small>
+</div>
+<p class="note">공식 출시 정보와 사용 시작 경로가 확인된 제품·기능만 수록했습니다.</p>
+<article class="item">
+<div>
+<h3>GitHub Copilot Fusion, 작업 난이도에 따라 모델을 라우팅한다</h3>
+<p>GitHub는 Fusion을 일반 제공하며 작업마다 단일 모델·초안 뒤 상향 전환·비평 후 수정 흐름을 선택한다고 안내했다. 팀에서는 Standard와 High를 같은 작은 과제에만 적용해 완료율·토큰 비용·검토 시간을 함께 기록하는 것이 출발점이다.</p>
+<span class="tags">개발 AI · 모델 라우팅 · 10/28 · 실무 연관도 높음</span>
+</div>
+<a href="https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>GitHub Copilot Intelligence, 기억과 코드 검색을 에이전트 문맥으로 연결</h3>
+<p>GitHub는 개인·저장소 기억을 세션과 클라이언트 사이에 이어 주고, Dreaming이 기억·지침 변경을 제안하는 기능을 공개했다. 저장소 규칙은 테스트 명령처럼 검증 가능한 항목만 남기고, 자동 갱신은 PR 제안 단계에서 검토한다.</p>
+<span class="tags">개발 생산성 · 지속 문맥 · 10/28 · 실무 연관도 높음</span>
+</div>
+<a href="https://github.blog/changelog/2026-10-28-github-intelligence-puts-your-code-context-and-history-to-work/">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>GPT-6 Rosalind Research, 승인된 생명과학 연구 조직에 제한 제공</h3>
+<p>OpenAI는 과학 도구 사용을 포함한 생명과학 추론 모델을 승인된 연구 조직에 제공한다고 알렸다. 일반 업무용 기능이 아니므로, 해당 조직은 접근 승인·내부 연구 범위·결과 검증 책임을 분리해 관리해야 한다.</p>
+<span class="tags">전문 AI · 연구 접근 · 10/30 · 제한 제공</span>
+</div>
+<a href="https://developers.openai.com/api/docs/changelog">원문 보기 →</a>
+</article>
+</section>
+<section>
+<div class="head">실무 검증 <small>PRACTICE · 2건</small>
+</div>
+<article class="item">
+<div>
+<h3>GitHub Agentic Workflows, Actions 기반 에이전트 자동화를 일반 제공</h3>
+<p>GitHub는 이슈 분류·CI 실패 분석·문서 갱신을 Markdown으로 정의하면 표준 Actions YAML로 컴파일하는 방식을 일반 제공했다. 기본 읽기 전용 권한·샌드박스·출력 검증을 보존한 채, 변경 없는 분류 작업 하나부터 비용 예측을 확인한다.</p>
+<span class="tags">개발 자동화 · GitHub Actions · 10/28 · 실무 연관도 높음</span>
+</div>
+<a href="https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>ChatGPT Pro·Business Premium, Work·Codex 포함 사용량을 확대</h3>
+<p>OpenAI는 Pro와 Business Premium의 Work·Codex 사용 한도를 이전보다 두 배로 늘린다고 안내했다. 실제 팀 운영에서는 한도 증가분을 장시간 자율 작업에 바로 쓰기보다, 작업별 사용량 상한과 사람 검토 지점을 먼저 정하는 편이 안전하다.</p>
+<span class="tags">AI 운영 · 사용량 관리 · 10/29 · 실무 연관도 높음</span>
+</div>
+<a href="https://help.openai.com/en/articles/11391654-chatgpt-business-release-notes">원문 보기 →</a>
+</article>
+</section>
+<section>
+<div class="head">바로 써볼 것 <small>TRY THIS</small>
+</div>
+<div class="actions">
+<div class="action">
+<b>Fusion 비용을 과제별로 비교하기</b>
+<br>동일한 버그 하나로 effort별 비용과 검토 시간을 적습니다.</div>
+<div class="action">
+<b>Actions 자동화는 읽기 전용부터</b>
+<br>이슈 라벨 분류처럼 변경 없는 흐름 하나만 실행합니다.</div>
+<div class="action">
+<b>기억에는 검증 가능한 규칙만 저장</b>
+<br>테스트 명령·코드 규약은 PR 검토를 거쳐 갱신합니다.</div>
+</div>
+</section>
+<section>
+<div class="head">커뮤니티 레이더 <small>COMMUNITY RADAR · REDDIT · NOTE.COM</small>
+</div>
+<p class="note">커뮤니티와 개인 작성자의 관찰입니다. 제품 출시·수치 주장은 원문 또는 공식 문서에서 다시 확인하세요.</p>
+<article class="item">
+<div>
+<h3>note.com의 10월 모델 정리: 가격보다 계정·학습 설정을 먼저 확인</h3>
+<p>중소기업 지원 관점의 작성자는 10월 신규 모델을 비교하며, 업무 데이터 입력 전에는 모델명보다 개인·법인 계정과 학습 설정을 먼저 확인해야 한다고 정리했다. 개인 정리이므로 실제 데이터 처리 기준은 각 공급사의 현재 계약·관리자 설정으로 검증해야 한다.</p>
+<span class="tags">note.com · 업무 운영 · 10/31 · 개인 정리</span>
+</div>
+<a href="https://note.com/kigyokakushin/n/n4e95d7fd1b1c">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>note.com의 월간 AI 정리: 답변에서 업무 진행으로 초점이 이동했다는 관찰</h3>
+<p>한 작성자는 10월 제품 발표를 묶어 모델 성능 경쟁과 함께 실제 도구·일정을 움직이는 에이전트 흐름이 강해졌다고 평가했다. 개인 관찰이므로, 도입 판단은 제품별 권한·감사 로그·비용 문서를 기준으로 다시 확인해야 한다.</p>
+<span class="tags">note.com · 시장 관찰 · 10/31 · 개인 정리</span>
+</div>
+<a href="https://note.com/miyabiya007/n/nb0fdb4979704">원문 보기 →</a>
+</article>
+</section>
+<section>
+<div class="head">수집 제한 사이트 <small>COLLECTION LIMITS</small>
+</div>
+<p class="note">최근 14호에 없는 공식 원문은 5건만 확인돼 최소 9건을 채우지 않았습니다. 지정 국내 매체는 당일 개별 원문을 실무 적용 기준으로 검증하지 못했으며, X는 키체인 자격 증명 부재로 수집하지 않았습니다. 헤일리 브런치는 새 글을 확인하지 못해 표시하지 않았습니다.</p>
+<div class="limits">
+<a href="https://www.venturesquare.net/">벤처스퀘어</a>
+<a href="https://platum.kr/trends">Platum</a>
+<a href="https://outstanding.kr/">아웃스탠딩</a>
+<a href="https://www.besuccess.com/category/news/">beSUCCESS</a>
+<a href="https://startuprecipe.co.kr/archives/category/news">스타트업레시피</a>
+<a href="https://eopla.net/">이오플래닛</a>
+<a href="https://blog.sknetworks.co.kr/?cat=1323">SKN AI트렌드</a>
+<a href="https://news.appstory.co.kr/news/">앱스토리</a>
+<a href="https://d2.naver.com/home">NAVER D2</a>
+<a href="https://www.hanbit.co.kr/channel/">한빛미디어 채널H</a>
+<a href="https://brunch.co.kr/keyword/AI">브런치 AI</a>
+<a href="https://yozm.wishket.com/magazine/">요즘IT</a>
+<a href="https://ditoday.com/ui-ux/">디지털인사이트</a>
+<a href="https://www.canda.blog/">canda.blog</a>
+<a href="https://www.openads.co.kr/content?category=CC49">오픈애즈</a>
+<a href="https://think-note.com/">생각노트</a>
+<a href="https://www.surfit.io/">서핏</a>
+<a href="https://trendlite.stibee.com/">트렌드라이트</a>
+<a href="https://newsjel.ly/blog">뉴스젤리</a>
+<a href="https://uppity.co.kr/">어피티</a>
+<a href="https://newneek.co/">뉴닉</a>
+<a href="https://developer.x.com/en/docs/x-api/tweets/search/api-reference/get-tweets-search-recent">X Recent Search API</a>
+</div>
+</section>
+</div>
+<div class="tab-panel" id="local">
+<section class="hero">
+<div class="wrap">
+<small>YONGSAN · SEOUL</small>
+<h1>이번 주 가족과 갈 곳,<br>신청 기한부터 확인한다.</h1>
+<p>2026년 10월 30일 기준으로 최근 확인한 공식 예약·프로그램 목록입니다. 지금 접수 중이거나 6주 안에 열리는 가족·어린이 프로그램만 남겼습니다.</p>
+</div>
+</section>
+<section>
+<div class="head black">이번 주 꼭 볼 것 <small>WEEKLY PICKS</small>
+</div>
+<ol>
+<li>
+<b>용산LAB 도시역사편</b>은 12월 9일까지 접수로 표시된 초등 주말 체험입니다. 10월 31일 회차의 잔여석은 예약 화면에서 바로 확인하세요.</li>
+<li>
+<b>11월 어린이를 위한 전시해설</b>은 10월 25일~11월 28일 온라인 접수예정으로 안내됩니다. 회차가 열리면 초등학생 동반 가족 기준을 바로 확인하세요.</li>
+<li>
+<b>11월 스마트 큐레이터</b>는 가족 대상 주말 해설로 함께 접수예정입니다. 별도 예약이 필요한 회차인지 원문에서 확인하세요.</li>
+</ol>
+</section>
+<section>
+<div class="head">용산, 서울 프로그램 <small>26 OCT — 07 DEC</small>
+</div>
+<table class="local-table">
+<thead>
+<tr>
+<th>프로그램명</th>
+<th>장소/사이트</th>
+<th>일시</th>
+<th>신청기간·마감</th>
+<th>대상·비용</th>
+<th>링크</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>용산LAB 도시역사편: 타임슬립! 용산타임!</td>
+<td>용산역사박물관</td>
+<td>10/31, 11/14, 11/28, 12/12 · 10:00~12:00</td>
+<td>8/15~12/9 · 선착순, 회차별 잔여석 확인</td>
+<td>초1~6 · 무료</td>
+<td>
+<a href="https://museum.yongsan.go.kr/edus/view?id=925">원문 보기 →</a>
+</td>
+</tr>
+<tr>
+<td>11월 어린이를 위한 전시해설 「일요일 오후,박물관」</td>
+<td>국립중앙박물관 상설전시관</td>
+<td>11/1~11/30 · 회차별 확인</td>
+<td>10/25~11/28 · 온라인 접수예정</td>
+<td>초등학생 동반 가족 · 무료</td>
+<td>
+<a href="https://www.museum.go.kr/MUSEUM/contents/M0403010000.do">원문 보기 →</a>
+</td>
+</tr>
+<tr>
+<td>11월 이야기가 있는 전시해설 「스마트 큐레이터」</td>
+<td>국립중앙박물관</td>
+<td>11/1~11/30 · 회차별 확인</td>
+<td>10/25~11/28 · 온라인 접수예정</td>
+<td>가족 · 무료</td>
+<td>
+<a href="https://www.museum.go.kr/MUSEUM/contents/M0403010000.do">원문 보기 →</a>
+</td>
+</tr>
+<tr>
+<td>2026 용산역사박물관 월간 청음회</td>
+<td>용산역사박물관 로비</td>
+<td>11/21 · 15:00</td>
+<td>12/6까지 접수 표기 · 회차별 확인</td>
+<td>가족 포함 · 무료</td>
+<td>
+<a href="https://museum.yongsan.go.kr/edus/index">원문 보기 →</a>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<p class="note">읽지 못한 사이트</p>
+<div class="limits">
+<a href="https://yongsanyouth.or.kr/mber/crs/list.do?menuNo=1400000">용산e 플랫폼</a>
+<a href="https://www.yongsan.go.kr/portal/bbs/B0000042/list.do?menuNo=200229">용산구청 행사/교육</a>
+<a href="https://www.yongsan.go.kr/portal/bbs/B0000041/list.do?menuNo=200228">용산구청 새소식</a>
+<a href="https://yedu.yongsan.go.kr/pms/board/list.do?boardidn=1024&sitecdv=S0000500&decorator=user27EdTotal&menucdv=04010000">용산구 교육포털</a>
+<a href="https://ysccic.or.kr/sub/center/program_form2.htm">용산구육아종합지원센터</a>
+<a href="https://yongsanparkstory.kr/program/event.html?bcCat=5">용산공원 이야기 행사</a>
+<a href="https://blog.naver.com/yongsanpark_story">용산공원 이야기 블로그</a>
+<a href="https://yeyak.seoul.go.kr/web/search/selectPageListTotalSearch.do">서울예약 용산 필터</a>
+<a href="https://nodeul.org/programs/">노들섬 프로그램</a>
+</div>
+</div>
+<div class="tab-panel" id="youtube">
+<section class="hero">
+<div class="wrap">
+<small>YOUTUBE PICKS</small>
+<h1>지금도 일하는 사람의<br>목소리가 담긴 채널.</h1>
+<p>최근 6개월 활동과 실제 채널 링크가 함께 확인된 채널만 남깁니다. 매일 새 채널을 억지로 찾지 않고, 검증된 후보가 생기면 추가합니다.</p>
+</div>
+</section>
+<section>
+<div class="head black">이번 추천 <small>1 CHANNEL</small>
+</div>
+<p class="note">검색 결과가 부족하다는 이유만으로 빈 표를 유지하지 않겠습니다. 공개 프로필·최근 활동·직접 열리는 채널 링크를 확인해 수록합니다.</p>
+<table class="local-table">
+<thead>
+<tr>
+<th>채널명</th>
+<th>어떤 채널인지</th>
+<th>닮은 구독 채널 또는 범주</th>
+<th>링크</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>디자이너지인</td>
+<td>한국에서 디자인 강의·제작 활동을 기록하는 디자이너 채널. 최근 30일 기준 주 1.4회 업로드로 확인됨.</td>
+<td>디자인·Figma·UX</td>
+<td><a href="https://www.youtube.com/@designer_jiin">원문 보기 →</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<p class="note">확인 기준: 최근 6개월 업로드, 공개된 일·생활 맥락, 실제로 열리는 채널 링크. 조건 하나라도 불명확하면 다음 호 후보로 보류합니다.</p>
+</div>
+</main>
+<dialog class="favorites-dialog" id="favorites-dialog">
+<div class="favorites-head">
+<h2>모아보기</h2>
+<div class="favorites-actions">
+<button class="favorites-export" type="button" id="favorites-export">MD로 내보내기</button>
+<button class="favorites-close" type="button" id="favorites-close">닫기</button>
+</div>
+</div>
+<ul class="favorites-list" id="favorites-list">
+</ul>
+<p class="favorites-empty" id="favorites-empty">별표를 누른 항목이 여기에 모입니다.</p>
+</dialog>
+<script>(()=>{const key='ai-daily-favorites-v1',dialog=document.querySelector('#favorites-dialog'),list=document.querySelector('#favorites-list'),empty=document.querySelector('#favorites-empty'),count=document.querySelector('#favorites-count'),exportButton=document.querySelector('#favorites-export');const read=()=>{try{return JSON.parse(localStorage.getItem(key)||'[]')}catch{return[]}},write=items=>localStorage.setItem(key,JSON.stringify(items));const reportDate=()=>document.title.match(/\d{4}\.\d{2}\.\d{2}/)?.[0].replaceAll('.','-')||new Date().toISOString().slice(0,10);const exportMarkdown=()=>{const date=reportDate(),items=read(),md=['# 모아보기 — '+date,''];if(items.length)items.forEach(item=>md.push('- ['+item.title.replaceAll('[','\\[').replaceAll(']','\\]')+']('+item.href+')\\n  - '+item.section));else md.push('_저장한 항목이 없습니다._');const url=URL.createObjectURL(new Blob([md.join('\\n')],{type:'text/markdown;charset=utf-8'})),link=document.createElement('a');link.href=url;link.download=date+'.md';link.click();URL.revokeObjectURL(url)};const render=()=>{const items=read();count.textContent=items.length;list.replaceChildren();empty.hidden=items.length>0;items.forEach(item=>{const row=document.createElement('li'),copy=document.createElement('div'),link=document.createElement('a'),meta=document.createElement('span'),remove=document.createElement('button');link.href=item.href;link.textContent=item.title;link.target='_blank';meta.className='favorites-meta';meta.textContent=item.section;remove.className='favorite-remove';remove.type='button';remove.textContent='삭제';remove.addEventListener('click',()=>{write(read().filter(saved=>saved.id!==item.id));render();sync()});copy.append(link,meta);row.append(copy,remove);list.append(row)})};const sync=()=>{const ids=new Set(read().map(item=>item.id));document.querySelectorAll('[data-favorite-id]').forEach(button=>{const saved=ids.has(button.dataset.favoriteId);button.setAttribute('aria-pressed',saved);button.textContent=saved?'★':'☆';button.setAttribute('aria-label',saved?'즐겨찾기 삭제':'즐겨찾기 추가')})};const add=(node,title,href,section,klass)=>{const id=section+'|'+title,button=document.createElement('button');button.type='button';button.className=klass;button.dataset.favoriteId=id;button.addEventListener('click',()=>{const items=read(),saved=items.some(item=>item.id===id);write(saved?items.filter(item=>item.id!==id):[...items,{id,title,href,section}]);render();sync()});if(klass==='table-star')node.querySelector('td').prepend(button);else node.insertBefore(button,node.querySelector('a'));};document.querySelectorAll('#ai .item').forEach(node=>add(node,node.querySelector('h3').textContent,node.querySelector('a').href,'AI DAILY','fav-toggle'));document.querySelectorAll('#local tbody tr').forEach(node=>add(node,node.querySelector('td').textContent,node.querySelector('a').href,'용산, 서울 소식','table-star'));document.querySelectorAll('#youtube tbody tr').forEach(node=>add(node,node.querySelector('td').textContent,node.querySelector('a').href,'유튜브추천','table-star'));document.querySelector('#favorites-open').addEventListener('click',()=>dialog.showModal());exportButton.addEventListener('click',exportMarkdown);document.querySelector('#favorites-close').addEventListener('click',()=>dialog.close());render();sync()})();</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

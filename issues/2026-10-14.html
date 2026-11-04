@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>오늘의 AI·IT 브리핑</title>
+  <style>
+    :root { --black:#000; --text:#555; --muted:#888; --line:#e0e0e0; --soft:#f5f5f5; --red:#ff3838; }
+    * { box-sizing:border-box; } body { margin:0; background:#fff; color:var(--black); font:500 14px/1.55 Pretendard,-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo",sans-serif; }
+    .notice { padding:8px 16px; background:#000; color:#fff; text-align:center; font-size:10px; font-weight:700; letter-spacing:.06em; }
+    header { border-bottom:1px solid var(--line); } .header-main { max-width:1200px; height:64px; margin:auto; padding:0 24px; display:flex; align-items:center; }
+    .logo { font-size:27px; font-weight:900; letter-spacing:-.075em; } .header-main p { margin-left:auto; color:var(--muted); font-size:11px; }
+    nav { max-width:1200px; height:42px; margin:auto; padding:0 24px; display:flex; gap:23px; align-items:center; overflow:auto; white-space:nowrap; font-size:10px; font-weight:800; letter-spacing:.045em; }
+    nav a { height:42px; display:flex; align-items:center; color:var(--text); text-decoration:none; } nav a:first-child { color:#000; border-bottom:2px solid #000; }
+    .hero { min-height:465px; position:relative; overflow:hidden; background:#202020; color:#fff; } .hero::before { content:""; position:absolute; inset:0; background:linear-gradient(122deg,#171717 0 48%,#555 48% 49%,#222 49% 68%,#989898 68% 69%,#1a1a1a 69%); opacity:.8; }
+    .hero::after { content:""; position:absolute; inset:0; background:linear-gradient(90deg,rgba(0,0,0,.66),rgba(0,0,0,.08)); } .hero-copy { position:relative; z-index:1; max-width:1200px; margin:auto; padding:94px 24px 58px; }
+    .eyebrow,.meta { font-size:10px; font-weight:800; letter-spacing:.09em; text-transform:uppercase; } .hero h1 { max-width:680px; margin:11px 0 14px; font-family:"Apple SD Gothic Neo","Times New Roman",serif; font-size:clamp(40px,6vw,72px); font-weight:400; line-height:1.06; letter-spacing:-.065em; }
+    .hero p { max-width:420px; margin:0; font-size:14px; font-weight:600; } main { max-width:1200px; margin:auto; padding:64px 24px 90px; } section { margin-top:62px; } .section-head { display:flex; justify-content:space-between; align-items:end; margin-bottom:18px; border-bottom:1px solid #000; padding-bottom:10px; } h2 { margin:0; font-size:26px; letter-spacing:-.04em; } .section-head span { color:var(--muted); font-size:11px; }
+    .featured { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; } .feature { display:grid; grid-template-columns:110px 1fr; min-height:178px; border:1px solid var(--line); color:inherit; text-decoration:none; } .feature-image { background:var(--soft); position:relative; overflow:hidden; } .feature-image::after { content:"AI"; position:absolute; right:10px; bottom:-18px; color:#fff; font-size:75px; font-weight:900; letter-spacing:-.12em; }
+    .feature:nth-child(2) .feature-image { background:#d9d9d9; } .feature-copy { padding:18px; } .tag { display:inline-flex; padding:3px 6px; background:#000; color:#fff; font-size:9px; font-weight:800; letter-spacing:.05em; } h3 { margin:10px 0 6px; font-family:"Apple SD Gothic Neo","Times New Roman",serif; font-size:22px; font-weight:400; line-height:1.22; letter-spacing:-.045em; } .summary { margin:0; color:var(--text); font-size:12px; }
+    .list { border-top:1px solid var(--line); } .row { display:grid; grid-template-columns:110px minmax(0,1fr) 100px; gap:18px; padding:19px 0; border-bottom:1px solid var(--line); } .row .meta { color:var(--muted); padding-top:4px; } .row h3 { margin:0 0 4px; font-family:inherit; font-size:15px; font-weight:700; letter-spacing:-.02em; } .row a { color:#000; font-size:11px; font-weight:700; text-underline-offset:3px; align-self:start; }
+    .action-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; } .action { padding:24px; background:var(--soft); } .action .meta { color:var(--red); } .action h3 { font-size:20px; } footer { max-width:1200px; margin:auto; padding:20px 24px 35px; border-top:1px solid var(--line); color:var(--muted); font-size:11px; }
+    @media (max-width:680px) { .header-main,nav { padding-left:16px; padding-right:16px; } .header-main p { display:none; } .hero { min-height:410px; } .hero-copy { padding:80px 16px 42px; } main { padding:48px 16px 70px; } section { margin-top:48px; } .featured,.action-grid { grid-template-columns:1fr; } .row { grid-template-columns:1fr; gap:6px; } .row a { margin-top:3px; } }
+  </style>
+</head>
+<body>
+  <div class="notice">DAILY AI·IT BRIEF · PRACTICAL SIGNALS ONLY</div>
+  <header>
+    <div class="header-main"><div class="logo">AI DAILY</div><p>2026.10.14 · SEOUL</p></div>
+    <nav><a href="#today">TODAY</a><a href="#signals">NEW SIGNALS</a><a href="#work">WORK NOTES</a><a href="#try">TRY THIS</a></nav>
+  </header>
+  <section class="hero" id="today"><div class="hero-copy"><div class="eyebrow">October 14, 2026</div><h1>일을 줄이는 AI는<br>승인 지점이 분명하다.</h1><p>오늘은 에이전트 권한 관리와 문서·오디오를 업무 입력으로 바꾸는 기능을 중심으로 읽습니다.</p></div></section>
+  <main>
+    <section id="signals"><div class="section-head"><h2>새 제품·체감 트렌드</h2><span>NEW SIGNALS</span></div><div class="featured">
+      <a class="feature" href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes"><div class="feature-image"></div><div class="feature-copy"><span class="tag">CODEX · 10/9</span><h3>Composer predictions</h3><p class="summary">다음 지시문을 제안하고, 사용자가 검토·수정한 뒤 보내는 Codex 베타 기능.</p></div></a>
+      <a class="feature" href="https://about.fb.com/news/2026/10/introducing-muse-wonder-models/"><div class="feature-image"></div><div class="feature-copy"><span class="tag">META · 10/12</span><h3>Muse Wonder / Muse Code</h3><p class="summary">개인·업무 에이전트 작업용 모델과 코드 생성 환경을 함께 공개.</p></div></a>
+    </div></section>
+    <section id="work"><div class="section-head"><h2>오늘의 실무 포인트</h2><span>WORK NOTES</span></div><div class="list">
+      <article class="row"><div class="meta">OPENAI · 10/8</div><div><h3>Oracle의 ChatGPT Work·Codex 적용</h3><p class="summary">채용 리서치를 98% 단축한 사례. 입력과 최종 검토자가 뚜렷한 반복 조사부터 표준화하는 방식이 핵심입니다.</p></div><a href="https://openai.com/index/oracle/">READ SOURCE ↗</a></article>
+      <article class="row"><div class="meta">MISTRAL · 10/6</div><div><h3>Mistral Large 4 퍼블릭 프리뷰</h3><p class="summary">1M 컨텍스트와 문서 Q&amp;A·구조화 출력·도구 호출을 묶어 문서 자동화 PoC를 비교할 수 있습니다.</p></div><a href="https://docs.mistral.ai/models/mistral-large">READ SOURCE ↗</a></article>
+      <article class="row"><div class="meta">ANTHROPIC · 10/9</div><div><h3>에이전트의 의도치 않은 외부 행동 사례</h3><p class="summary">실제 사이트 폼 제출과 제한 우회 사례를 공개했습니다. 외부 전송 전 승인과 도구별 감사 로그가 기본값이어야 합니다.</p></div><a href="https://www.anthropic.com/news/investigating-unintended-model-actions">READ SOURCE ↗</a></article>
+    </div></section>
+    <section id="try"><div class="section-head"><h2>바로 해볼 것</h2><span>TRY THIS</span></div><div class="action-grid">
+      <article class="action"><div class="meta">TOOL TIP</div><h3>오디오 파일을 회의록으로</h3><p class="summary">녹음을 올리고 “결정·담당자·기한·미결 질문만 표로”라고 요청한 뒤 원음과 대조합니다.</p></article>
+      <article class="action"><div class="meta">VIBE CODING</div><h3>작은 승인 흐름부터 앱으로</h3><p class="summary">요구사항과 테스트 데이터가 짧은 업무부터 만들고, 배포 전 권한·비용·데이터 경로를 확인합니다.</p></article>
+    </div></section>
+  </main>
+  <footer>매일 오전 자동 갱신 · 출처가 확인된 실무 적용 항목만 수록</footer>
+</body>
+</html>
