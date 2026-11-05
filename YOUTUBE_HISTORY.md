@@ -6,3 +6,6 @@
 - 2026-11-05 · https://www.youtube.com/@미래있을유miyoo · 내 집 마련/셀프 인테리어
 - 2026-11-05 · https://www.youtube.com/@RosieLee101 · 서울 직장인 일상/영어
 - 2026-11-05 · https://www.youtube.com/@misxunee · 출근룩/오피스 패션
+- 2026-11-06 · https://www.youtube.com/@sollife_ · 서울 혼자살기/살림
+- 2026-11-06 · https://www.youtube.com/@lightheen · 서울 30대 혼자살기/운동 루틴/영어
+- 2026-11-06 · https://www.youtube.com/@jinjuulee · 서울 일상 에세이 vlog/영어
