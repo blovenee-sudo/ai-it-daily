@@ -9,3 +9,9 @@
 - 2026-11-06 · https://www.youtube.com/@sollife_ · 서울 혼자살기/살림
 - 2026-11-06 · https://www.youtube.com/@lightheen · 서울 30대 혼자살기/운동 루틴/영어
 - 2026-11-06 · https://www.youtube.com/@jinjuulee · 서울 일상 에세이 vlog/영어
+- 2026-11-07 · https://www.youtube.com/@daysoup3964 · 40대 싱글 1인 생활/사색
+- 2026-11-07 · https://www.youtube.com/@mang_o3o · 여성 주짓수·유도
+- 2026-11-07 · https://www.youtube.com/@workingmom-j · 40대 워킹맘/집밥/가계
+- 2026-11-07 · https://www.youtube.com/@nugayoung · 이사/인테리어/뷰티
+- 2026-11-07 · https://www.youtube.com/@koreayu_vlog · 한국 거주 일본인 회사원
+- 2026-11-07 · https://www.youtube.com/@insoomayu · 한일 가족/한국 생활
