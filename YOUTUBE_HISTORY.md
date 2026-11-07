@@ -15,3 +15,12 @@
 - 2026-11-07 · https://www.youtube.com/@nugayoung · 이사/인테리어/뷰티
 - 2026-11-07 · https://www.youtube.com/@koreayu_vlog · 한국 거주 일본인 회사원
 - 2026-11-07 · https://www.youtube.com/@insoomayu · 한일 가족/한국 생활
+- 2026-11-08 · https://www.youtube.com/@jikmo. · 평범한 사람들의 일·삶 인터뷰 · 격투기
+- 2026-11-08 · https://www.youtube.com/@myo_inn · 첫 집 마련 기록 · 오피스룩
+- 2026-11-08 · https://www.youtube.com/@주주주미 · 차분한 1인 생활 · 40대
+- 2026-11-08 · https://www.youtube.com/@jjjjjooooon_n · 용산 생활 · 인테리어 · 뷰티
+- 2026-11-08 · https://www.youtube.com/@figma_tutor · 디자인·Figma
+- 2026-11-08 · https://www.youtube.com/@haanblck · 패션·디자이너 일상
+- 2026-11-08 · https://www.youtube.com/@ayalifeinseoul · 서울 생활
+- 2026-11-08 · https://www.youtube.com/@sumebamiyako · 이사·집 꾸미기 · 일하는 여성
+- 2026-11-08 · https://www.youtube.com/@1misa._.ning1 · 서울 직장인 일상

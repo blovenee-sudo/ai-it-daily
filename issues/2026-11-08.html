@@ -1,0 +1,553 @@
+<!doctype html>
+<html lang="ko">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI DAILY — 2026.11.08</title>
+<style>body{margin:0;font:15px/1.65 Arial,sans-serif;color:#111}.bar,.black{background:#000;color:#fff}.bar{padding:8px;text-align:center;font-size:11px;font-weight:bold;letter-spacing:.1em}.wrap{max-width:1040px;margin:auto;padding:0 22px}header{border-bottom:1px solid #ddd;padding:22px 0}.logo{font-size:27px;font-weight:900}.date{float:right;color:#777;font-size:12px}.hero{background:#111;color:#fff;padding:54px 0}.hero h1{margin:8px 0;font:48px/1.05 Georgia,serif}.archive{padding:18px 0;border-bottom:1px solid #ddd}.archive a{display:inline-block;margin:0 8px 8px 0;padding:7px 12px;border:1px solid #111;color:#111;text-decoration:none;font-weight:bold}.stats,.picks{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid #ddd}.stat,.pick{padding:12px;border-right:1px solid #ddd}.stat b{display:block;font-size:40px}.pick{font-size:13px}.pick:first-child{background:#000;color:#fff}.head{margin-top:28px;padding:9px 12px;border:1px solid #111;font-size:25px;font-weight:bold}.note,.tags{color:#666}.item{display:grid;grid-template-columns:1fr 105px;gap:14px;padding:14px 0;border-bottom:1px solid #ddd}.item h3{margin:0;font-size:19px}.item p{margin:4px 0}.item a{align-self:start;background:#000;color:#fff;text-decoration:none;padding:10px;text-align:center;font-weight:bold;font-size:12px}.tags,.limits a{font-size:12px}.actions{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.action{padding:12px;background:#f4f4f4}.limits a{display:inline-block;margin:3px;padding:5px 7px;border:1px solid #ddd;color:#111;text-decoration:none}@media(max-width:650px){.stats,.picks,.actions{grid-template-columns:1fr}.item{grid-template-columns:1fr}.hero h1{font-size:37px}}</style>
+<style>.tabs{display:flex;gap:6px;margin-top:14px}.tab{display:inline-block;border:1px solid #111;background:#fff;padding:6px 10px;color:#111;text-decoration:none;font-weight:bold}.tab:hover,.tab:focus{outline:2px solid #1668d9;outline-offset:-2px}.tab-panel{display:none}#ai{display:block}body:has(.tab-panel:target) #ai{display:none}body:has(#ai:target) #ai{display:block}#ai:target,#local:target,#youtube:target{display:block}body:has(#ai:target) .tab[href="#ai"],body:has(#local:target) .tab[href="#local"],body:has(#youtube:target) .tab[href="#youtube"]{background:#111;color:#fff}.local-table{width:100%;border-collapse:collapse;font-size:13px}.local-table th,.local-table td{padding:10px;border:1px solid #ddd;text-align:left;vertical-align:top}.local-table th{background:#111;color:#fff;white-space:nowrap}.local-table a{color:#111;font-weight:bold}@media(max-width:650px){.local-table{display:block;overflow-x:auto;white-space:normal}}</style>
+<style id="favorites-style">.saved-link{float:right;margin-left:10px;border:1px solid #111;background:#fff;padding:4px 8px;color:#111;font-weight:bold;cursor:pointer}.item{grid-template-columns:1fr 36px 105px}.saved-link span{display:inline-block;min-width:16px;margin-left:3px;background:#111;color:#fff;text-align:center}.fav-toggle{align-self:start;border:1px solid #111;background:#fff;padding:7px 8px;color:#111;font-size:18px;line-height:1;cursor:pointer}.fav-toggle[aria-pressed=true]{background:#111;color:#fff}.table-star{float:right;margin-left:6px;border:0;background:transparent;padding:0;color:#111;font-size:18px;line-height:1;cursor:pointer}.table-star[aria-pressed=true]{color:#d37b00}.favorites-dialog{width:min(620px,calc(100% - 32px));border:1px solid #111;padding:0}.favorites-dialog::backdrop{background:rgba(0,0,0,.45)}.favorites-head{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;border-bottom:1px solid #ddd}.favorites-head h2{margin:0;font-size:20px}.favorites-actions{display:flex;gap:6px}.favorites-close,.favorite-remove,.favorites-export{border:1px solid #111;background:#fff;padding:5px 8px;cursor:pointer}.favorites-export{background:#111;color:#fff}.favorites-list{list-style:none;margin:0;padding:0}.favorites-list li{display:grid;grid-template-columns:1fr auto;gap:12px;padding:14px 16px;border-bottom:1px solid #ddd}.favorites-list a{color:#111;font-weight:bold}.favorites-meta{display:block;color:#666;font-size:12px}.favorites-empty{padding:24px 16px;color:#666}@media(max-width:650px){.date{display:none}.saved-link{margin-left:0}.item{grid-template-columns:1fr 36px 90px}.fav-toggle{padding:7px}.favorites-list li{grid-template-columns:1fr}}</style>
+<body>
+<div class="bar">DAILY AI·IT BRIEF · PRACTICAL SIGNALS ONLY</div>
+<header>
+<div class="wrap">
+<span class="logo">AI DAILY</span>
+<span class="date">2026.11.08 · SEOUL</span>
+<button class="saved-link" type="button" id="favorites-open">모아보기 <span id="favorites-count">0</span>
+</button>
+<nav class="tabs" aria-label="리포트 메뉴">
+<a class="tab" href="#ai">AI DAILY</a>
+<a class="tab" href="#local">용산, 서울 소식</a>
+<a class="tab" href="#youtube">유튜브추천</a>
+</nav>
+</div>
+</header>
+
+
+<main class="wrap">
+<div class="tab-panel active" id="ai">
+<section class="hero">
+<div class="wrap">
+<small>NOVEMBER 8, 2026</small>
+<h1>AI 지출은 숨을 고르고,<br>에이전트는 정리를 요구한다.</h1>
+<p>최근 14호와 대조해 새로 수록한 소식은 30건입니다. 상장을 앞둔 앤트로픽의 기대 가치가 1.1조 달러까지 내려갔다는 보도와 기업 AI 지출이 멈췄다는 Ramp 데이터가 같은 날 나왔습니다. 구글은 오래된 TODO 주석 하나가 코딩 에이전트의 토큰을 77% 더 쓰게 한다고 밝혔습니다. 일요일인 오늘은 쓰는 돈과 남겨 둔 주석을 함께 정리해 보세요.</p>
+</div>
+</section>
+<div class="wrap archive">
+<b>ARCHIVE — 지난 호 보기</b>
+<p>
+<a href="issues/2026-11-08.html">NO.24 · 11/08</a>
+<a href="issues/2026-11-07.html">NO.23 · 11/07</a>
+<a href="issues/2026-11-06.html">NO.22 · 11/06</a>
+<a href="issues/2026-11-05.html">NO.21 · 11/05</a>
+<a href="issues/2026-11-03.html">NO.20 · 11/03</a>
+<a href="issues/2026-11-02.html">NO.19 · 11/02</a>
+<a href="issues/2026-11-01.html">NO.18 · 11/01</a>
+<a href="issues/2026-10-31.html">NO.17 · 10/31</a>
+<a href="issues/2026-10-30.html">NO.16 · 10/30</a>
+<a href="issues/2026-10-29.html">NO.15 · 10/29</a>
+<a href="issues/2026-10-28.html">NO.14 · 10/28</a>
+<a href="issues/2026-10-27.html">NO.13 · 10/27</a>
+<a href="issues/2026-10-26.html">NO.12 · 10/26</a>
+<a href="issues/2026-10-25.html">NO.11 · 10/25</a>
+<a href="issues/2026-10-24.html">NO.10 · 10/24</a>
+<a href="issues/2026-10-23.html">NO.9 · 10/23</a>
+<a href="issues/2026-10-22.html">NO.8 · 10/22</a>
+<a href="issues/2026-10-21.html">NO.7 · 10/21</a>
+<a href="issues/2026-10-20.html">NO.6 · 10/20</a>
+<a href="issues/2026-10-18.html">NO.5 · 10/18</a>
+<a href="issues/2026-10-17.html">NO.4 · 10/17</a>
+<a href="issues/2026-10-16.html">NO.3 · 10/16</a>
+<a href="issues/2026-10-15.html">NO.2 · 10/15</a>
+<a href="issues/2026-10-14.html">NO.1 · 10/14</a>
+</p>
+</div>
+<section class="stats">
+<div class="stat">
+<b>30건</b>오늘의 전체 소식</div>
+<div class="stat">
+<b>6건</b>발견 신호</div>
+<div class="stat">
+<b>4건</b>실무 검증</div>
+<div class="stat">
+<b>3건</b>주목 항목</div>
+</section>
+<section>
+<h2>핵심 요약</h2>
+<ol>
+<li>블룸버그는 앤트로픽 IPO 매수자들이 기업가치를 1.1조 달러까지 낮게 본다고 보도했고(HN 247점), TechCrunch는 Ramp 데이터로 기업 AI 지출 증가세가 멈췄다고 전했다. 크루소는 와이오밍 데이터센터 부지를 구글에 넘겼다.</li>
+<li>구글 개발자 블로그는 코딩 에이전트 세션 13%가 이미 고친 버그의 TODO 주석을 따라가 단계 70%·토큰 77%가 늘었다고 밝혔다. AWS Kiro 봇, Mistral Studio, GitHub Copilot 지표 개편 등 에이전트 운영 기능도 이어졌다.</li>
+<li>국내에서는 11/2~6 스타트업 34곳이 투자를 받았고(금액 공개 914억 원 중 유로보틱스 400억 원), 아웃스탠딩은 AI와 함께 낸 성과를 연말평가에서 판단할 5가지 질문을 정리했다.</li>
+</ol>
+</section>
+<section class="picks">
+<div class="pick">
+<b>TOP 1 · 앤트로픽 IPO 기대 가치 1.1조 달러로 하향 · AI 지출 정체</b>
+<p>우리 팀 AI 구독·API 비용이 실제 성과로 이어지는지 이번 달 내역을 봅니다.</p>
+</div>
+<div class="pick">
+<b>TOP 2 · 오래된 TODO 주석이 코딩 에이전트를 헤매게 한다</b>
+<p>저장소에서 이미 해결된 TODO를 찾아 지웁니다.</p>
+</div>
+<div class="pick">
+<b>TOP 3 · AI와 함께 만든 성과, 연말평가 5가지 질문</b>
+<p>올해 AI로 한 일을 ‘내가 판단한 부분’ 중심으로 적어 둡니다.</p>
+</div>
+</section>
+<section>
+<div class="head black">쉬운 AI 소식 <small>EASY AI · 4건</small>
+</div>
+<p class="note">최근 4~5일 사이 소식을 전문 용어 없이 정리했습니다.</p>
+<article class="item">
+<div>
+<h3>[바로 쓰는 AI] “이 사진, AI가 만든 걸까?” 알려 주는 판그램</h3>
+<p>사진이나 영상을 올리면 AI가 만든 부분이 있는지 알려 줘요. 크롬 확장을 깔면 SNS·쇼핑몰에서 의심되는 이미지를 표시해 줘요. 유료 여부는 아직 안 나왔어요.</p>
+<span class="tags">Silicon Report · 11/04</span>
+</div>
+<a href="https://www.siliconreport.com/pangram-releases-image-1-0-on-web-api-and-chrome-extension">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[바로 쓰는 AI] 구글 설문지에 응답이 쌓이면 Gemini가 “다음에 할 일”을 짚어 줘요</h3>
+<p>설문 응답을 하나하나 읽지 않아도 Gemini가 눈에 띄는 경향을 찾아 정리하고, 이어서 할 일을 제안해 줘요.</p>
+<span class="tags">Google Workspace Updates · 11/06</span>
+</div>
+<a href="https://workspaceupdates.googleblog.com/2026/11/weekly-recap-11-06-2026.html">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[노코드] “이런 앱 만들어 줘” 한마디로 링크까지 나오는 커서 라이브 앱</h3>
+<p>AI가 앱을 만들고 로그인·저장 기능까지 붙여 인터넷 주소로 바로 공유해요. 커서 유료 요금제에서 클라우드 에이전트를 켜야 쓸 수 있어요.</p>
+<span class="tags">Cursor 변경 기록 · 11/05</span>
+</div>
+<a href="https://cursor.com/changelog/build-live-apps">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[재밌는 활용] AI가 돌고래 ‘말’의 규칙을 찾고 있어요</h3>
+<p>수십 년 모은 돌고래 소리를 AI로 분석해 반복되는 패턴을 찾는 연구예요. 아직 돌고래와 대화할 수준은 아니에요.</p>
+<span class="tags">WIRED(DNYUZ 전재) · 11/05</span>
+</div>
+<a href="https://dnyuz.com/2026/11/05/ais-next-trick-speaking-dolphin/">원문 보기 →</a>
+</article>
+</section>
+<section>
+<div class="head black">IT/AI/스타트업 <small>KOREA · 10건</small>
+</div>
+<p class="note">지정 국내 매체에서 11/06~11/07에 올라온 글입니다. 벤처스퀘어·이오플래닛 일부는 본문이 막혀 목록 제목만 확인했습니다.</p>
+<article class="item">
+<div>
+<h3>[벤처스퀘어] “진료실에서 발견한 여성 건강의 정보 격차”…아르카디안 정선화 대표가 생리대를 만든 이유</h3>
+<p>진료실에서 본 여성 건강 정보 격차가 펨테크 창업으로 이어진 과정을 들려준 인터뷰. (목록 제목 기준)</p>
+<span class="tags">펨테크 · 인터뷰 · 11/07</span>
+</div>
+<a href="https://www.venturesquare.net/1126514/">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[벤처스퀘어] 한국모니터링시스템, 용접 품질을 읽는 기술에서 공정을 제어하는 AI로</h3>
+<p>용접 품질 판독 기술을 공정 제어 AI로 넓혀 가는 제조 딥테크 기업 이야기. (목록 제목 기준)</p>
+<span class="tags">제조 AI · 딥테크 · 11/06</span>
+</div>
+<a href="https://www.venturesquare.net/1126482/">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[벤처스퀘어] EDB, 클릭하우스 전문기업 알티니티 인수…PostgreSQL·실시간 분석 결합</h3>
+<p>PostgreSQL과 실시간 분석을 한데 묶어 AI 데이터 시장을 노리는 인수. (목록 제목 기준)</p>
+<span class="tags">M&amp;A · 데이터 · 11/06</span>
+</div>
+<a href="https://www.venturesquare.net/1126449/">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[스타트업레시피] [이번주투자] 유로보틱스 밸류 10배 껑충‧모션데이터‧반도체 투자 눈길</h3>
+<p>11/2~6 스타트업 34곳이 투자를 받았고, 금액 공개 9곳 914억 원 중 유로보틱스가 400억 원이었다.</p>
+<span class="tags">투자 동향 · 피지컬 AI · 11/07</span>
+</div>
+<a href="https://startuprecipe.co.kr/archives/5840517">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[스타트업레시피] [AI서머리] 몰로코, 연례 행사 ‘몰로콘 26’ 개최‧오픈AI, 보안 특화 GPT-6 사이버 공개</h3>
+<p>몰로콘 26이 서울에서 열렸고, 오픈AI는 보안 특화 모델을 승인된 고객에게 먼저 풀었다.</p>
+<span class="tags">보안 AI · 행사 · 11/06</span>
+</div>
+<a href="https://startuprecipe.co.kr/archives/5840445">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[아웃스탠딩] “AI와 함께 만든 성과 어떻게 판단할 것인가”…리더가 연말평가에서 살펴야 할 5가지 질문</h3>
+<p>AI와 같이 낸 성과를 연말평가에서 어떻게 볼지, 리더가 던질 질문 5가지로 정리했다.</p>
+<span class="tags">AI 업무 · 평가 · 11/06</span>
+</div>
+<a href="https://outstanding.kr/performancereviews20261106">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[아웃스탠딩] 거래액 67% 증가한 인바운드 여행…야놀자의 새로운 성장동력 될까?</h3>
+<p>외국인 국내 여행 거래액이 67% 늘면서 야놀자의 다음 성장축이 될 수 있을지 분석했다.</p>
+<span class="tags">여행테크 · 11/06</span>
+</div>
+<a href="https://outstanding.kr/nolworld20261106">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[이오플래닛] 공격 에이전트는 금고까지 5분이었다: 작은 회사의 열쇠 점검</h3>
+<p>AI 공격 에이전트 위협을 계기로 작은 회사가 점검할 계정·권한 항목을 짚은 글. (목록 제목 기준)</p>
+<span class="tags">AI 보안 · 에이전트 · 11/07</span>
+</div>
+<a href="https://eopla.net/magazines/48800">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[이오플래닛] 1인 개발로 “공간의 피로도”를 재는 앱을 만들며 배운 것</h3>
+<p>공간의 피로도를 재는 앱을 혼자 만들며 얻은 교훈을 나눈 회고. (목록 제목 기준)</p>
+<span class="tags">1인 개발 · 회고 · 11/07</span>
+</div>
+<a href="https://eopla.net/magazines/48812">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[beSUCCESS] 초기투자액셀러레이터협회·벤처스퀘어, ‘OPEN UP TREND 2027’ 세미나 개최</h3>
+<p>11/4 디캠프 마포에서 2027년 스타트업 정책·소비·투자 전망을 다룬 세미나가 열렸다.</p>
+<span class="tags">2027 전망 · 행사 · 11/06</span>
+</div>
+<a href="https://besuccess.com/?p=187826">원문 보기 →</a>
+</article>
+</section>
+<section>
+<div class="head black">해외 AI 소식 <small>DISCOVERY SIGNALS · 6건</small>
+</div>
+<p class="note">Hacker News 100점 이상과 해외 매체에서 고른 발견 신호입니다. 일부는 원문을 열지 못해 제목·HN 수치 기준으로 적었습니다.</p>
+<article class="item">
+<div>
+<h3>[Hacker News · Bloomberg] 앤트로픽 IPO 매수자들, 기업가치를 1.1조 달러까지 낮게 본다 (Anthropic IPO buyers see valuation as low as $1.1T)</h3>
+<p>상장을 앞둔 앤트로픽의 기대 가치가 최근 AI 주가 급락 뒤 1.1조 달러까지 내려갔다는 보도. HN 247점·댓글 500개.</p>
+<span class="tags">앤트로픽 · IPO · 11/06</span>
+</div>
+<a href="https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[TechCrunch] 램프 데이터: 앤트로픽 IPO를 앞두고 기업 AI 지출 정체 (Ramp data shows AI spending stalling just as Anthropic nears its IPO)</h3>
+<p>법인카드사 Ramp 데이터에서 기업 AI 지출 증가세가 멈췄다는 분석. (본문 미열람, 제목 기준)</p>
+<span class="tags">AI 지출 · 기업 도입 · 11/06</span>
+</div>
+<a href="https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[Hacker News] AI가 AI 연구 속도를 극적으로 높이고 있다 (AI is dramatically accelerating AI research)</h3>
+<p>AI가 AI 연구 자체를 빠르게 만든다는 에세이에 토론이 몰렸다. HN 216점·댓글 166개. (원문 미열람)</p>
+<span class="tags">AI 연구 · 11/06</span>
+</div>
+<a href="https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[TechCrunch] 크루소, 난항 겪던 와이오밍 데이터센터 프로젝트를 구글에 매각 (Crusoe sells troubled Wyoming data center project to Google)</h3>
+<p>비용·일정 우려가 있던 와이오밍 부지를 구글이 넘겨받아 170억 달러를 투자할 계획.</p>
+<span class="tags">데이터센터 · 구글 · 11/06</span>
+</div>
+<a href="https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[VentureBeat] AWS, 기억을 갖고 반복 개발 작업을 맡는 에이전트 ‘Kiro 봇’ 출시 (AWS launches agentic AI Kiro bots with memory and support for recurring development jobs)</h3>
+<p>Kiro 봇이 정식 출시돼 반복 작업 감시, 다른 에이전트 조율, 결정 기억을 맡는다.</p>
+<span class="tags">AWS · 코딩 에이전트 · 11/05</span>
+</div>
+<a href="https://venturebeat.com/technology/aws-launches-agentic-ai-kiro-bots-with-memory-and-support-for-recurring-development-jobs">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[GlobeNewswire · Research and Markets] 세계 AI 사이버보안 시장, 2031년 952.5억 달러 전망 (Global AI Cybersecurity Market Size and Forecast, 2026-2031)</h3>
+<p>2026년 312.5억 달러에서 연평균 25% 성장한다는 보고서. 에이전트형 AI와 관리형 보안이 성장 동력.</p>
+<span class="tags">보안 · 시장 전망 · 11/06</span>
+</div>
+<a href="https://globenewswire.com/news-release/2026/11/06/3397648/28124/en/global-ai-cybersecurity-market-size-and-forecast-2026-2031-market-to-reach-usd-95-25-billion-as-agentic-ai-and-managed-security-drive-25-0-cagr.html">원문 보기 →</a>
+</article>
+</section>
+<section>
+<div class="head black">공식 발표·릴리스 <small>VERIFIED RELEASES · 4건</small>
+</div>
+<p class="note">기업 공식 블로그·변경 기록에서 확인한 실무 기능입니다.</p>
+<article class="item">
+<div>
+<h3>[Google Developers Blog] 에이전트 주의 분산: 오래된 TODO 주석이 코딩 에이전트를 헤매게 한다 (Agent Distraction)</h3>
+<p>세션 13%가 이미 고친 버그의 TODO를 따라가 단계는 70%, 토큰은 77% 늘었다며 주석 정리를 권했다.</p>
+<span class="tags">코딩 에이전트 · 비용 · 11/06</span>
+</div>
+<a href="https://developers.googleblog.com/agent-distraction/">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[GitHub Changelog] Copilot 코드 리뷰: API 관리와 리뷰 요약 개편 (Copilot code review: API management and review overview updates)</h3>
+<p>코드 리뷰 설정을 REST·GraphQL API로 엔터프라이즈부터 저장소까지 관리하고, 리뷰 요약은 더 간결해졌다.</p>
+<span class="tags">GitHub Copilot · 코드 리뷰 · 11/06</span>
+</div>
+<a href="https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates/">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[GitHub Changelog] Copilot 임팩트 대시보드, Chat·VS Code 에이전트 사용량 추가 (Copilot impact dashboard adds chat and VS Code agent usage)</h3>
+<p>에이전트 채택 차트가 9개 기능을 추적하고, ‘Passive users’ 지표는 ‘Chat-first users’로 이름이 바뀌었다.</p>
+<span class="tags">GitHub Copilot · 지표 · 11/06</span>
+</div>
+<a href="https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage/">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[Mistral] Mistral Studio, 관리형 에이전트·사내 앱·워크플로 추가 (Le Chonk brings the brains. Studio puts it to work.)</h3>
+<p>스킬·샌드박스·하위 에이전트를 쓰는 관리형 에이전트, 사내 앱 호스팅, 워크플로 트리거, MCP 서버를 더했다.</p>
+<span class="tags">Mistral · 엔터프라이즈 에이전트 · 11/05</span>
+</div>
+<a href="https://mistral.ai/news/build-with-studio/">원문 보기 →</a>
+</article>
+</section>
+<section>
+<div class="head">바로 써볼 것 <small>TRY THIS</small>
+</div>
+<div class="actions">
+<div class="action">
+<b>해결된 TODO 지우기</b>
+<br>저장소에서 TODO·FIXME를 검색해 이미 고친 항목을 정리하고, 에이전트 작업 전에 한 번 더 확인합니다.</div>
+<div class="action">
+<b>AI 비용 한 장 정리</b>
+<br>팀이 쓰는 AI 구독·API 비용을 한 표에 모으고, 지난달 실제로 쓴 기능 옆에 적어 봅니다.</div>
+<div class="action">
+<b>설문 결과 Gemini에 맡기기</b>
+<br>Google Forms 응답이 쌓인 설문에서 Gemini 인사이트를 열어 사람이 놓친 경향이 있는지 봅니다.</div>
+</div>
+</section>
+<section>
+<div class="head">커뮤니티 레이더 <small>COMMUNITY RADAR · HN · NOTE.COM</small>
+</div>
+<p class="note">커뮤니티와 개인 작성자의 관찰입니다. 이번 호도 Reddit을 읽지 못해 Hacker News와 note.com으로 대체했습니다.</p>
+<article class="item">
+<div>
+<h3>Hacker News: Opus에게 도움을 청하는 작은 모델이 4배 낮은 비용으로 Opus급 정확도 (A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost)</h3>
+<p>Hightouch가 고객 ID 매칭 판정을 작은 모델에 맡기고 애매할 때만 큰 모델에 묻는 방식으로 비용을 줄였다는 사례. HN 360점. (원문 미열람)</p>
+<span class="tags">비용 최적화 · 11/06 · 커뮤니티 관찰</span>
+</div>
+<a href="https://hightouch.com/blog/llm-judges-identity-resolution">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>note.com: 「画像・動画生成AIニュース 2026年11月6日号」 일본 현장형 영상 AI 사례 4건</h3>
+<p>위성 토지 탐색, 돼지 체중 추정 카메라, 공사 현장 안전 감지 등 일본 현장 사례를 모았다.</p>
+<span class="tags">note.com · 11/06(JST) · 커뮤니티 관찰</span>
+</div>
+<a href="https://note.com/h_kitamura/n/nc67feb90ac74">원문 보기 →</a>
+</article>
+</section>
+<section>
+<div class="head">UX·디자인·트렌드 <small>UX · DESIGN · TREND · 2건</small>
+</div>
+<p class="note">주말이라 새 글이 적어 최근 5일 내 글을 포함했습니다. 디지털인사이트 ‘이미지 2.6’ 기사는 지난 호 중복이라 뺐습니다.</p>
+<article class="item">
+<div>
+<h3>[디지털인사이트] ‘디자이너는 본질 따져야’ 더피프티원이 ‘디렉팅 조직’ 만든 까닭</h3>
+<p>디자이너가 결과물보다 본질을 먼저 따지게 하려고 디렉팅 조직을 따로 만든 이유를 다뤘다. (최근 5일 내 글)</p>
+<span class="tags">디자인 조직 · 11/04</span>
+</div>
+<a href="https://ditoday.com/%eb%94%94%ec%9e%90%ec%9d%b4%eb%84%88%eb%8a%94-%eb%b3%b8%ec%a7%88-%eb%94%b0%ec%a0%b8%ec%95%bc-%eb%8d%94%ed%94%bc%ed%94%84%ed%8b%b0%ec%9b%90%ec%9d%b4-%eb%94%94%eb%a0%89%ed%8c%85-%ec%a1%b0%ec%a7%81/">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[오픈애즈] “간단한 수정인데요?” 제작자에게 간단한 수정이란 없다</h3>
+<p>자막 한 줄 수정도 화면·타이밍·러닝타임을 건드리므로 기획 단계에서 합의해 두라는 글.</p>
+<span class="tags">협업 · 영상 제작 · 11/06</span>
+</div>
+<a href="https://alb.openads.co.kr/content/contentDetail?contsId=21102">원문 보기 →</a>
+</article>
+</section>
+<section>
+<div class="head">경제·비즈니스 <small>ECONOMY · 2건</small>
+</div>
+<p class="note">최근 5일 내 주목할 글입니다.</p>
+<article class="item">
+<div>
+<h3>[어피티] 저PBR 기업 꼬리표 붙자 주가는 올랐어요</h3>
+<p>한국거래소가 11/1 저PBR 기업 151곳을 지정했고, 개선 계획을 공시한 기업은 1년간 제외된다. (최근 5일 내 글)</p>
+<span class="tags">증시 · 밸류업 · 11/05</span>
+</div>
+<a href="https://uppity.co.kr/%ec%a0%80pbr-%ea%b8%b0%ec%97%85-%ea%bc%ac%eb%a6%ac%ed%91%9c-%eb%b6%99%ec%9e%90-%ec%a3%bc%ea%b0%80%eb%8a%94-%ec%98%ac%eb%9e%90%ec%96%b4%ec%9a%94/">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[뉴닉] 한양증권 해킹으로 고객정보 유출, 금융권 연쇄 해킹 또 터진 이유는?</h3>
+<p>한양증권이 해킹으로 고객정보 일부 유출을 확인했지만 규모·원인은 아직 공개하지 않았다. (최근 5일 내 글)</p>
+<span class="tags">보안 사고 · 금융 · 11/03</span>
+</div>
+<a href="https://newneek.co/@newneek/article/48325">원문 보기 →</a>
+</article>
+</section>
+<section>
+<div class="head">수집 제한 사이트 <small>COLLECTION LIMITS</small>
+</div>
+<p class="note">이번 실행에서도 사이트 첫 페이지 직접 열람이 대부분 막혀 웹 검색으로 URL을 찾은 뒤 개별 글을 읽었습니다. 아래 사이트는 11/06~11/08 새 글을 확인하지 못했거나 페이지를 읽지 못했습니다. 요즘IT·트렌드라이트·뉴스젤리 최신 글과 Anthropic·Meta·Google Vids 새 소식은 지난 호와 겹쳐 제외했고, ChatGPT GIF(이미지 2.6)도 같은 이유로 뺐습니다. X는 API 자격 증명이 없어 수집하지 않았습니다.</p>
+<div class="limits">
+<a href="https://platum.kr/trends">Platum</a>
+<a href="https://blog.sknetworks.co.kr/?cat=1323">SKN AI트렌드</a>
+<a href="https://news.appstory.co.kr/news/">앱스토리</a>
+<a href="https://d2.naver.com/home">NAVER D2</a>
+<a href="https://www.hanbit.co.kr/channel/">한빛 채널H</a>
+<a href="https://brunch.co.kr/keyword/AI">브런치 AI</a>
+<a href="https://brunch.co.kr/@hailey-kim">헤일리 브런치</a>
+<a href="https://yozm.wishket.com/magazine/">요즘IT(새 글 없음)</a>
+<a href="https://www.canda.blog/">canda.blog(새 글 없음)</a>
+<a href="https://think-note.com/">생각노트</a>
+<a href="https://www.surfit.io/">서핏</a>
+<a href="https://trendlite.stibee.com/">트렌드라이트(새 호 없음)</a>
+<a href="https://newsjel.ly/blog">뉴스젤리(새 글 없음)</a>
+<a href="https://www.theverge.com/ai-artificial-intelligence">The Verge AI</a>
+<a href="https://openai.com/news/">OpenAI 뉴스</a>
+<a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes">ChatGPT 릴리스 노트</a>
+<a href="https://www.anthropic.com/news">Anthropic(새 글 없음)</a>
+<a href="https://blog.google/innovation-and-ai/">Google AI 블로그</a>
+<a href="https://www.figma.com/release-notes/">Figma(날짜 미표시)</a>
+<a href="https://helpx.adobe.com/firefly/web/whats-new/new-features/whats-new.html">Adobe Firefly(새 글 없음)</a>
+<a href="https://news.zoom.com/">Zoom(새 글 없음)</a>
+<a href="https://about.fb.com/news/">Meta(중복)</a>
+<a href="https://www.reddit.com/r/LocalLLaMA/">Reddit 4개 서브</a>
+<a href="https://developer.x.com/en/docs/x-api/tweets/search/api-reference/get-tweets-search-recent">X Recent Search API</a>
+</div>
+</section>
+</div>
+<div class="tab-panel" id="local">
+<section class="hero">
+<div class="wrap">
+<small>YONGSAN · SEOUL</small>
+<h1>영어도서관 겨울학기 막차,<br>천 년 된 돈황 사경을 만나다.</h1>
+<p>2026년 11월 8일 기준입니다. 이번 호도 용산구청·어린이정원·육아종합지원센터 공식 목록 페이지를 직접 읽지 못해 도서관·용산문화재단·박물관 페이지와 2차 출처로 확인한 일정만 담았습니다. 6세만을 위한 새 프로그램은 찾지 못했고, 어린이 프로그램은 대부분 초등 대상입니다. 신청 전 원문에서 시간·비용을 꼭 확인하세요.</p>
+</div>
+</section>
+<section>
+<div class="head black">이번 주 꼭 볼 것 <small>WEEKLY PICKS</small>
+</div>
+<ol>
+<li><b>청파 어린이영어도서관 겨울학기 추가 모집</b>은 11/21(토)까지 받습니다. 반마다 2~5자리만 남았어요(초등 대상).</li>
+<li><b>11/14(토) 용산아트홀 K-팝페라 갈라콘서트</b>가 열리고, 기획전시 〈도시질감〉은 11/15에 끝납니다.</li>
+<li><b>국립중앙박물관 ‘돈황 불교 사경’ 특별공개</b>는 2027년 1/24까지. 이촌역에서 걸어가 어린이박물관과 묶어 보세요.</li>
+</ol>
+</section>
+<section>
+<div class="head">용산, 서울 프로그램 <small>08 NOV — 22 NOV</small>
+</div>
+<table class="local-table">
+<thead>
+<tr>
+<th>프로그램명</th><th>장소/사이트</th><th>일시</th><th>신청기간·마감</th><th>대상·비용</th><th>링크</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[청파영어] 2026 겨울학기 추가 모집 (토요 리더스 베이직·북클럽·Smart Media Club·Copycat Story 등 10개 반)</td><td>용산구립 청파 어린이영어도서관</td><td>11/30 또는 12/1 ~ 2027년 2월 말 (반별 상이)</td><td>11/7(토)~11/21(토) 접수 · 반별 잔여 2~5명</td><td>초등 · 비용 미기재 (6세 해당 없음)</td><td><a href="https://www.yslibrary.or.kr/intro/unityLectureList.do">원문 보기 →</a></td>
+</tr>
+<tr>
+<td>[부모 교육] 당당하고 건강한 딸로 키우는 우리집 성교육</td><td>용마루어린이도서관</td><td>11/20 · 시간 미기재</td><td>미기재 (상세 페이지 미열람)</td><td>부모 · 비용 미기재</td><td><a href="https://www.yslibrary.or.kr/yongmaru/lectureDetail.do?lectureIdx=6838">원문 보기 →</a></td>
+</tr>
+<tr>
+<td>[용마루 창작 프로그램] 나도 작가 프로젝트!</td><td>용마루어린이도서관</td><td>11/12~11/19</td><td>미기재 (상세 페이지 미열람)</td><td>초3~4 · 비용 미기재</td><td><a href="https://www.yslibrary.or.kr/yongmaru/lectureDetail.do?lectureIdx=6842">원문 보기 →</a></td>
+</tr>
+<tr>
+<td>임형주와 함께하는 K-팝페라 페스티벌 in 용산 〈K팝페라 갈라콘서트〉</td><td>용산아트홀 대극장 미르 (녹사평역)</td><td>11/14(토) · 시간 미기재</td><td>미기재</td><td>미기재</td><td><a href="https://yongsanculture.or.kr/site/main/performance/PERFORMANCE/view/231">원문 보기 →</a></td>
+</tr>
+<tr>
+<td>이탈리아 만토바 체임버 오케스트라 내한공연 with 테너 임형주</td><td>용산아트홀 대극장 미르</td><td>11/20(금) · 시간 미기재</td><td>미기재</td><td>미기재</td><td><a href="https://yongsanculture.or.kr/site/main/performance/PERFORMANCE/view/230">원문 보기 →</a></td>
+</tr>
+<tr>
+<td>2026 용산아트홀 기획전시 〈도시질감〉 · 협력전시 ‘Green Room by YEON YEOIN’</td><td>용산아트홀 전시장 · 용산문화재단 1층 팝업홀</td><td>도시질감 ~11/15 · 그린룸 ~11/28</td><td>미기재</td><td>미기재</td><td><a href="https://yongsanculture.or.kr/site/main/performance/EXHIBITION/view/228">원문 보기 →</a></td>
+</tr>
+<tr>
+<td>천년의 봉인을 열다: 돈황 불교 사경 소장품 특별공개</td><td>국립중앙박물관 상설전시관 3층 중앙아시아실 (이촌역)</td><td>10/23 ~ 2027.1/24</td><td>미기재</td><td>가족 관람 가능 · 요금 미기재 (2차 출처는 무료로 표기)</td><td><a href="https://www.museum.go.kr/MUSEUM/contents/M0202010000.do?menuId=current">원문 보기 →</a></td>
+</tr>
+<tr>
+<td>〈어쩌다 마주친 공예 in 노들섬〉 (2026 신당창작아케이드)</td><td>노들섬 노들서가 아트스페이스 엣지 1층 (노들역)</td><td>~12/31 · 화~일 10:00~20:00 (월 휴무)</td><td>신청 불필요</td><td>무료 · 대상 미기재 · 2차 출처</td><td><a href="https://www.sfac.or.kr/artspace/artspace/sindang_notice.do?bcIdx=137937">원문 보기 →</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<p class="note">짧은 공지: 용산꿈나무도서관 2026년 희망도서 신청은 11/10(화) 마감입니다. 국립중앙박물관 어린이박물관은 12/15부터 예약 후 미입장 시 회차 시작 20분 뒤 자동 취소됩니다(현재 30분).</p>
+<p class="note">읽지 못한 사이트 (타임슬립 용산타임·반짝반짝 남산밤길·한강역사탐방·국중박 ‘일요일 오후, 박물관’·용산역사박물관 청음회는 지난 호에 실려 제외했습니다)</p>
+<div class="limits">
+<a href="https://www.yongsan.go.kr/portal/bbs/B0000041/list.do?menuNo=200228">용산구청 새소식</a>
+<a href="https://www.yongsan.go.kr/portal/bbs/B0000042/list.do?menuNo=200229">용산구청 행사/교육</a>
+<a href="https://yedu.yongsan.go.kr/pms/board/list.do?boardidn=1024&amp;sitecdv=S0000500&amp;decorator=user27EdTotal&amp;menucdv=04010000">용산구 교육센터</a>
+<a href="https://yongsanparkstory.kr/program/event.html?bcCat=5">용산어린이정원 행사</a>
+<a href="https://museum.yongsan.go.kr/edus/index">용산역사박물관</a>
+<a href="https://ysccic.or.kr/sub/center/program_form2.htm">육아종합지원센터</a>
+<a href="https://yongsannews.com/">용산구소식</a>
+<a href="https://blog.naver.com/ysnblog">용산구청 블로그</a>
+<a href="http://yongsan.kccf.or.kr/">용산문화원</a>
+<a href="https://yeyak.seoul.go.kr/web/search/selectPageListTotalSearch.do">서울예약</a>
+<a href="https://nodeul.org/programs/">노들섬(11월 프로그램 없음)</a>
+</div>
+</div>
+<div class="tab-panel" id="youtube">
+<section class="hero">
+<div class="wrap">
+<small>YOUTUBE PICKS</small>
+<h1>보통 사람의 직업 이야기부터<br>첫 집 계약서까지, 아홉 개의 일상.</h1>
+<p>공식 @핸들 링크와 최근 영상 날짜를 YouTube 데이터로 확인한 채널만 남겼습니다. 지난번에 비어 있던 일·삶 인터뷰, 첫 집 마련, 디자인·Figma, 용산 생활 장르를 채웠고, 일본 채널 3개는 운영자 얼굴 출연을 썸네일로 확인했습니다. 한국 6 · 일본 3.</p>
+</div>
+</section>
+<section>
+<div class="head black">이번 추천 <small>9 CHANNELS</small>
+</div>
+<table class="local-table">
+<thead>
+<tr>
+<th>채널명</th><th>어떤 채널인지</th><th>닮은 구독 채널 또는 범주</th><th>링크</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>직업의모든것 All about jobs</td><td>자영업자·공무원·기술직 같은 보통 직업인의 삶과 일을 깊게 묻는 인터뷰 채널(구독 106만). 지금은 격투기 선수 맘모스 김명환 인터뷰를 연재 중. 최근 영상 11/07 확인.</td><td>평범한 사람들의 일·삶 인터뷰 · 격투기 · 한국</td><td><a href="https://www.youtube.com/@jikmo.">원문 보기 →</a></td>
+</tr>
+<tr>
+<td>기묘인 myoin</td><td>판교로 출근하는 신혼 직장인. 서울 첫 집 마련 과정과 비용을 공개한 영상(9/21)과 내 집 마련 브이로그가 있고 출근룩·운동·용산 카페 영상도 있다. 쇼핑 영상 비중이 조금 있다. 최근 영상 11/05 확인.</td><td>첫 집 마련 기록 · 오피스룩 · 한국</td><td><a href="https://www.youtube.com/@myo_inn">원문 보기 →</a></td>
+</tr>
+<tr>
+<td>주주주미 jujujumi</td><td>“40대 1인가구로 살아가는 일상”. 반려견과의 주말, 빨래, 집에서 보내는 시간을 매주 토요일쯤 담담하게 올린다. 최근 영상 11/01 확인.</td><td>차분한 1인 생활 · 40대 · 한국</td><td><a href="https://www.youtube.com/@주주주미">원문 보기 →</a></td>
+</tr>
+<tr>
+<td>주낑깡</td><td>“용산 사는 나의 맛집 루틴”(2025.6) 영상에서 용산 거주를 밝힌 일상 채널. 커튼을 직접 만드는 인테리어 영상과 메이크업 영상이 섞여 있다. 현재도 용산 거주인지는 미확인. 최근 영상 11/03(쇼츠) 확인.</td><td>용산 생활 · 인테리어 · 뷰티 · 한국</td><td><a href="https://www.youtube.com/@jjjjjooooon_n">원문 보기 →</a></td>
+</tr>
+<tr>
+<td>피튜브</td><td>Friends of Figma KR 리더가 운영하는 피그마·디자인 실무 팁과 AI를 디자인에 쓰는 법(구독 3.8만). 브이로그가 아닌 정보 채널. 최근 영상 11/06 확인.</td><td>디자인·Figma · 한국</td><td><a href="https://www.youtube.com/@figma_tutor">원문 보기 →</a></td>
+</tr>
+<tr>
+<td>한블랙</td><td>20년 차 40대 패션 디자이너 한동우의 채널. 전국 빈티지숍을 찾아다니는 시리즈와 디자이너의 하루를 차분한 톤으로 담는다. 최근 영상 11/07 확인.</td><td>패션·디자이너 일상 · 한국</td><td><a href="https://www.youtube.com/@haanblck">원문 보기 →</a></td>
+</tr>
+<tr>
+<td>アラフィフあや |ソウル暮らし</td><td>서울 생활 14년 차, 일본어 강사로 10년 일한 50대 일본인 여성의 일상. 시어머니 칠순 잔치, 해방촌 나들이처럼 꾸밈없는 생활을 담는다. 올해 3월 시작한 작은 채널이라 광고가 없다. 썸네일에서 본인 얼굴 확인. 최근 영상 11/05 확인.</td><td>서울 생활 · 일본(한국 거주)</td><td><a href="https://www.youtube.com/@ayalifeinseoul">원문 보기 →</a></td>
+</tr>
+<tr>
+<td>すめばみやこ정들면고향</td><td>서울에 살며 일본 회사에서 재택근무하는 일본인 아내의 한일 부부 브이로그. 최근 이사와 집 고치기 과정을 연재 중. 썸네일에서 본인 얼굴 확인. 최근 영상 11/06 확인.</td><td>이사·집 꾸미기 · 일하는 여성 · 일본(한국 거주)</td><td><a href="https://www.youtube.com/@sumebamiyako">원문 보기 →</a></td>
+</tr>
+<tr>
+<td>미사닝</td><td>한국 회사에 다니는 30대 초반 일본인 직장인의 출근과 휴일 브이로그(구독 24만). MCN 소속이라 광고성 쇼츠가 섞여 있다. 썸네일에서 본인 얼굴 확인. 최근 영상 11/06(쇼츠) 확인, 긴 브이로그는 10/25.</td><td>서울 직장인 일상 · 일본(한국 거주)</td><td><a href="https://www.youtube.com/@1misa._.ning1">원문 보기 →</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<p class="note">제외: 최근 업로드가 끊긴 채널(일본잉·꽃내랑 UXUI디자이너·이유닝닝·독립여정), 얼굴이 나오지 않는 채널(リスタート!!アラフォーからの韓国生活), 낚시성 제목·광고 위주 채널(미호TV·リコ짱·しずかちゃんのアジア歩き·오근·はりん), 유명인 채널(순풍 선우용여, 이촌동 영상은 있음). 이촌동 일반인 생활, 디자이너 하루 브이로그, 영어 학습, 독서·인문 장르는 조건에 맞는 새 채널을 찾지 못했습니다(YouTube 검색 할당량 소진으로 웹 검색 병행).</p>
+</div>
+</main>
+<dialog class="favorites-dialog" id="favorites-dialog">
+<div class="favorites-head">
+<h2>모아보기</h2>
+<div class="favorites-actions">
+<button class="favorites-export" type="button" id="favorites-export">MD로 내보내기</button>
+<button class="favorites-close" type="button" id="favorites-close">닫기</button>
+</div>
+</div>
+<ul class="favorites-list" id="favorites-list">
+</ul>
+<p class="favorites-empty" id="favorites-empty">별표를 누른 항목이 여기에 모입니다.</p>
+</dialog>
+<script>(()=>{const key='ai-daily-favorites-v1',dialog=document.querySelector('#favorites-dialog'),list=document.querySelector('#favorites-list'),empty=document.querySelector('#favorites-empty'),count=document.querySelector('#favorites-count'),exportButton=document.querySelector('#favorites-export');const read=()=>{try{return JSON.parse(localStorage.getItem(key)||'[]')}catch{return[]}},write=items=>localStorage.setItem(key,JSON.stringify(items));const reportDate=()=>document.title.match(/\d{4}\.\d{2}\.\d{2}/)?.[0].replaceAll('.','-')||new Date().toISOString().slice(0,10);const exportMarkdown=()=>{const date=reportDate(),items=read(),md=['# 모아보기 — '+date,''];if(items.length)items.forEach(item=>md.push('- ['+item.title.replaceAll('[','\\[').replaceAll(']','\\]')+']('+item.href+')\\n  - '+item.section));else md.push('_저장한 항목이 없습니다._');const url=URL.createObjectURL(new Blob([md.join('\\n')],{type:'text/markdown;charset=utf-8'})),link=document.createElement('a');link.href=url;link.download=date+'.md';link.click();URL.revokeObjectURL(url)};const render=()=>{const items=read();count.textContent=items.length;list.replaceChildren();empty.hidden=items.length>0;items.forEach(item=>{const row=document.createElement('li'),copy=document.createElement('div'),link=document.createElement('a'),meta=document.createElement('span'),remove=document.createElement('button');link.href=item.href;link.textContent=item.title;link.target='_blank';meta.className='favorites-meta';meta.textContent=item.section;remove.className='favorite-remove';remove.type='button';remove.textContent='삭제';remove.addEventListener('click',()=>{write(read().filter(saved=>saved.id!==item.id));render();sync()});copy.append(link,meta);row.append(copy,remove);list.append(row)})};const sync=()=>{const ids=new Set(read().map(item=>item.id));document.querySelectorAll('[data-favorite-id]').forEach(button=>{const saved=ids.has(button.dataset.favoriteId);button.setAttribute('aria-pressed',saved);button.textContent=saved?'★':'☆';button.setAttribute('aria-label',saved?'즐겨찾기 삭제':'즐겨찾기 추가')})};const add=(node,title,href,section,klass)=>{const id=section+'|'+title,button=document.createElement('button');button.type='button';button.className=klass;button.dataset.favoriteId=id;button.addEventListener('click',()=>{const items=read(),saved=items.some(item=>item.id===id);write(saved?items.filter(item=>item.id!==id):[...items,{id,title,href,section}]);render();sync()});if(klass==='table-star')node.querySelector('td').prepend(button);else node.insertBefore(button,node.querySelector('a'));};document.querySelectorAll('#ai .item').forEach(node=>add(node,node.querySelector('h3').textContent,node.querySelector('a').href,'AI DAILY','fav-toggle'));document.querySelectorAll('#local tbody tr').forEach(node=>add(node,node.querySelector('td').textContent,node.querySelector('a').href,'용산, 서울 소식','table-star'));document.querySelectorAll('#youtube tbody tr').forEach(node=>add(node,node.querySelector('td').textContent,node.querySelector('a').href,'유튜브추천','table-star'));document.querySelector('#favorites-open').addEventListener('click',()=>dialog.showModal());exportButton.addEventListener('click',exportMarkdown);document.querySelector('#favorites-close').addEventListener('click',()=>dialog.close());render();sync()})();</script>
+</body>
+</html>
