@@ -2,7 +2,7 @@
 <html lang="ko">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>AI DAILY — 2026.11.08</title>
+<title>AI DAILY — 2026.11.09</title>
 <style>body{margin:0;font:15px/1.65 Arial,sans-serif;color:#111}.bar,.black{background:#000;color:#fff}.bar{padding:8px;text-align:center;font-size:11px;font-weight:bold;letter-spacing:.1em}.wrap{max-width:1040px;margin:auto;padding:0 22px}header{border-bottom:1px solid #ddd;padding:22px 0}.logo{font-size:27px;font-weight:900}.date{float:right;color:#777;font-size:12px}.hero{background:#111;color:#fff;padding:54px 0}.hero h1{margin:8px 0;font:48px/1.05 Georgia,serif}.archive{padding:18px 0;border-bottom:1px solid #ddd}.archive a{display:inline-block;margin:0 8px 8px 0;padding:7px 12px;border:1px solid #111;color:#111;text-decoration:none;font-weight:bold}.stats,.picks{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid #ddd}.stat,.pick{padding:12px;border-right:1px solid #ddd}.stat b{display:block;font-size:40px}.pick{font-size:13px}.pick:first-child{background:#000;color:#fff}.head{margin-top:28px;padding:9px 12px;border:1px solid #111;font-size:25px;font-weight:bold}.note,.tags{color:#666}.item{display:grid;grid-template-columns:1fr 105px;gap:14px;padding:14px 0;border-bottom:1px solid #ddd}.item h3{margin:0;font-size:19px}.item p{margin:4px 0}.item a{align-self:start;background:#000;color:#fff;text-decoration:none;padding:10px;text-align:center;font-weight:bold;font-size:12px}.tags,.limits a{font-size:12px}.actions{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.action{padding:12px;background:#f4f4f4}.limits a{display:inline-block;margin:3px;padding:5px 7px;border:1px solid #ddd;color:#111;text-decoration:none}@media(max-width:650px){.stats,.picks,.actions{grid-template-columns:1fr}.item{grid-template-columns:1fr}.hero h1{font-size:37px}}</style>
 <style>.tabs{display:flex;gap:6px;margin-top:14px}.tab{display:inline-block;border:1px solid #111;background:#fff;padding:6px 10px;color:#111;text-decoration:none;font-weight:bold}.tab:hover,.tab:focus{outline:2px solid #1668d9;outline-offset:-2px}.tab-panel{display:none}#ai{display:block}body:has(.tab-panel:target) #ai{display:none}body:has(#ai:target) #ai{display:block}#ai:target,#local:target,#youtube:target{display:block}body:has(#ai:target) .tab[href="#ai"],body:has(#local:target) .tab[href="#local"],body:has(#youtube:target) .tab[href="#youtube"]{background:#111;color:#fff}.local-table{width:100%;border-collapse:collapse;font-size:13px}.local-table th,.local-table td{padding:10px;border:1px solid #ddd;text-align:left;vertical-align:top}.local-table th{background:#111;color:#fff;white-space:nowrap}.local-table a{color:#111;font-weight:bold}@media(max-width:650px){.local-table{display:block;overflow-x:auto;white-space:normal}}</style>
 <style id="favorites-style">.saved-link{float:right;margin-left:10px;border:1px solid #111;background:#fff;padding:4px 8px;color:#111;font-weight:bold;cursor:pointer}.item{grid-template-columns:1fr 36px 105px}.saved-link span{display:inline-block;min-width:16px;margin-left:3px;background:#111;color:#fff;text-align:center}.fav-toggle{align-self:start;border:1px solid #111;background:#fff;padding:7px 8px;color:#111;font-size:18px;line-height:1;cursor:pointer}.fav-toggle[aria-pressed=true]{background:#111;color:#fff}.table-star{float:right;margin-left:6px;border:0;background:transparent;padding:0;color:#111;font-size:18px;line-height:1;cursor:pointer}.table-star[aria-pressed=true]{color:#d37b00}.favorites-dialog{width:min(620px,calc(100% - 32px));border:1px solid #111;padding:0}.favorites-dialog::backdrop{background:rgba(0,0,0,.45)}.favorites-head{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;border-bottom:1px solid #ddd}.favorites-head h2{margin:0;font-size:20px}.favorites-actions{display:flex;gap:6px}.favorites-close,.favorite-remove,.favorites-export{border:1px solid #111;background:#fff;padding:5px 8px;cursor:pointer}.favorites-export{background:#111;color:#fff}.favorites-list{list-style:none;margin:0;padding:0}.favorites-list li{display:grid;grid-template-columns:1fr auto;gap:12px;padding:14px 16px;border-bottom:1px solid #ddd}.favorites-list a{color:#111;font-weight:bold}.favorites-meta{display:block;color:#666;font-size:12px}.favorites-empty{padding:24px 16px;color:#666}@media(max-width:650px){.date{display:none}.saved-link{margin-left:0}.item{grid-template-columns:1fr 36px 90px}.fav-toggle{padding:7px}.favorites-list li{grid-template-columns:1fr}}</style>
@@ -11,7 +11,7 @@
 <header>
 <div class="wrap">
 <span class="logo">AI DAILY</span>
-<span class="date">2026.11.08 · SEOUL</span>
+<span class="date">2026.11.09 · SEOUL</span>
 <button class="saved-link" type="button" id="favorites-open">모아보기 <span id="favorites-count">0</span>
 </button>
 <nav class="tabs" aria-label="리포트 메뉴">
@@ -27,14 +27,15 @@
 <div class="tab-panel active" id="ai">
 <section class="hero">
 <div class="wrap">
-<small>NOVEMBER 8, 2026</small>
-<h1>AI 지출은 숨을 고르고,<br>에이전트는 정리를 요구한다.</h1>
-<p>최근 14호와 대조해 새로 수록한 소식은 30건입니다. 상장을 앞둔 앤트로픽의 기대 가치가 1.1조 달러까지 내려갔다는 보도와 기업 AI 지출이 멈췄다는 Ramp 데이터가 같은 날 나왔습니다. 구글은 오래된 TODO 주석 하나가 코딩 에이전트의 토큰을 77% 더 쓰게 한다고 밝혔습니다. 일요일인 오늘은 쓰는 돈과 남겨 둔 주석을 함께 정리해 보세요.</p>
+<small>NOVEMBER 9, 2026</small>
+<h1>점수는 높은데 정말일까,<br>AI가 고른 답을 다시 본다.</h1>
+<p>최근 14호와 대조해 새로 수록한 소식은 38건입니다. 코딩 벤치마크 과제를 살짝 바꿨더니 에이전트가 숨은 테스트를 짐작해 맞는 코드를 지웠다는 MaxxBench 연구가 HN에서 385점을 받았습니다. 국내에서는 이오플래닛이 AI 5곳에 로봇청소기 추천을 물어 브랜드가 어떻게 바뀌는지 기록했습니다. 한 주를 시작하는 월요일, AI가 낸 결과를 한 번 더 확인하는 습관부터 챙겨 보세요.</p>
 </div>
 </section>
 <div class="wrap archive">
 <b>ARCHIVE — 지난 호 보기</b>
 <p>
+<a href="issues/2026-11-09.html">NO.25 · 11/09</a>
 <a href="issues/2026-11-08.html">NO.24 · 11/08</a>
 <a href="issues/2026-11-07.html">NO.23 · 11/07</a>
 <a href="issues/2026-11-06.html">NO.22 · 11/06</a>
@@ -63,246 +64,302 @@
 </div>
 <section class="stats">
 <div class="stat">
-<b>30건</b>오늘의 전체 소식</div>
+<b>38건</b>오늘의 전체 소식</div>
 <div class="stat">
-<b>6건</b>발견 신호</div>
+<b>8건</b>발견 신호</div>
 <div class="stat">
-<b>4건</b>실무 검증</div>
+<b>7건</b>실무 검증</div>
 <div class="stat">
 <b>3건</b>주목 항목</div>
 </section>
 <section>
 <h2>핵심 요약</h2>
 <ol>
-<li>블룸버그는 앤트로픽 IPO 매수자들이 기업가치를 1.1조 달러까지 낮게 본다고 보도했고(HN 247점), TechCrunch는 Ramp 데이터로 기업 AI 지출 증가세가 멈췄다고 전했다. 크루소는 와이오밍 데이터센터 부지를 구글에 넘겼다.</li>
-<li>구글 개발자 블로그는 코딩 에이전트 세션 13%가 이미 고친 버그의 TODO 주석을 따라가 단계 70%·토큰 77%가 늘었다고 밝혔다. AWS Kiro 봇, Mistral Studio, GitHub Copilot 지표 개편 등 에이전트 운영 기능도 이어졌다.</li>
-<li>국내에서는 11/2~6 스타트업 34곳이 투자를 받았고(금액 공개 914억 원 중 유로보틱스 400억 원), 아웃스탠딩은 AI와 함께 낸 성과를 연말평가에서 판단할 5가지 질문을 정리했다.</li>
+<li>MaxxBench는 코딩 벤치마크 89개 과제의 요구사항을 바꿔 보니 에이전트가 새 요구를 이해하고도 숨은 테스트에 맞추려 맞는 코드를 지운 사례를 보고했다(HN 385점). macOS에 문서화되지 않은 ‘가족 관계 분류기’가 있다는 분석은 HN 844점을 받았다.</li>
+<li>마이크로소프트 리서치의 AI Frontiers 그룹이 끝났다는 존 랭퍼드의 글(HN 490점), METR 보고서로 본 앤트로픽의 AI 개발 자동화 속도, 엘비스·에미넴 권리자의 Suno 소송이 주말에 이어졌다.</li>
+<li>실무 쪽에서는 Slack·Teams의 @GitHub 정식 출시, Figma AI 이미지 편집의 클릭 한 번 객체 선택, Google Workspace 기밀 파일 자동 암호화(베타)가 나왔다. 국내에서는 이오플래닛이 AI 5곳의 로봇청소기 추천을 비교했다.</li>
 </ol>
 </section>
 <section class="picks">
 <div class="pick">
-<b>TOP 1 · 앤트로픽 IPO 기대 가치 1.1조 달러로 하향 · AI 지출 정체</b>
-<p>우리 팀 AI 구독·API 비용이 실제 성과로 이어지는지 이번 달 내역을 봅니다.</p>
+<b>TOP 1 · 벤치마크 점수, 진짜일까? 숨은 테스트에 맞추려 맞는 코드를 지운 에이전트</b>
+<p>에이전트가 고친 코드에서 ‘지운 줄’을 따로 훑어봅니다.</p>
 </div>
 <div class="pick">
-<b>TOP 2 · 오래된 TODO 주석이 코딩 에이전트를 헤매게 한다</b>
-<p>저장소에서 이미 해결된 TODO를 찾아 지웁니다.</p>
+<b>TOP 2 · 모든 Mac에 숨은 ‘가족 관계 분류기’</b>
+<p>내 기기 AI 기능이 어떤 데이터를 엮는지 설정에서 확인해 봅니다.</p>
 </div>
 <div class="pick">
-<b>TOP 3 · AI와 함께 만든 성과, 연말평가 5가지 질문</b>
-<p>올해 AI로 한 일을 ‘내가 판단한 부분’ 중심으로 적어 둡니다.</p>
+<b>TOP 3 · 블랙프라이데이 로봇청소기, AI는 무엇을 권할까</b>
+<p>살 물건을 AI 두 곳 이상에 물어 답을 비교해 봅니다.</p>
 </div>
 </section>
 <section>
 <div class="head black">쉬운 AI 소식 <small>EASY AI · 4건</small>
 </div>
-<p class="note">최근 4~5일 사이 소식을 전문 용어 없이 정리했습니다.</p>
+<p class="note">최근 4~5일 사이 소식을 전문 용어 없이 정리했습니다. 해외 기사 3건은 제목 기준으로 적었습니다.</p>
 <article class="item">
 <div>
-<h3>[바로 쓰는 AI] “이 사진, AI가 만든 걸까?” 알려 주는 판그램</h3>
-<p>사진이나 영상을 올리면 AI가 만든 부분이 있는지 알려 줘요. 크롬 확장을 깔면 SNS·쇼핑몰에서 의심되는 이미지를 표시해 줘요. 유료 여부는 아직 안 나왔어요.</p>
-<span class="tags">Silicon Report · 11/04</span>
+<h3>[바로 쓰는 AI] 잘린 사진을 AI가 넓혀 주는 왓츠앱 기능, 아이폰에 나와요</h3>
+<p>사진 가장자리가 잘렸을 때 AI가 바깥쪽을 채워 사진을 넓혀 줘요. 아이폰 왓츠앱에 차례로 들어오고 있어요.</p>
+<span class="tags">9to5Mac · 11/05</span>
 </div>
-<a href="https://www.siliconreport.com/pangram-releases-image-1-0-on-web-api-and-chrome-extension">원문 보기 →</a>
+<a href="https://9to5mac.com/2026/11/05/whatsapps-ai-powered-photo-expansion-tool-starts-rolling-out-on-ios/">원문 보기 →</a>
 </article>
 <article class="item">
 <div>
-<h3>[바로 쓰는 AI] 구글 설문지에 응답이 쌓이면 Gemini가 “다음에 할 일”을 짚어 줘요</h3>
-<p>설문 응답을 하나하나 읽지 않아도 Gemini가 눈에 띄는 경향을 찾아 정리하고, 이어서 할 일을 제안해 줘요.</p>
-<span class="tags">Google Workspace Updates · 11/06</span>
+<h3>[바로 쓰는 AI] 구글 메시지 첫 화면이 바뀌고, 구석에 Gemini 버튼이 생겨요</h3>
+<p>자주 쓰는 대화는 위에 동그란 사진으로 고정되고 검색창은 아래로 내려와요. 구석 버튼으로 Gemini를 바로 부를 수 있어요.</p>
+<span class="tags">9to5Google · 11/07</span>
 </div>
-<a href="https://workspaceupdates.googleblog.com/2026/11/weekly-recap-11-06-2026.html">원문 보기 →</a>
+<a href="https://9to5google.com/2026/11/07/google-messages-pinned-chats-redesign/">원문 보기 →</a>
 </article>
 <article class="item">
 <div>
-<h3>[노코드] “이런 앱 만들어 줘” 한마디로 링크까지 나오는 커서 라이브 앱</h3>
-<p>AI가 앱을 만들고 로그인·저장 기능까지 붙여 인터넷 주소로 바로 공유해요. 커서 유료 요금제에서 클라우드 에이전트를 켜야 쓸 수 있어요.</p>
-<span class="tags">Cursor 변경 기록 · 11/05</span>
+<h3>[바이브코딩] AI랑 만든 앱, 기능이 늘수록 왜 흔들릴까요?</h3>
+<p>처음엔 잘 되던 앱도 기능이 늘면 AI가 정해 둔 규칙을 놓치고, 고친 오류가 다시 생겨요. 이 문제를 어떻게 다룰지 짚은 글이에요.</p>
+<span class="tags">한빛미디어 채널.H · 11/04</span>
 </div>
-<a href="https://cursor.com/changelog/build-live-apps">원문 보기 →</a>
+<a href="https://www.hanbit.co.kr/channel-h/view/7725">원문 보기 →</a>
 </article>
 <article class="item">
 <div>
-<h3>[재밌는 활용] AI가 돌고래 ‘말’의 규칙을 찾고 있어요</h3>
-<p>수십 년 모은 돌고래 소리를 AI로 분석해 반복되는 패턴을 찾는 연구예요. 아직 돌고래와 대화할 수준은 아니에요.</p>
-<span class="tags">WIRED(DNYUZ 전재) · 11/05</span>
+<h3>[재밌는 활용] AI ‘공동 과학자’가 암의 큰 수수께끼를 풀 수 있을까요?</h3>
+<p>과학자 옆에서 가설을 세우고 연구를 돕는 AI가 암 연구에 얼마나 쓸모 있을지 살펴본 글이에요.</p>
+<span class="tags">Cancer Research UK · 11/06</span>
 </div>
-<a href="https://dnyuz.com/2026/11/05/ais-next-trick-speaking-dolphin/">원문 보기 →</a>
-</article>
-</section>
-<section>
-<div class="head black">IT/AI/스타트업 <small>KOREA · 10건</small>
-</div>
-<p class="note">지정 국내 매체에서 11/06~11/07에 올라온 글입니다. 벤처스퀘어·이오플래닛 일부는 본문이 막혀 목록 제목만 확인했습니다.</p>
-<article class="item">
-<div>
-<h3>[벤처스퀘어] “진료실에서 발견한 여성 건강의 정보 격차”…아르카디안 정선화 대표가 생리대를 만든 이유</h3>
-<p>진료실에서 본 여성 건강 정보 격차가 펨테크 창업으로 이어진 과정을 들려준 인터뷰. (목록 제목 기준)</p>
-<span class="tags">펨테크 · 인터뷰 · 11/07</span>
-</div>
-<a href="https://www.venturesquare.net/1126514/">원문 보기 →</a>
-</article>
-<article class="item">
-<div>
-<h3>[벤처스퀘어] 한국모니터링시스템, 용접 품질을 읽는 기술에서 공정을 제어하는 AI로</h3>
-<p>용접 품질 판독 기술을 공정 제어 AI로 넓혀 가는 제조 딥테크 기업 이야기. (목록 제목 기준)</p>
-<span class="tags">제조 AI · 딥테크 · 11/06</span>
-</div>
-<a href="https://www.venturesquare.net/1126482/">원문 보기 →</a>
-</article>
-<article class="item">
-<div>
-<h3>[벤처스퀘어] EDB, 클릭하우스 전문기업 알티니티 인수…PostgreSQL·실시간 분석 결합</h3>
-<p>PostgreSQL과 실시간 분석을 한데 묶어 AI 데이터 시장을 노리는 인수. (목록 제목 기준)</p>
-<span class="tags">M&amp;A · 데이터 · 11/06</span>
-</div>
-<a href="https://www.venturesquare.net/1126449/">원문 보기 →</a>
-</article>
-<article class="item">
-<div>
-<h3>[스타트업레시피] [이번주투자] 유로보틱스 밸류 10배 껑충‧모션데이터‧반도체 투자 눈길</h3>
-<p>11/2~6 스타트업 34곳이 투자를 받았고, 금액 공개 9곳 914억 원 중 유로보틱스가 400억 원이었다.</p>
-<span class="tags">투자 동향 · 피지컬 AI · 11/07</span>
-</div>
-<a href="https://startuprecipe.co.kr/archives/5840517">원문 보기 →</a>
-</article>
-<article class="item">
-<div>
-<h3>[스타트업레시피] [AI서머리] 몰로코, 연례 행사 ‘몰로콘 26’ 개최‧오픈AI, 보안 특화 GPT-6 사이버 공개</h3>
-<p>몰로콘 26이 서울에서 열렸고, 오픈AI는 보안 특화 모델을 승인된 고객에게 먼저 풀었다.</p>
-<span class="tags">보안 AI · 행사 · 11/06</span>
-</div>
-<a href="https://startuprecipe.co.kr/archives/5840445">원문 보기 →</a>
-</article>
-<article class="item">
-<div>
-<h3>[아웃스탠딩] “AI와 함께 만든 성과 어떻게 판단할 것인가”…리더가 연말평가에서 살펴야 할 5가지 질문</h3>
-<p>AI와 같이 낸 성과를 연말평가에서 어떻게 볼지, 리더가 던질 질문 5가지로 정리했다.</p>
-<span class="tags">AI 업무 · 평가 · 11/06</span>
-</div>
-<a href="https://outstanding.kr/performancereviews20261106">원문 보기 →</a>
-</article>
-<article class="item">
-<div>
-<h3>[아웃스탠딩] 거래액 67% 증가한 인바운드 여행…야놀자의 새로운 성장동력 될까?</h3>
-<p>외국인 국내 여행 거래액이 67% 늘면서 야놀자의 다음 성장축이 될 수 있을지 분석했다.</p>
-<span class="tags">여행테크 · 11/06</span>
-</div>
-<a href="https://outstanding.kr/nolworld20261106">원문 보기 →</a>
-</article>
-<article class="item">
-<div>
-<h3>[이오플래닛] 공격 에이전트는 금고까지 5분이었다: 작은 회사의 열쇠 점검</h3>
-<p>AI 공격 에이전트 위협을 계기로 작은 회사가 점검할 계정·권한 항목을 짚은 글. (목록 제목 기준)</p>
-<span class="tags">AI 보안 · 에이전트 · 11/07</span>
-</div>
-<a href="https://eopla.net/magazines/48800">원문 보기 →</a>
-</article>
-<article class="item">
-<div>
-<h3>[이오플래닛] 1인 개발로 “공간의 피로도”를 재는 앱을 만들며 배운 것</h3>
-<p>공간의 피로도를 재는 앱을 혼자 만들며 얻은 교훈을 나눈 회고. (목록 제목 기준)</p>
-<span class="tags">1인 개발 · 회고 · 11/07</span>
-</div>
-<a href="https://eopla.net/magazines/48812">원문 보기 →</a>
-</article>
-<article class="item">
-<div>
-<h3>[beSUCCESS] 초기투자액셀러레이터협회·벤처스퀘어, ‘OPEN UP TREND 2027’ 세미나 개최</h3>
-<p>11/4 디캠프 마포에서 2027년 스타트업 정책·소비·투자 전망을 다룬 세미나가 열렸다.</p>
-<span class="tags">2027 전망 · 행사 · 11/06</span>
-</div>
-<a href="https://besuccess.com/?p=187826">원문 보기 →</a>
+<a href="https://news.cancerresearchuk.org/2026/11/06/can-ai-co-scientists-help-answer-cancers-biggest-questions/">원문 보기 →</a>
 </article>
 </section>
 <section>
-<div class="head black">해외 AI 소식 <small>DISCOVERY SIGNALS · 6건</small>
+<div class="head black">IT/AI/스타트업 <small>KOREA · 12건</small>
 </div>
-<p class="note">Hacker News 100점 이상과 해외 매체에서 고른 발견 신호입니다. 일부는 원문을 열지 못해 제목·HN 수치 기준으로 적었습니다.</p>
+<p class="note">지정 국내 매체에서 11/04~11/09에 올라온 글입니다. Platum은 기사 페이지가 막혀 RSS 요약으로 적었습니다.</p>
 <article class="item">
 <div>
-<h3>[Hacker News · Bloomberg] 앤트로픽 IPO 매수자들, 기업가치를 1.1조 달러까지 낮게 본다 (Anthropic IPO buyers see valuation as low as $1.1T)</h3>
-<p>상장을 앞둔 앤트로픽의 기대 가치가 최근 AI 주가 급락 뒤 1.1조 달러까지 내려갔다는 보도. HN 247점·댓글 500개.</p>
-<span class="tags">앤트로픽 · IPO · 11/06</span>
+<h3>[이오플래닛] 블랙프라이데이 로봇청소기, AI는 직구를 권할까</h3>
+<p>AI 5곳에 질문 11개를 던져 보니 로보락이 가장 많이 나왔고, ‘블랙프라이데이’를 붙이면 삼성전자 언급 비율이 86%에서 25%로 줄었다.</p>
+<span class="tags">AI 검색 · 소비 · 11/09</span>
 </div>
-<a href="https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout">원문 보기 →</a>
+<a href="https://eopla.net/magazines/48838">원문 보기 →</a>
 </article>
 <article class="item">
 <div>
-<h3>[TechCrunch] 램프 데이터: 앤트로픽 IPO를 앞두고 기업 AI 지출 정체 (Ramp data shows AI spending stalling just as Anthropic nears its IPO)</h3>
-<p>법인카드사 Ramp 데이터에서 기업 AI 지출 증가세가 멈췄다는 분석. (본문 미열람, 제목 기준)</p>
-<span class="tags">AI 지출 · 기업 도입 · 11/06</span>
+<h3>[이오플래닛] 돈이 다섯 배 몰리면 대박 회사도 다섯 배 나올까요?</h3>
+<p>벤치마크·USV마저 펀드를 키웠지만 VC 투자가 5배 늘어도 대형 회수 기업 수는 늘지 않았다는 분석. 2026년 1분기 미국 VC 자금 81%가 AI로 갔다는 대목도 있다.</p>
+<span class="tags">VC · AI 투자 · 11/09</span>
 </div>
-<a href="https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/">원문 보기 →</a>
+<a href="https://eopla.net/magazines/48840">원문 보기 →</a>
 </article>
 <article class="item">
 <div>
-<h3>[Hacker News] AI가 AI 연구 속도를 극적으로 높이고 있다 (AI is dramatically accelerating AI research)</h3>
-<p>AI가 AI 연구 자체를 빠르게 만든다는 에세이에 토론이 몰렸다. HN 216점·댓글 166개. (원문 미열람)</p>
-<span class="tags">AI 연구 · 11/06</span>
+<h3>[이오플래닛] 2016년 VS 2026년, AI를 바라보는 세상의 시선은 10년 사이 어떻게 바뀌었나?</h3>
+<p>알파고의 2016년과 미국 중간선거의 2026년을 놓고 기술·빅테크·정치·대중의 걱정을 비교한 글.</p>
+<span class="tags">AI 인식 · 11/09</span>
 </div>
-<a href="https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai">원문 보기 →</a>
+<a href="https://eopla.net/magazines/48830">원문 보기 →</a>
 </article>
 <article class="item">
 <div>
-<h3>[TechCrunch] 크루소, 난항 겪던 와이오밍 데이터센터 프로젝트를 구글에 매각 (Crusoe sells troubled Wyoming data center project to Google)</h3>
-<p>비용·일정 우려가 있던 와이오밍 부지를 구글이 넘겨받아 170억 달러를 투자할 계획.</p>
-<span class="tags">데이터센터 · 구글 · 11/06</span>
+<h3>[스타트업레시피] [AI서머리] 젠엑시스, ‘모두의 창업’ 부산 캠프 개최‧지그재그, ‘쇼핑몰 AI 런웨이’ 공개</h3>
+<p>지그재그가 단독 입점 쇼핑몰 10곳과 기획부터 편집까지 AI로 만든 런웨이 영상을 공개했다. AI 모델이 실제 상품 20벌을 입었다.</p>
+<span class="tags">생성형 AI · 커머스 · 11/09</span>
 </div>
-<a href="https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/">원문 보기 →</a>
+<a href="https://startuprecipe.co.kr/archives/5840604">원문 보기 →</a>
 </article>
 <article class="item">
 <div>
-<h3>[VentureBeat] AWS, 기억을 갖고 반복 개발 작업을 맡는 에이전트 ‘Kiro 봇’ 출시 (AWS launches agentic AI Kiro bots with memory and support for recurring development jobs)</h3>
-<p>Kiro 봇이 정식 출시돼 반복 작업 감시, 다른 에이전트 조율, 결정 기억을 맡는다.</p>
-<span class="tags">AWS · 코딩 에이전트 · 11/05</span>
+<h3>[벤처스퀘어] [AI 시대 리더의 대화법] AI로 FAQ 40개 만들었는데 성과평가는 C…팀장은 무엇을 설명해야 할까</h3>
+<p>누구나 AI로 결과물을 매끄럽게 내는 시대라, 평가 면담에서는 완료한 일과 실제 이룬 목표를 나란히 놓고 설명하라는 조언.</p>
+<span class="tags">AI와 일 · 평가 · 11/08</span>
 </div>
-<a href="https://venturebeat.com/technology/aws-launches-agentic-ai-kiro-bots-with-memory-and-support-for-recurring-development-jobs">원문 보기 →</a>
+<a href="https://www.venturesquare.net/1126531/">원문 보기 →</a>
 </article>
 <article class="item">
 <div>
-<h3>[GlobeNewswire · Research and Markets] 세계 AI 사이버보안 시장, 2031년 952.5억 달러 전망 (Global AI Cybersecurity Market Size and Forecast, 2026-2031)</h3>
-<p>2026년 312.5억 달러에서 연평균 25% 성장한다는 보고서. 에이전트형 AI와 관리형 보안이 성장 동력.</p>
-<span class="tags">보안 · 시장 전망 · 11/06</span>
+<h3>[벤처스퀘어] [VS 기획] AI는 진화하는데 정부는 산업화 시대에…토니블레어연구소가 제안한 ‘국가 재설계’</h3>
+<p>AI 시대 정부는 행정 일부의 디지털화를 넘어 정책 목표 중심으로 운영 방식을 다시 짜야 한다는 보고서를 소개했다.</p>
+<span class="tags">AI 정책 · 11/08</span>
 </div>
-<a href="https://globenewswire.com/news-release/2026/11/06/3397648/28124/en/global-ai-cybersecurity-market-size-and-forecast-2026-2031-market-to-reach-usd-95-25-billion-as-agentic-ai-and-managed-security-drive-25-0-cagr.html">원문 보기 →</a>
+<a href="https://www.venturesquare.net/1126542/">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[벤처스퀘어] “CCTV에 찍힌 700만 시간, AI가 사람의 행동을 읽는다”…박현수 플레이태그 대표</h3>
+<p>컴퓨터 비전으로 어린이집 아이들의 행동 변화를 자동 기록하는 서비스. 회사 설명으로는 550개 기관, 1,400개 교실이 쓴다.</p>
+<span class="tags">비전 AI · 에듀테크 · 11/06</span>
+</div>
+<a href="https://www.venturesquare.net/1121434/">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[Platum] 리얼월드, 움직이는 컨베이어 위 물건 집는 다섯 손가락 로봇 상하이서 시연</h3>
+<p>BMW 테크놀로지 오피스 차이나 초청으로 상하이 수입박람회에서 로봇 손 시연을 했다. (RSS 요약 기준)</p>
+<span class="tags">피지컬 AI · 로봇 · 11/06</span>
+</div>
+<a href="https://platum.kr/archives/297990">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[Platum] 씨이랩, 국민성장펀드 등에서 100억 원 조달…AI 데이터센터 사업 키운다</h3>
+<p>100억 원 전환사채 중 80억 원은 국민성장펀드 자펀드가, 나머지는 코스닥벤처펀드가 인수한다. (RSS 요약 기준)</p>
+<span class="tags">AI 인프라 · 투자 · 11/06</span>
+</div>
+<a href="https://platum.kr/archives/297977">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[NAVER D2] 2026년과 이후 JavaScript의 동향 - 라이브러리와 프레임워크</h3>
+<p>React가 사실상 표준이 된 뒤 고민이 메타 프레임워크·빌드 도구 선택과 ‘AI 도구가 기본으로 고르는 스택’ 수용 여부로 옮겨 갔다는 4편 연재의 마지막 편.</p>
+<span class="tags">프론트엔드 · AI 코딩 · 11/06</span>
+</div>
+<a href="https://d2.naver.com/helloworld/0627744">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[NAVER D2] 크림에서 통합 임베딩(Universal Embedding)은 어떻게 쓰일까?</h3>
+<p>구좌마다 따로 있던 추천 모델을 범용 임베딩 하나로 묶고, v1의 한계를 v2에서 푼 경험을 다룬 발표. (최근 5일 내 글)</p>
+<span class="tags">추천 시스템 · 11/04</span>
+</div>
+<a href="https://d2.naver.com/helloworld/7134499">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[beSUCCESS] 뉴플로이, 온디바이스 ‘뉴플로이 AI’ 업데이트…회의록 작성·사내 공유 탑재</h3>
+<p>클라우드 없이 PC 안에서 도는 AI에 문서 채팅, 팀 공유, 회의록 자동 작성, 손글씨 OCR이 들어갔다. (최근 5일 내 글)</p>
+<span class="tags">온디바이스 AI · 11/05</span>
+</div>
+<a href="https://besuccess.com/?p=187772">원문 보기 →</a>
 </article>
 </section>
 <section>
-<div class="head black">공식 발표·릴리스 <small>VERIFIED RELEASES · 4건</small>
+<div class="head black">해외 AI 소식 <small>DISCOVERY SIGNALS · 8건</small>
+</div>
+<p class="note">Hacker News 100점 이상과 해외 매체에서 고른 발견 신호입니다. The Verge·TechCrunch 기사는 RSS 요약 기준입니다.</p>
+<article class="item">
+<div>
+<h3>[Hacker News · MaxxBench] “DeepSWE 점수 좋네요. 근데 진짜일까?” (MaxxBench – "Nice DeepSWE score. But is it true?")</h3>
+<p>89개 과제의 요구사항과 시작 코드를 바꾸자, 에이전트가 새 요구를 이해하고도 숨은 테스트가 원래 답을 원할 거라 짐작해 맞는 코드를 지운 사례가 나왔다. HN 385점·댓글 103개.</p>
+<span class="tags">코딩 에이전트 · 벤치마크 · 11/07</span>
+</div>
+<a href="https://maxxbench.unlap.ai/research/why-maxxbench/">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[Hacker News · 8rank] 모든 Mac에는 문서화되지 않은 ‘가족 관계 분류기’가 있다 (Every Mac comes with an (undocumented) family member classifier)</h3>
+<p>macOS 13부터 데몬 두 개가 연락처·캘린더·사진·메시지 등을 엮어 기기 안에서 관계 그래프를 만든다는 분석과 확인 도구. HN 844점·댓글 446개.</p>
+<span class="tags">프라이버시 · 애플 · 11/07</span>
+</div>
+<a href="https://8rank.ai/game/apple-intelligence-personal-knowledge-graph">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[Hacker News · hunch.net] 마이크로소프트 리서치 ‘AI Frontiers’ 그룹의 끝 (The end of Microsoft Research's AI Frontiers group)</h3>
+<p>존 랭퍼드가 2023년 만든 약 50명 규모 그룹(Autogen 등)이 끝났고 내년 인턴십도 없다고 직접 밝혔다. HN 490점·댓글 303개.</p>
+<span class="tags">빅테크 연구 · 11/07</span>
+</div>
+<a href="https://hunch.net/?p=13764006">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[The Verge] 앤트로픽의 AI 개발 자동화 보고서가 연구자들을 놀라게 한 이유 (Why a new report on Anthropic automating AI development is alarming researchers)</h3>
+<p>METR가 11주 조사 끝에 앤트로픽 모델의 개선 속도가 1년 전의 약 2배이고 둔화 조짐이 거의 없다고 봤다.</p>
+<span class="tags">AI 안전 · 앤트로픽 · 11/07</span>
+</div>
+<a href="https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[The Verge] 애플, 시리를 더 ‘에이전틱’하게 만들려 속도전 (Apple is racing to make Siri more agentic)</h3>
+<p>블룸버그 보도 인용. 애플이 OpenAI·메타의 에이전트와 겨룰 시리 기능을 앞당기려 한다는 내용.</p>
+<span class="tags">애플 · AI 에이전트 · 11/08</span>
+</div>
+<a href="https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[The Verge] 엘비스·에미넴 권리자들, Suno 제소 (Elvis and Eminem rights holders are suing Suno)</h3>
+<p>두 아티스트를 흉내 낸 음악과 가사를 Suno가 생성한다며 각각 소송을 냈다.</p>
+<span class="tags">AI 음악 · 저작권 · 11/08</span>
+</div>
+<a href="https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[TechCrunch] Underdog, 32MB 음성 모델 데모 공개 (Underdog shows off a 32MB speech model in new demo)</h3>
+<p>32MB 크기로 음성과 음악을 모두 생성하는 모델을 시연했다.</p>
+<span class="tags">온디바이스 · 음성 AI · 11/06</span>
+</div>
+<a href="https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[GlobeNewswire · Research and Markets] 세계 서비스 분석 시장, 2036년 368억 달러 전망 (Global Service Analytics Market Size, Share, Trends, and Forecast, 2026-2036)</h3>
+<p>에이전틱 AI와 클라우드 도입으로 연평균 16.2% 성장한다는 보고서. (검색 결과 제목 기준)</p>
+<span class="tags">시장 전망 · 11/06</span>
+</div>
+<a href="https://www.globenewswire.com/news-release/2026/11/06/3397800/28124/en/global-service-analytics-market-size-share-trends-and-forecast-2026-2036-agentic-ai-and-cloud-adoption-drive-16-2-cagr-creating-a-usd-36-80-billion-opportunity.html">원문 보기 →</a>
+</article>
+</section>
+<section>
+<div class="head black">공식 발표·릴리스 <small>VERIFIED RELEASES · 7건</small>
 </div>
 <p class="note">기업 공식 블로그·변경 기록에서 확인한 실무 기능입니다.</p>
 <article class="item">
 <div>
-<h3>[Google Developers Blog] 에이전트 주의 분산: 오래된 TODO 주석이 코딩 에이전트를 헤매게 한다 (Agent Distraction)</h3>
-<p>세션 13%가 이미 고친 버그의 TODO를 따라가 단계는 70%, 토큰은 77% 늘었다며 주석 정리를 권했다.</p>
-<span class="tags">코딩 에이전트 · 비용 · 11/06</span>
+<h3>[GitHub Changelog] Slack·Teams의 @GitHub 정식 출시 (@GitHub in Slack and Teams is generally available and more)</h3>
+<p>대화창을 떠나지 않고 버그 조사, 이슈 생성, 변경 구현, PR 생성까지 맡길 수 있다.</p>
+<span class="tags">GitHub Copilot · 협업 · 11/06</span>
 </div>
-<a href="https://developers.googleblog.com/agent-distraction/">원문 보기 →</a>
+<a href="https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available">원문 보기 →</a>
 </article>
 <article class="item">
 <div>
-<h3>[GitHub Changelog] Copilot 코드 리뷰: API 관리와 리뷰 요약 개편 (Copilot code review: API management and review overview updates)</h3>
-<p>코드 리뷰 설정을 REST·GraphQL API로 엔터프라이즈부터 저장소까지 관리하고, 리뷰 요약은 더 간결해졌다.</p>
-<span class="tags">GitHub Copilot · 코드 리뷰 · 11/06</span>
+<h3>[Figma 릴리스 노트] AI 이미지 편집에서 클릭 한 번으로 객체 선택 (Select objects even faster with Figma's AI image editing tools)</h3>
+<p>‘Select area’에서 이미지 속 객체를 클릭하면 자동 선택돼 분리하거나 지울 수 있다. macOS 데스크톱 앱 전용.</p>
+<span class="tags">Figma · 이미지 편집 · 11/06</span>
 </div>
-<a href="https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates/">원문 보기 →</a>
+<a href="https://www.figma.com/release-notes/">원문 보기 →</a>
 </article>
 <article class="item">
 <div>
-<h3>[GitHub Changelog] Copilot 임팩트 대시보드, Chat·VS Code 에이전트 사용량 추가 (Copilot impact dashboard adds chat and VS Code agent usage)</h3>
-<p>에이전트 채택 차트가 9개 기능을 추적하고, ‘Passive users’ 지표는 ‘Chat-first users’로 이름이 바뀌었다.</p>
-<span class="tags">GitHub Copilot · 지표 · 11/06</span>
+<h3>[Figma 릴리스 노트] 에이전트가 만드는 벡터 일러스트·아이콘 개선 (Improvements to agent-generated vector illustrations and icons)</h3>
+<p>레이어가 기능별로 묶여 나오고 스타일 참조 이미지를 붙일 수 있다. 선은 stroke로 그려져 굵기를 바꿀 수 있다.</p>
+<span class="tags">Figma · 디자인 에이전트 · 11/05</span>
 </div>
-<a href="https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage/">원문 보기 →</a>
+<a href="https://www.figma.com/release-notes/">원문 보기 →</a>
 </article>
 <article class="item">
 <div>
-<h3>[Mistral] Mistral Studio, 관리형 에이전트·사내 앱·워크플로 추가 (Le Chonk brings the brains. Studio puts it to work.)</h3>
-<p>스킬·샌드박스·하위 에이전트를 쓰는 관리형 에이전트, 사내 앱 호스팅, 워크플로 트리거, MCP 서버를 더했다.</p>
-<span class="tags">Mistral · 엔터프라이즈 에이전트 · 11/05</span>
+<h3>[Google Workspace Updates] 기밀 Docs·Sheets·Slides·Drive 파일에 클라이언트 측 암호화 자동 적용, 베타 (Automatically apply client-side encryption (CSE) to confidential files)</h3>
+<p>관리자가 규칙 엔진 정책으로 민감 파일에 암호화를 자동 적용한다. 전에는 사용자가 직접 암호화 사본을 만들어야 했다.</p>
+<span class="tags">Workspace · 보안 · 11/05</span>
 </div>
-<a href="https://mistral.ai/news/build-with-studio/">원문 보기 →</a>
+<a href="http://workspaceupdates.googleblog.com/2026/11/automatically-apply-client-side-encryption-to-confidential-Editors-and-Drive-files-now-available-in-Beta.html">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[GitHub Changelog] Copilot 사용량 지표 API에 코드 리뷰 상세·반영률 추가 (Usage metrics API adds code review details and addressed rate)</h3>
+<p>저장소별 일간 지표에 Copilot 리뷰 피드백이 실제로 반영됐는지 보여 주는 항목이 생겼다.</p>
+<span class="tags">GitHub Copilot · 지표 · 11/05</span>
+</div>
+<a href="https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[OpenAI] Hacktron과 손잡고 OpenAI 시스템 취약점 찾기 (Partnering with Hacktron to find vulnerabilities in OpenAI's systems)</h3>
+<p>프런티어 AI로 취약점을 찾고 서드파티 연결을 점검해 방어를 강화하는 파트너십.</p>
+<span class="tags">OpenAI · 보안 · 11/06</span>
+</div>
+<a href="https://openai.com/index/partnering-with-hacktron">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[OpenAI] AI 에이전트의 일상 습식 실험 능력 측정, BioBasicsBench (Measuring how AI agents handle everyday wet-lab science)</h3>
+<p>원시 실험 데이터 해석과 일상 실험 업무를 평가하는 100개 과제 벤치마크를 공개했다.</p>
+<span class="tags">OpenAI · 과학 AI · 11/06</span>
+</div>
+<a href="https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science">원문 보기 →</a>
 </article>
 </section>
 <section>
@@ -310,104 +367,112 @@
 </div>
 <div class="actions">
 <div class="action">
-<b>해결된 TODO 지우기</b>
-<br>저장소에서 TODO·FIXME를 검색해 이미 고친 항목을 정리하고, 에이전트 작업 전에 한 번 더 확인합니다.</div>
+<b>에이전트가 지운 줄 보기</b>
+<br>코딩 에이전트가 만든 변경에서 삭제된 줄만 걸러 보고, 테스트를 통과하려고 맞는 코드를 지우지 않았는지 확인합니다.</div>
 <div class="action">
-<b>AI 비용 한 장 정리</b>
-<br>팀이 쓰는 AI 구독·API 비용을 한 표에 모으고, 지난달 실제로 쓴 기능 옆에 적어 봅니다.</div>
+<b>AI 쇼핑 답 비교</b>
+<br>이번 달 살 물건 하나를 AI 두 곳에 같은 문장으로 묻고, 추천 브랜드와 근거가 어떻게 다른지 봅니다.</div>
 <div class="action">
-<b>설문 결과 Gemini에 맡기기</b>
-<br>Google Forms 응답이 쌓인 설문에서 Gemini 인사이트를 열어 사람이 놓친 경향이 있는지 봅니다.</div>
+<b>Slack에서 @GitHub 써 보기</b>
+<br>팀 Slack에 GitHub 앱이 있다면 버그 대화 스레드에서 이슈 만들기를 맡겨 봅니다.</div>
 </div>
 </section>
 <section>
 <div class="head">커뮤니티 레이더 <small>COMMUNITY RADAR · HN · NOTE.COM</small>
 </div>
-<p class="note">커뮤니티와 개인 작성자의 관찰입니다. 이번 호도 Reddit을 읽지 못해 Hacker News와 note.com으로 대체했습니다.</p>
+<p class="note">커뮤니티와 개인 작성자의 관찰입니다. Reddit은 이번에도 읽지 못해 Hacker News와 note.com으로 대체했고, 두 글 모두 본문은 열지 못했습니다.</p>
 <article class="item">
 <div>
-<h3>Hacker News: Opus에게 도움을 청하는 작은 모델이 4배 낮은 비용으로 Opus급 정확도 (A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost)</h3>
-<p>Hightouch가 고객 ID 매칭 판정을 작은 모델에 맡기고 애매할 때만 큰 모델에 묻는 방식으로 비용을 줄였다는 사례. HN 360점. (원문 미열람)</p>
-<span class="tags">비용 최적화 · 11/06 · 커뮤니티 관찰</span>
+<h3>Hacker News: LLM 리버스 엔지니어링이 불법이 되면 오픈소스에도 선례가 될까? (Ask HN: If LLM reverse engineering is deemed illegal, is that precedent for OSS?)</h3>
+<p>LLM 리버스 엔지니어링에 대한 법적 판단이 오픈소스 생태계에 미칠 영향을 묻는 토론. (제목 기준)</p>
+<span class="tags">오픈소스 · AI 법 · 11/07~08 · 커뮤니티 관찰</span>
 </div>
-<a href="https://hightouch.com/blog/llm-judges-identity-resolution">원문 보기 →</a>
+<a href="https://news.ycombinator.com/item?id=50409438">원문 보기 →</a>
 </article>
 <article class="item">
 <div>
-<h3>note.com: 「画像・動画生成AIニュース 2026年11月6日号」 일본 현장형 영상 AI 사례 4건</h3>
-<p>위성 토지 탐색, 돼지 체중 추정 카메라, 공사 현장 안전 감지 등 일본 현장 사례를 모았다.</p>
-<span class="tags">note.com · 11/06(JST) · 커뮤니티 관찰</span>
+<h3>note.com: 「週刊｜話題のAI新製品・新機能ニュース(2026/11/1〜11/7号)」 한 주의 AI 신제품·신기능 모음</h3>
+<p>일본 실무자가 11/1~11/7 AI 신제품과 신기능을 묶어 정리한 주간 글. (제목 기준)</p>
+<span class="tags">note.com · 주간 정리 · 커뮤니티 관찰</span>
 </div>
-<a href="https://note.com/h_kitamura/n/nc67feb90ac74">원문 보기 →</a>
+<a href="https://note.com/yasuhitoo/n/n16302eaa1424">원문 보기 →</a>
 </article>
 </section>
 <section>
-<div class="head">UX·디자인·트렌드 <small>UX · DESIGN · TREND · 2건</small>
+<div class="head">UX·디자인·트렌드 <small>UX · DESIGN · TREND · 3건</small>
 </div>
-<p class="note">주말이라 새 글이 적어 최근 5일 내 글을 포함했습니다. 디지털인사이트 ‘이미지 2.6’ 기사는 지난 호 중복이라 뺐습니다.</p>
+<p class="note">사이트 직접 열람이 막혀 검색으로 찾은 글입니다. 본문과 정확한 날짜는 확인하지 못했고, 트렌드라이트 2건은 최근 7일 내 글로 추정됩니다.</p>
 <article class="item">
 <div>
-<h3>[디지털인사이트] ‘디자이너는 본질 따져야’ 더피프티원이 ‘디렉팅 조직’ 만든 까닭</h3>
-<p>디자이너가 결과물보다 본질을 먼저 따지게 하려고 디렉팅 조직을 따로 만든 이유를 다뤘다. (최근 5일 내 글)</p>
-<span class="tags">디자인 조직 · 11/04</span>
+<h3>[트렌드라이트] 롯데는 왜 라이벌 신세계에 날개를 달아줬을까</h3>
+<p>라이벌 유통사 사이의 의외의 협력을 유통 전략 관점에서 풀어낸 글. (제목 기준, 뉴닉 채널 게재)</p>
+<span class="tags">유통 · 브랜드 전략 · 11/03 추정</span>
 </div>
-<a href="https://ditoday.com/%eb%94%94%ec%9e%90%ec%9d%b4%eb%84%88%eb%8a%94-%eb%b3%b8%ec%a7%88-%eb%94%b0%ec%a0%b8%ec%95%bc-%eb%8d%94%ed%94%bc%ed%94%84%ed%8b%b0%ec%9b%90%ec%9d%b4-%eb%94%94%eb%a0%89%ed%8c%85-%ec%a1%b0%ec%a7%81/">원문 보기 →</a>
+<a href="https://newneek.co/@trendlite/article/48360">원문 보기 →</a>
 </article>
 <article class="item">
 <div>
-<h3>[오픈애즈] “간단한 수정인데요?” 제작자에게 간단한 수정이란 없다</h3>
-<p>자막 한 줄 수정도 화면·타이밍·러닝타임을 건드리므로 기획 단계에서 합의해 두라는 글.</p>
-<span class="tags">협업 · 영상 제작 · 11/06</span>
+<h3>[트렌드라이트] 29CM, 샤넬, 그리고 태리타운의 공통점은?</h3>
+<p>세 브랜드에 공통으로 보이는 전략을 짚는 브랜드 트렌드 글. (제목 기준)</p>
+<span class="tags">브랜딩 · 커머스 · 11/03 추정</span>
 </div>
-<a href="https://alb.openads.co.kr/content/contentDetail?contsId=21102">원문 보기 →</a>
+<a href="https://newneek.co/@trendlite/article/48361">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[디지털인사이트] AI 디자인 세미나 ‘Imagine 2026 with Dnol’ 오는 21일 개최</h3>
+<p>AI 디자인을 주제로 한 세미나가 21일에 열린다는 소식. (제목 기준, 게시일 미확인)</p>
+<span class="tags">AI 디자인 · 세미나</span>
+</div>
+<a href="https://ditoday.com/ai-%EB%94%94%EC%9E%90%EC%9D%B8-%EC%84%B8%EB%AF%B8%EB%82%98-imagine-2026-with-dnol-%EC%98%A4%EB%8A%94-21%EC%9D%BC-%EA%B0%9C%EC%B5%9C/">원문 보기 →</a>
 </article>
 </section>
 <section>
 <div class="head">경제·비즈니스 <small>ECONOMY · 2건</small>
 </div>
-<p class="note">최근 5일 내 주목할 글입니다.</p>
+<p class="note">최근 3일 내 주목할 글입니다. 본문은 열지 못해 제목 기준으로 적었습니다.</p>
 <article class="item">
 <div>
-<h3>[어피티] 저PBR 기업 꼬리표 붙자 주가는 올랐어요</h3>
-<p>한국거래소가 11/1 저PBR 기업 151곳을 지정했고, 개선 계획을 공시한 기업은 1년간 제외된다. (최근 5일 내 글)</p>
-<span class="tags">증시 · 밸류업 · 11/05</span>
+<h3>[뉴닉] 미국 중간선거 후폭풍에 코스피 6% 이상 급락, 서킷브레이커까지 발동된 이유는?</h3>
+<p>미국 중간선거 여파로 코스피가 6% 넘게 떨어져 서킷브레이커가 발동된 배경을 설명한다.</p>
+<span class="tags">증시 · 중간선거 · 11/06~07</span>
 </div>
-<a href="https://uppity.co.kr/%ec%a0%80pbr-%ea%b8%b0%ec%97%85-%ea%bc%ac%eb%a6%ac%ed%91%9c-%eb%b6%99%ec%9e%90-%ec%a3%bc%ea%b0%80%eb%8a%94-%ec%98%ac%eb%9e%90%ec%96%b4%ec%9a%94/">원문 보기 →</a>
+<a href="https://newneek.co/@newneek/article/48459">원문 보기 →</a>
 </article>
 <article class="item">
 <div>
-<h3>[뉴닉] 한양증권 해킹으로 고객정보 유출, 금융권 연쇄 해킹 또 터진 이유는?</h3>
-<p>한양증권이 해킹으로 고객정보 일부 유출을 확인했지만 규모·원인은 아직 공개하지 않았다. (최근 5일 내 글)</p>
-<span class="tags">보안 사고 · 금융 · 11/03</span>
+<h3>[뉴닉] 미래에셋증권 해킹으로 3만 9천 명 정보 유출, 고객 계좌번호에 임직원 연락처까지</h3>
+<p>미래에셋증권 해킹으로 약 3만 9천 명의 계좌번호와 임직원 연락처 등이 유출됐다.</p>
+<span class="tags">보안 사고 · 금융 · 11/06~07</span>
 </div>
-<a href="https://newneek.co/@newneek/article/48325">원문 보기 →</a>
+<a href="https://newneek.co/@newneek/article/48462">원문 보기 →</a>
 </article>
 </section>
 <section>
 <div class="head">수집 제한 사이트 <small>COLLECTION LIMITS</small>
 </div>
-<p class="note">이번 실행에서도 사이트 첫 페이지 직접 열람이 대부분 막혀 웹 검색으로 URL을 찾은 뒤 개별 글을 읽었습니다. 아래 사이트는 11/06~11/08 새 글을 확인하지 못했거나 페이지를 읽지 못했습니다. 요즘IT·트렌드라이트·뉴스젤리 최신 글과 Anthropic·Meta·Google Vids 새 소식은 지난 호와 겹쳐 제외했고, ChatGPT GIF(이미지 2.6)도 같은 이유로 뺐습니다. X는 API 자격 증명이 없어 수집하지 않았습니다.</p>
+<p class="note">이번 실행에서는 페이지 직접 열람 도구가 모두 막혀 RSS·공개 피드와 웹 검색으로 대신했습니다. 아래 사이트는 11/07~11/09 새 글을 확인하지 못했거나, 새 글이 지난 호와 겹쳤습니다. X는 API 자격 증명이 없어 수집하지 않았습니다.</p>
 <div class="limits">
-<a href="https://platum.kr/trends">Platum</a>
-<a href="https://blog.sknetworks.co.kr/?cat=1323">SKN AI트렌드</a>
-<a href="https://news.appstory.co.kr/news/">앱스토리</a>
-<a href="https://d2.naver.com/home">NAVER D2</a>
-<a href="https://www.hanbit.co.kr/channel/">한빛 채널H</a>
+<a href="https://outstanding.kr">아웃스탠딩(새 글 중복)</a>
+<a href="https://blog.sknetworks.co.kr/?cat=1323">SKN AI트렌드(인증서 오류)</a>
+<a href="https://news.appstory.co.kr/news/">앱스토리(접속 끊김)</a>
 <a href="https://brunch.co.kr/keyword/AI">브런치 AI</a>
-<a href="https://brunch.co.kr/@hailey-kim">헤일리 브런치</a>
-<a href="https://yozm.wishket.com/magazine/">요즘IT(새 글 없음)</a>
-<a href="https://www.canda.blog/">canda.blog(새 글 없음)</a>
+<a href="https://brunch.co.kr/@hailey-kim">헤일리 브런치(새 글 없음)</a>
+<a href="https://yozm.wishket.com/magazine/">요즘IT</a>
+<a href="https://www.canda.blog/">canda.blog</a>
+<a href="https://www.openads.co.kr/content?category=CC49">오픈애즈</a>
 <a href="https://think-note.com/">생각노트</a>
 <a href="https://www.surfit.io/">서핏</a>
-<a href="https://trendlite.stibee.com/">트렌드라이트(새 호 없음)</a>
+<a href="https://trendlite.stibee.com/">트렌드라이트 스티비</a>
 <a href="https://newsjel.ly/blog">뉴스젤리(새 글 없음)</a>
-<a href="https://www.theverge.com/ai-artificial-intelligence">The Verge AI</a>
-<a href="https://openai.com/news/">OpenAI 뉴스</a>
+<a href="https://uppity.co.kr/">어피티(날짜 미확인)</a>
+<a href="https://venturebeat.com/category/ai/">VentureBeat(중복)</a>
 <a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes">ChatGPT 릴리스 노트</a>
 <a href="https://www.anthropic.com/news">Anthropic(새 글 없음)</a>
-<a href="https://blog.google/innovation-and-ai/">Google AI 블로그</a>
-<a href="https://www.figma.com/release-notes/">Figma(날짜 미표시)</a>
+<a href="https://blog.google/innovation-and-ai/">Google AI 블로그(새 글 없음)</a>
+<a href="https://developers.googleblog.com/">Google Developers(새 글 없음)</a>
 <a href="https://helpx.adobe.com/firefly/web/whats-new/new-features/whats-new.html">Adobe Firefly(새 글 없음)</a>
+<a href="https://mistral.ai/news/">Mistral(중복)</a>
 <a href="https://news.zoom.com/">Zoom(새 글 없음)</a>
 <a href="https://about.fb.com/news/">Meta(중복)</a>
 <a href="https://www.reddit.com/r/LocalLLaMA/">Reddit 4개 서브</a>
@@ -418,22 +483,104 @@
 <div class="tab-panel" id="local">
 <section class="hero">
 <div class="wrap">
-<small>YONGSAN · SEOUL</small>
-<h1>영어도서관 겨울학기 막차,<br>천 년 된 돈황 사경을 만나다.</h1>
-<p>2026년 11월 8일 기준입니다. 이번 호도 용산구청·어린이정원·육아종합지원센터 공식 목록 페이지를 직접 읽지 못해 도서관·용산문화재단·박물관 페이지와 2차 출처로 확인한 일정만 담았습니다. 6세만을 위한 새 프로그램은 찾지 못했고, 어린이 프로그램은 대부분 초등 대상입니다. 신청 전 원문에서 시간·비용을 꼭 확인하세요.</p>
+<small>YONGSAN · SEOUL · WEEKLY</small>
+<h1>토요일 오후부터 비 소식,<br>주말은 박물관 쪽으로.</h1>
+<p>2026년 11월 9일 월요일 기준, 주간 동네 탐색 호입니다. 이번 주 토요일은 구름 많고 오후 강수확률 60%, 일요일은 흐리고 비 예보라 실내 나들이를 먼저 골랐습니다. 용산구청·당근·육아종합지원센터 등 동네 공식 페이지는 이번에도 읽지 못해, 웹 검색으로 원문을 확인한 일정만 담았습니다. 신청 전 원문에서 시간·비용을 꼭 확인하세요.</p>
 </div>
 </section>
 <section>
 <div class="head black">이번 주 꼭 볼 것 <small>WEEKLY PICKS</small>
 </div>
 <ol>
-<li><b>청파 어린이영어도서관 겨울학기 추가 모집</b>은 11/21(토)까지 받습니다. 반마다 2~5자리만 남았어요(초등 대상).</li>
-<li><b>11/14(토) 용산아트홀 K-팝페라 갈라콘서트</b>가 열리고, 기획전시 〈도시질감〉은 11/15에 끝납니다.</li>
-<li><b>국립중앙박물관 ‘돈황 불교 사경’ 특별공개</b>는 2027년 1/24까지. 이촌역에서 걸어가 어린이박물관과 묶어 보세요.</li>
+<li><b>주말 날씨</b>: 토 11/14 8~15℃ 구름 많음(오후 비 가능), 일 11/15 11~14℃ 흐리고 비. 바깥 산책은 토요일 오전이 낫습니다.</li>
+<li><b>서울시립미술관 서소문본관 무료 소장품전 《기술의 저변》</b>은 11/22에 끝납니다. 시청역에서 가깝습니다.</li>
+<li><b>국립중앙박물관 어린이박물관</b>은 이촌역에서 걸어갈 수 있어 비 오는 주말에 가장 가깝습니다.</li>
 </ol>
 </section>
 <section>
-<div class="head">용산, 서울 프로그램 <small>08 NOV — 22 NOV</small>
+<div class="head black">주간 동네 탐색 ① 무료 행사 <small>FREE · 09 NOV — 23 NOV</small>
+</div>
+<p class="note">용산·4호선·경의선 라인 중심, 무료로 확인한 행사입니다. 지하철역은 원문에 없어 가까운 역을 적었습니다. 원데이클래스와 지역축제·마켓은 무료로 확인한 항목이 없습니다.</p>
+<table class="local-table">
+<thead>
+<tr>
+<th>행사명</th><th>분류</th><th>장소(역)</th><th>일시</th><th>한 줄 설명 · 신청</th><th>링크</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>가나아트컬렉션 《기술의 저변: 경계에 선 장면들》</td><td>무료전시</td><td>서울시립미술관 서소문본관 2층 (시청역)</td><td>~11/22 · 화~목 10~20시, 금 10~21시</td><td>마감이 가까운 소장품전 · 신청 불필요</td><td><a href="https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1509709">원문 보기 →</a></td>
+</tr>
+<tr>
+<td>2026 서울조각페스티벌 (제3회)</td><td>무료전시</td><td>열린송현녹지광장 (안국역)</td><td>~11/30 · 전시 상시, 프로그램 토 16~21시·일 14시~</td><td>야외 조각전, 아이와 산책하며 보기 좋음 · 신청 여부 미기재</td><td><a href="https://artinseoul.kr/">원문 보기 →</a></td>
+</tr>
+<tr>
+<td>국립중앙박물관 고대 그리스·로마실</td><td>박물관행사</td><td>국립중앙박물관 (이촌역)</td><td>상설 ~2027.5/30</td><td>그리스·로마 상설전시, 무료 · 신청 불필요</td><td><a href="https://www.museum.go.kr/MUSEUM/contents/M0201090600.do?showHallId=756&amp;showroomCode=DM0077">원문 보기 →</a></td>
+</tr>
+<tr>
+<td>2026 동작사육신 충효예술한마당</td><td>무료전시</td><td>사육신 역사관·야외마당 갤러리 (노들역)</td><td>~11/28 · 9~18시 (일·월 휴무)</td><td>노들섬 건너편 역사공원 전시 · 신청 여부 미기재</td><td><a href="https://www.idfac.or.kr/bbs/board.php?bo_table=gallery_info&amp;wr_id=324">원문 보기 →</a></td>
+</tr>
+<tr>
+<td>본동 세레나데</td><td>무료공연</td><td>본동어울마당 아트홀 (노들역)</td><td>둘째 주 수 19:00 · 셋째 주 토 14:00 (11/11, 11/21 해당)</td><td>동네 소공연 · 신청 여부 미기재</td><td><a href="https://www.idfac.or.kr/bbs/board.php?bo_table=notice&amp;wr_id=445">원문 보기 →</a></td>
+</tr>
+<tr>
+<td>큰 즐거움이 있는 길, 대-락(樂)로</td><td>무료공연</td><td>서울연극센터 1층 라운지 (혜화역)</td><td>~11/21 · 매주 토 17:00·22:00</td><td>대학로 라운지 프로그램 · 신청 여부 미기재</td><td><a href="https://www.sfac.or.kr/participation/sfac_program.do?pageIndex=&amp;eduMstSeq=37392&amp;eduScheSeq=&amp;mode=VIEW&amp;mstStatus=&amp;eduGubunSel=">원문 보기 →</a></td>
+</tr>
+<tr>
+<td>2026 문화가 흐르는 서울광장</td><td>무료공연</td><td>서울광장 야외무대 (시청역)</td><td>~12/31 · 18:00~19:30</td><td>저녁 야외공연 · 신청 여부 미기재</td><td><a href="https://cultureseoul.co.kr/2026/">원문 보기 →</a></td>
+</tr>
+<tr>
+<td>6월 민주항쟁 39주년 특별전 《이런 양심수》</td><td>무료전시</td><td>이한열기념관 3층 (신촌역)</td><td>~11/30 · 평일 10~17시</td><td>민주화운동 기획전 · 신청 불필요</td><td><a href="http://www.leememorial.or.kr/?tpf=memorial%2Fplan_view&amp;board_code=18&amp;code=7178">원문 보기 →</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section>
+<div class="head black">주간 동네 탐색 ② 주말 날씨와 아이 나들이 <small>WEEKEND · 6세</small>
+</div>
+<table class="local-table">
+<thead>
+<tr>
+<th>날짜</th><th>판정</th><th>예보</th><th>기온</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11/14(토)</td><td>비</td><td>오전·오후 구름 많음 · 강수확률 오전 20% / 오후 60%</td><td>8℃ / 15℃</td>
+</tr>
+<tr>
+<td>11/15(일)</td><td>비</td><td>오전·오후 흐리고 비 · 강수확률 오전 60% / 오후 20%</td><td>11℃ / 14℃</td>
+</tr>
+</tbody>
+</table>
+<p class="note">WeatherAPI는 이번 실행에서 11/11까지 3일치만 돌려줘, 기상청 중기예보(11/8 06시 발표, <a href="https://www.weather.go.kr/w/forecast/overall/mid-term.do?stnId1=109">원문</a>)로 대신 판정했습니다. 강수확률 50% 이상이라 두 날 모두 ‘비’로 보고 실내 위주로 골랐습니다. 토요일 오전에는 용산가족공원 짧은 산책도 괜찮겠습니다.</p>
+<p><b>비 오는 날 실내 추천</b></p>
+<ul>
+<li><a href="https://place.map.kakao.com/8049798">국립중앙박물관 어린이박물관</a> — 이촌역, 집에서 가장 가까운 선택. 12/15부터 예약 후 미입장 자동 취소가 20분으로 짧아집니다.</li>
+<li><a href="https://place.map.kakao.com/1955379751">국립어린이과학관</a> — 혜화역, 4호선 한 번에.</li>
+<li><a href="https://place.map.kakao.com/1841630705">서울상상나라</a> — 어린이대공원 안, 6세 놀이 체험 위주.</li>
+<li><a href="https://place.map.kakao.com/1610780291">서울시립과학관</a> — 노원, 체험형 전시.</li>
+<li><a href="https://place.map.kakao.com/1873127229">국립항공박물관</a> — 김포공항 근처, 비행기 좋아하는 아이에게.</li>
+</ul>
+<p class="note">KCISA 공연·전시 API로 ‘어린이’·‘가족’·‘체험’을 조회했지만(각 100건), 서울·6세 적합·기간 조건을 모두 맞춘 행사는 없었습니다.</p>
+</section>
+<section>
+<div class="head black">주간 동네 탐색 ③ 이촌/용산 동네 이야기 <small>NEIGHBORHOOD</small>
+</div>
+<p class="note">당근 이촌동 동네행사·커뮤니티 페이지는 접근이 막혀 읽지 못했습니다. 대신 지난 주말 용산 소식을 보도 기사로 모았습니다.</p>
+<ul>
+<li><b>가을 물든 용산어린이정원 걸었다…구민 400여 명 참여</b> — 11/7 ‘가을산책, 용산어린이정원 한바퀴’에 스탬프투어, 체험부스 6개, 페이스페인팅이 있었습니다. <a href="https://www.dailyt.co.kr/newsView/dlt202611090011">데일리환경 11/09 →</a></li>
+<li><b>용산구, ‘보육인의 날’ 행사서 300여 명 격려</b> — 제목만 확인. <a href="https://www.segye.com/newsView/20261108504307">세계일보 11/08 →</a></li>
+<li><b>용산구 마을공동체, 남영동 가로수 50그루에 손뜨개 옷</b> — 제목만 확인. <a href="https://www.seoul.co.kr/news/publicnews/seoul_local/news_seoul/2026/11/04/20261104500210">서울신문 11/04 →</a></li>
+</ul>
+</section>
+<section>
+<div class="head black">주간 동네 탐색 ④ 용산구청 어린이·체육·유치원 새소식 <small>YONGSAN-GU</small>
+</div>
+<p class="note">용산구청 새소식·행사/교육 게시판을 이번 실행에서 읽지 못해 ‘어린이·체육·유치원’ 글을 확인하지 못했습니다. 위 ‘보육인의 날’ 기사가 관련 소식으로 유일하게 확인됐습니다. 게시판에서 직접 확인해 주세요: <a href="https://www.yongsan.go.kr/portal/bbs/B0000041/list.do?menuNo=200228">새소식</a> · <a href="https://www.yongsan.go.kr/portal/bbs/B0000042/list.do?menuNo=200229">행사/교육</a></p>
+</section>
+<section>
+<div class="head">용산, 서울 프로그램 <small>09 NOV — 24 NOV</small>
 </div>
 <table class="local-table">
 <thead>
@@ -443,58 +590,47 @@
 </thead>
 <tbody>
 <tr>
-<td>[청파영어] 2026 겨울학기 추가 모집 (토요 리더스 베이직·북클럽·Smart Media Club·Copycat Story 등 10개 반)</td><td>용산구립 청파 어린이영어도서관</td><td>11/30 또는 12/1 ~ 2027년 2월 말 (반별 상이)</td><td>11/7(토)~11/21(토) 접수 · 반별 잔여 2~5명</td><td>초등 · 비용 미기재 (6세 해당 없음)</td><td><a href="https://www.yslibrary.or.kr/intro/unityLectureList.do">원문 보기 →</a></td>
+<td>팝페라그룹 카르디오와 함께하는 ‘Falling in Love 용산’</td><td>용산아트홀 대극장 미르 (녹사평역)</td><td>11/24(화) · 시간 미기재</td><td>미기재</td><td>미기재</td><td><a href="https://yongsanculture.or.kr/site/main/performance/PERFORMANCE/view/233">원문 보기 →</a></td>
 </tr>
 <tr>
-<td>[부모 교육] 당당하고 건강한 딸로 키우는 우리집 성교육</td><td>용마루어린이도서관</td><td>11/20 · 시간 미기재</td><td>미기재 (상세 페이지 미열람)</td><td>부모 · 비용 미기재</td><td><a href="https://www.yslibrary.or.kr/yongmaru/lectureDetail.do?lectureIdx=6838">원문 보기 →</a></td>
-</tr>
-<tr>
-<td>[용마루 창작 프로그램] 나도 작가 프로젝트!</td><td>용마루어린이도서관</td><td>11/12~11/19</td><td>미기재 (상세 페이지 미열람)</td><td>초3~4 · 비용 미기재</td><td><a href="https://www.yslibrary.or.kr/yongmaru/lectureDetail.do?lectureIdx=6842">원문 보기 →</a></td>
-</tr>
-<tr>
-<td>임형주와 함께하는 K-팝페라 페스티벌 in 용산 〈K팝페라 갈라콘서트〉</td><td>용산아트홀 대극장 미르 (녹사평역)</td><td>11/14(토) · 시간 미기재</td><td>미기재</td><td>미기재</td><td><a href="https://yongsanculture.or.kr/site/main/performance/PERFORMANCE/view/231">원문 보기 →</a></td>
-</tr>
-<tr>
-<td>이탈리아 만토바 체임버 오케스트라 내한공연 with 테너 임형주</td><td>용산아트홀 대극장 미르</td><td>11/20(금) · 시간 미기재</td><td>미기재</td><td>미기재</td><td><a href="https://yongsanculture.or.kr/site/main/performance/PERFORMANCE/view/230">원문 보기 →</a></td>
-</tr>
-<tr>
-<td>2026 용산아트홀 기획전시 〈도시질감〉 · 협력전시 ‘Green Room by YEON YEOIN’</td><td>용산아트홀 전시장 · 용산문화재단 1층 팝업홀</td><td>도시질감 ~11/15 · 그린룸 ~11/28</td><td>미기재</td><td>미기재</td><td><a href="https://yongsanculture.or.kr/site/main/performance/EXHIBITION/view/228">원문 보기 →</a></td>
-</tr>
-<tr>
-<td>천년의 봉인을 열다: 돈황 불교 사경 소장품 특별공개</td><td>국립중앙박물관 상설전시관 3층 중앙아시아실 (이촌역)</td><td>10/23 ~ 2027.1/24</td><td>미기재</td><td>가족 관람 가능 · 요금 미기재 (2차 출처는 무료로 표기)</td><td><a href="https://www.museum.go.kr/MUSEUM/contents/M0202010000.do?menuId=current">원문 보기 →</a></td>
-</tr>
-<tr>
-<td>〈어쩌다 마주친 공예 in 노들섬〉 (2026 신당창작아케이드)</td><td>노들섬 노들서가 아트스페이스 엣지 1층 (노들역)</td><td>~12/31 · 화~일 10:00~20:00 (월 휴무)</td><td>신청 불필요</td><td>무료 · 대상 미기재 · 2차 출처</td><td><a href="https://www.sfac.or.kr/artspace/artspace/sindang_notice.do?bcIdx=137937">원문 보기 →</a></td>
+<td>2026년 〈크리스마스 아틀리에〉 아트마켓 참여자 모집</td><td>용산문화재단 공지 (11/04 게시)</td><td>미기재</td><td>미기재 (본문 미열람)</td><td>판매자 모집 공고 · 대상·비용 미기재</td><td><a href="https://yongsanculture.or.kr/site/main/archive/post/2026%EB%85%84-%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4-%EC%95%84%ED%8B%80%EB%A6%AC%EC%97%90-%EC%95%84%ED%8A%B8%EB%A7%88%EC%BC%93-%EC%B0%B8%EC%97%AC%EC%9E%90-%EB%AA%A8%EC%A7%91-%EC%95%88%EB%82%B4">원문 보기 →</a></td>
 </tr>
 </tbody>
 </table>
 </section>
-<p class="note">짧은 공지: 용산꿈나무도서관 2026년 희망도서 신청은 11/10(화) 마감입니다. 국립중앙박물관 어린이박물관은 12/15부터 예약 후 미입장 시 회차 시작 20분 뒤 자동 취소됩니다(현재 30분).</p>
-<p class="note">읽지 못한 사이트 (타임슬립 용산타임·반짝반짝 남산밤길·한강역사탐방·국중박 ‘일요일 오후, 박물관’·용산역사박물관 청음회는 지난 호에 실려 제외했습니다)</p>
+<p class="note">짧은 공지: 국립한글박물관은 화재 복구·증축 공사로 휴관 중이며, 전시는 대한민국역사박물관(종로) 등 외부에서 열립니다. 한강역사탐방(~11/15)·도시질감(~11/15)·K-팝페라 갈라콘서트(11/14)·만토바 체임버(11/20)·어쩌다 마주친 공예 in 노들섬은 지난 호에 실려 제외했습니다.</p>
+<p class="note">읽지 못한 사이트</p>
 <div class="limits">
 <a href="https://www.yongsan.go.kr/portal/bbs/B0000041/list.do?menuNo=200228">용산구청 새소식</a>
 <a href="https://www.yongsan.go.kr/portal/bbs/B0000042/list.do?menuNo=200229">용산구청 행사/교육</a>
-<a href="https://yedu.yongsan.go.kr/pms/board/list.do?boardidn=1024&amp;sitecdv=S0000500&amp;decorator=user27EdTotal&amp;menucdv=04010000">용산구 교육센터</a>
+<a href="https://blog.naver.com/ysnblog">용산구청 블로그</a>
+<a href="https://yongsannews.com/">용산구소식</a>
+<a href="https://www.yongsantown.com/">동네소식</a>
+<a href="https://yscl.go.kr/">용산구의회</a>
+<a href="https://parkyongsan.kr/front/index.do">용산공원</a>
 <a href="https://yongsanparkstory.kr/program/event.html?bcCat=5">용산어린이정원 행사</a>
+<a href="https://yongsanyouth.or.kr/mber/crs/list.do?menuNo=1400000">용산e</a>
+<a href="https://yedu.yongsan.go.kr/pms/board/list.do?boardidn=1024&amp;sitecdv=S0000500&amp;decorator=user27EdTotal&amp;menucdv=04010000">용산구 교육센터</a>
+<a href="https://www.yslibrary.or.kr/dream/menu/10119/program/30046/lectureList.do">용산구립도서관 강좌</a>
 <a href="https://museum.yongsan.go.kr/edus/index">용산역사박물관</a>
 <a href="https://ysccic.or.kr/sub/center/program_form2.htm">육아종합지원센터</a>
-<a href="https://yongsannews.com/">용산구소식</a>
-<a href="https://blog.naver.com/ysnblog">용산구청 블로그</a>
 <a href="http://yongsan.kccf.or.kr/">용산문화원</a>
+<a href="https://www.museum.go.kr/MUSEUM/contents/M0403010000.do">국립중앙박물관 교육</a>
+<a href="https://nodeul.org/programs/">노들섬</a>
 <a href="https://yeyak.seoul.go.kr/web/search/selectPageListTotalSearch.do">서울예약</a>
-<a href="https://nodeul.org/programs/">노들섬(11월 프로그램 없음)</a>
+<a href="https://www.daangn.com/kr/community/s/?in=이촌동-6244">당근 이촌동</a>
 </div>
 </div>
 <div class="tab-panel" id="youtube">
 <section class="hero">
 <div class="wrap">
 <small>YOUTUBE PICKS</small>
-<h1>보통 사람의 직업 이야기부터<br>첫 집 계약서까지, 아홉 개의 일상.</h1>
-<p>공식 @핸들 링크와 최근 영상 날짜를 YouTube 데이터로 확인한 채널만 남겼습니다. 지난번에 비어 있던 일·삶 인터뷰, 첫 집 마련, 디자인·Figma, 용산 생활 장르를 채웠고, 일본 채널 3개는 운영자 얼굴 출연을 썸네일로 확인했습니다. 한국 6 · 일본 3.</p>
+<h1>디자이너의 작업실부터<br>벽돌책 읽는 일주일까지, 열 개의 일상.</h1>
+<p>공식 @핸들 링크와 최근 영상 날짜를 YouTube 데이터로 확인한 채널만 남겼습니다. 지난번 비어 있던 디자이너 일상, 영어 학습, 독서·인문 장르를 채웠고, 일본 채널 3개는 최신 썸네일에서 운영자 얼굴을 확인했습니다. 한국 7 · 일본 3.</p>
 </div>
 </section>
 <section>
-<div class="head black">이번 추천 <small>9 CHANNELS</small>
+<div class="head black">이번 추천 <small>10 CHANNELS</small>
 </div>
 <table class="local-table">
 <thead>
@@ -504,36 +640,39 @@
 </thead>
 <tbody>
 <tr>
-<td>직업의모든것 All about jobs</td><td>자영업자·공무원·기술직 같은 보통 직업인의 삶과 일을 깊게 묻는 인터뷰 채널(구독 106만). 지금은 격투기 선수 맘모스 김명환 인터뷰를 연재 중. 최근 영상 11/07 확인.</td><td>평범한 사람들의 일·삶 인터뷰 · 격투기 · 한국</td><td><a href="https://www.youtube.com/@jikmo.">원문 보기 →</a></td>
+<td>뭔데이</td><td>공간·그래픽 디자인 스튜디오 ‘데이데이’가 시안부터 시공·브랜딩까지 일하는 과정을 기록한다. “육아와 일을 병행하는 공간디자이너의 일상” 편도 있다(구독 약 5.2천). 최근 영상 11/03 확인.</td><td>디자이너 일상 · 워킹맘 · 한국</td><td><a href="https://www.youtube.com/@teamdayday">원문 보기 →</a></td>
 </tr>
 <tr>
-<td>기묘인 myoin</td><td>판교로 출근하는 신혼 직장인. 서울 첫 집 마련 과정과 비용을 공개한 영상(9/21)과 내 집 마련 브이로그가 있고 출근룩·운동·용산 카페 영상도 있다. 쇼핑 영상 비중이 조금 있다. 최근 영상 11/05 확인.</td><td>첫 집 마련 기록 · 오피스룩 · 한국</td><td><a href="https://www.youtube.com/@myo_inn">원문 보기 →</a></td>
+<td>이율</td><td>짧은 에세이처럼 찍은 혼자 생활 브이로그. 광고 없이 잔잔하고 사색적이다. “여유로운 이촌동 산책” 편이 있지만 이촌동 주민인지는 미확인. 최근 영상 11/07 확인.</td><td>차분한 1인 생활 · 사색 · 한국</td><td><a href="https://www.youtube.com/@leeyul322">원문 보기 →</a></td>
 </tr>
 <tr>
-<td>주주주미 jujujumi</td><td>“40대 1인가구로 살아가는 일상”. 반려견과의 주말, 빨래, 집에서 보내는 시간을 매주 토요일쯤 담담하게 올린다. 최근 영상 11/01 확인.</td><td>차분한 1인 생활 · 40대 · 한국</td><td><a href="https://www.youtube.com/@주주주미">원문 보기 →</a></td>
+<td>지뭠 mwmij</td><td>6년째 이어 온 출근 전·퇴근 후 공부 루틴과 이직 준비 기록. “영어 공부 툴을 AI로 직접 만든 이유” 같은 영상도 있다(구독 약 1만). 최근 영상 11/08 확인.</td><td>영어 학습 · 커리어 · 루틴 · 한국</td><td><a href="https://www.youtube.com/@mwmij">원문 보기 →</a></td>
 </tr>
 <tr>
-<td>주낑깡</td><td>“용산 사는 나의 맛집 루틴”(2025.6) 영상에서 용산 거주를 밝힌 일상 채널. 커튼을 직접 만드는 인테리어 영상과 메이크업 영상이 섞여 있다. 현재도 용산 거주인지는 미확인. 최근 영상 11/03(쇼츠) 확인.</td><td>용산 생활 · 인테리어 · 뷰티 · 한국</td><td><a href="https://www.youtube.com/@jjjjjooooon_n">원문 보기 →</a></td>
+<td>소라 soraday</td><td>원서 100권 넘게 읽은 운영자가 미드·원서로 하는 영어 공부와 원서 고르는 법을 다룬다. 최근 영상 11/08 확인.</td><td>영어 학습 · 독서 · 한국</td><td><a href="https://www.youtube.com/@소라.soraday">원문 보기 →</a></td>
 </tr>
 <tr>
-<td>피튜브</td><td>Friends of Figma KR 리더가 운영하는 피그마·디자인 실무 팁과 AI를 디자인에 쓰는 법(구독 3.8만). 브이로그가 아닌 정보 채널. 최근 영상 11/06 확인.</td><td>디자인·Figma · 한국</td><td><a href="https://www.youtube.com/@figma_tutor">원문 보기 →</a></td>
+<td>습관언니 Booklog</td><td>철학 벽돌책과 고전을 일주일 단위로 읽는 독서 브이로그. 거의 매주 올라온다(구독 약 2.9천). 최근 영상 11/07 확인.</td><td>독서·인문 · 한국</td><td><a href="https://www.youtube.com/@routine_sister">원문 보기 →</a></td>
 </tr>
 <tr>
-<td>한블랙</td><td>20년 차 40대 패션 디자이너 한동우의 채널. 전국 빈티지숍을 찾아다니는 시리즈와 디자이너의 하루를 차분한 톤으로 담는다. 최근 영상 11/07 확인.</td><td>패션·디자이너 일상 · 한국</td><td><a href="https://www.youtube.com/@haanblck">원문 보기 →</a></td>
+<td>마스 심플라이프 MasSimpleLife</td><td>직장 다니며 건강·미니멀·절약을 챙기는 40대 워킹맘. “서울에 아파트를 사고나서 깨달은 것들” 같은 실거주자 경험과 집밥 루틴이 있다(구독 약 4.2만). 최근 영상 11/08 확인.</td><td>40대 워킹맘 · 미니멀 · 내 집 마련 · 한국</td><td><a href="https://www.youtube.com/@MasSimpleLife">원문 보기 →</a></td>
 </tr>
 <tr>
-<td>アラフィフあや |ソウル暮らし</td><td>서울 생활 14년 차, 일본어 강사로 10년 일한 50대 일본인 여성의 일상. 시어머니 칠순 잔치, 해방촌 나들이처럼 꾸밈없는 생활을 담는다. 올해 3월 시작한 작은 채널이라 광고가 없다. 썸네일에서 본인 얼굴 확인. 최근 영상 11/05 확인.</td><td>서울 생활 · 일본(한국 거주)</td><td><a href="https://www.youtube.com/@ayalifeinseoul">원문 보기 →</a></td>
+<td>혜치 hyechichi</td><td>“5시 기상, 갓생 사는 직장인” 시리즈로 아침 루틴과 주 5회 운동, 식단을 기록한다. 최신 영상에 협찬 고지와 하울이 섞여 있다. 최근 영상 11/08 확인.</td><td>운동·자기관리 루틴 · 한국</td><td><a href="https://www.youtube.com/@hyechichi-we1vj">원문 보기 →</a></td>
 </tr>
 <tr>
-<td>すめばみやこ정들면고향</td><td>서울에 살며 일본 회사에서 재택근무하는 일본인 아내의 한일 부부 브이로그. 최근 이사와 집 고치기 과정을 연재 중. 썸네일에서 본인 얼굴 확인. 최근 영상 11/06 확인.</td><td>이사·집 꾸미기 · 일하는 여성 · 일본(한국 거주)</td><td><a href="https://www.youtube.com/@sumebamiyako">원문 보기 →</a></td>
+<td>りなの韓国生活 리나의 한국생활</td><td>유학을 거쳐 한국 기업에 취업한 30세 일본인 회사원의 브이로그. 직장 생활과 한일 생활 비교를 솔직하게 다룬다(구독 약 4천). 썸네일에서 본인 얼굴 확인. 최근 영상 11/08 확인.</td><td>서울 직장인 일상 · 일본(한국 거주)</td><td><a href="https://www.youtube.com/@韓国留学生りな">원문 보기 →</a></td>
 </tr>
 <tr>
-<td>미사닝</td><td>한국 회사에 다니는 30대 초반 일본인 직장인의 출근과 휴일 브이로그(구독 24만). MCN 소속이라 광고성 쇼츠가 섞여 있다. 썸네일에서 본인 얼굴 확인. 최근 영상 11/06(쇼츠) 확인, 긴 브이로그는 10/25.</td><td>서울 직장인 일상 · 일본(한국 거주)</td><td><a href="https://www.youtube.com/@1misa._.ning1">원문 보기 →</a></td>
+<td>おまゆ오마유 韓国生活</td><td>서울 거주 9년 차 일본인 여성의 1인 일상. 혼자 다시 서는 과정, 이사, 한국 화장품 회사 이야기를 차분하게 담는다(구독 약 2.1만). 썸네일에서 본인 얼굴 확인. 최근 영상 11/05 확인.</td><td>1인 생활 · 서울 생활 · 일본(한국 거주)</td><td><a href="https://www.youtube.com/@omayulifeinkorea">원문 보기 →</a></td>
+</tr>
+<tr>
+<td>이슬이의 한국생활 / しずくちゃんの韓国生活</td><td>세종시에 사는 한일 부부와 딸의 일상. 일본인 엄마가 생후 7개월 딸을 혼자 돌보는 하루처럼 육아 현실을 보여 준다. 한·일 자막(구독 약 1.8만). 서울이 아닌 세종. 썸네일에서 본인 얼굴 확인. 최근 영상 11/07 확인.</td><td>육아 · 한국 생활 · 일본(한국 거주)</td><td><a href="https://www.youtube.com/@dewKoreanLife">원문 보기 →</a></td>
 </tr>
 </tbody>
 </table>
 </section>
-<p class="note">제외: 최근 업로드가 끊긴 채널(일본잉·꽃내랑 UXUI디자이너·이유닝닝·독립여정), 얼굴이 나오지 않는 채널(リスタート!!アラフォーからの韓国生活), 낚시성 제목·광고 위주 채널(미호TV·リコ짱·しずかちゃんのアジア歩き·오근·はりん), 유명인 채널(순풍 선우용여, 이촌동 영상은 있음). 이촌동 일반인 생활, 디자이너 하루 브이로그, 영어 학습, 독서·인문 장르는 조건에 맞는 새 채널을 찾지 못했습니다(YouTube 검색 할당량 소진으로 웹 검색 병행).</p>
+<p class="note">제외: 얼굴 출연을 확인하지 못한 채널(misoの韓国ぐらし·韓国生活@スナツ), 광고성이 강한 대형 채널(Amaneあまね), 독자층과 맞지 않는 채널(Maya Asahi), 영상·구독이 너무 적은 채널(이촌두턱이·포로리 등), 쇼핑·하울 비중이 큰 오피스룩 채널(채수니·지수씨네), 업로드가 끊긴 인터뷰 채널(아나로그), 연예인·중개사 홍보 채널. 이촌동 일반인 생활, 일·삶 인터뷰, 격투기 장르는 조건에 맞는 새 채널을 찾지 못했습니다(YouTube 검색 할당량 소진으로 페이지 확인 병행).</p>
 </div>
 </main>
 <dialog class="favorites-dialog" id="favorites-dialog">
