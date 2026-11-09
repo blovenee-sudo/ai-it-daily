@@ -34,3 +34,4 @@
 - 2026-11-09 · https://www.youtube.com/@韓国留学生りな · 한국 거주 일본인 회사원
 - 2026-11-09 · https://www.youtube.com/@omayulifeinkorea · 서울 거주 일본인 1인 생활
 - 2026-11-09 · https://www.youtube.com/@dewKoreanLife · 한국 거주 일본인 엄마 · 육아
+- 2026-11-10 · https://www.youtube.com/@isuikang · 워킹맘 · 육아 · 운동 루틴
