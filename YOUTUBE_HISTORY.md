@@ -35,3 +35,13 @@
 - 2026-11-09 · https://www.youtube.com/@omayulifeinkorea · 서울 거주 일본인 1인 생활
 - 2026-11-09 · https://www.youtube.com/@dewKoreanLife · 한국 거주 일본인 엄마 · 육아
 - 2026-11-10 · https://www.youtube.com/@isuikang · 워킹맘 · 육아 · 운동 루틴
+- 2026-11-15 · https://www.youtube.com/@배움의달인-p5v · AI 활용 · 일상 자동화
+- 2026-11-15 · https://www.youtube.com/@mamapop · AI 활용 · 엄마 눈높이 테크
+- 2026-11-15 · https://www.youtube.com/@warming_home · 살림·정리 · 40대 엄마
+- 2026-11-15 · https://www.youtube.com/@kangsue_ · 살림·수납
+- 2026-11-15 · https://www.youtube.com/@tidymarket · 살림·정리 인터뷰
+- 2026-11-15 · https://www.youtube.com/@esther1507 · 엄마 집밥·가정 일상
+- 2026-11-15 · https://www.youtube.com/@sera4019-h2f · 엄마 집밥·가정 일상
+- 2026-11-15 · https://www.youtube.com/@imleeso · 엄마 집밥·가정 일상
+- 2026-11-15 · https://www.youtube.com/@yunmin9755 · 40대 1인 생활·사색
+- 2026-11-15 · https://www.youtube.com/@dongnemom · 가계·소비 일상
