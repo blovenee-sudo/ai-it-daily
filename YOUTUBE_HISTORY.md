@@ -45,3 +45,12 @@
 - 2026-11-15 · https://www.youtube.com/@imleeso · 엄마 집밥·가정 일상
 - 2026-11-15 · https://www.youtube.com/@yunmin9755 · 40대 1인 생활·사색
 - 2026-11-15 · https://www.youtube.com/@dongnemom · 가계·소비 일상
+- 2026-11-16 · https://www.youtube.com/@jworld_vlog · 워킹맘 일상
+- 2026-11-16 · https://www.youtube.com/@babymom3667 · 워킹맘 일상 · 집밥
+- 2026-11-16 · https://www.youtube.com/@mymtv · 주부 일상 · 도시락
+- 2026-11-16 · https://www.youtube.com/@abaratv · 가계·짠테크 · 40대 엄마
+- 2026-11-16 · https://www.youtube.com/@나는살기로했다 · 40대 1인 생활·사색
+- 2026-11-16 · https://www.youtube.com/@홈리데이 · 살림·정리
+- 2026-11-16 · https://www.youtube.com/@aceparkxx · 직장인 이직·출근 일상
+- 2026-11-16 · https://www.youtube.com/@JohnKOBADesign · 디자인·AI 활용
+- 2026-11-16 · https://www.youtube.com/@이도혜ai · AI 활용 · 일자리·커리어
