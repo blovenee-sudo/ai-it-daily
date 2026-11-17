@@ -54,3 +54,13 @@
 - 2026-11-16 · https://www.youtube.com/@aceparkxx · 직장인 이직·출근 일상
 - 2026-11-16 · https://www.youtube.com/@JohnKOBADesign · 디자인·AI 활용
 - 2026-11-16 · https://www.youtube.com/@이도혜ai · AI 활용 · 일자리·커리어
+- 2026-11-17 · https://www.youtube.com/@oreumssong · 정리·미니멀
+- 2026-11-17 · https://www.youtube.com/@Erinnam · 정리·미니멀
+- 2026-11-17 · https://www.youtube.com/@비채홈 · 정리·미니멀 · 절약
+- 2026-11-17 · https://www.youtube.com/@nasolpain · 40대 1인 생활·사색
+- 2026-11-17 · https://www.youtube.com/@오늘도살아본다-p6g · 40대 차분한 일상
+- 2026-11-17 · https://www.youtube.com/@Onuljeong · 차분한 1인 생활 · 정리
+- 2026-11-17 · https://www.youtube.com/@illysoop · 집 꾸미기·살림
+- 2026-11-17 · https://www.youtube.com/@casakoyo · 집 꾸미기·공간
+- 2026-11-17 · https://www.youtube.com/@Rahoofit · 운동·루틴
+- 2026-11-17 · https://www.youtube.com/@jiweon_eng_ai · AI 활용 · 영어
