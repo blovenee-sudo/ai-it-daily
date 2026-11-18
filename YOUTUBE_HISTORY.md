@@ -64,3 +64,13 @@
 - 2026-11-17 · https://www.youtube.com/@casakoyo · 집 꾸미기·공간
 - 2026-11-17 · https://www.youtube.com/@Rahoofit · 운동·루틴
 - 2026-11-17 · https://www.youtube.com/@jiweon_eng_ai · AI 활용 · 영어
+- 2026-11-18 · https://www.youtube.com/@sabzakhome · 정리·살림
+- 2026-11-18 · https://www.youtube.com/@lajuu_ · 정리·살림 · 집 고치기
+- 2026-11-18 · https://www.youtube.com/@youtubeshinssam · AI 활용 · 초보 눈높이
+- 2026-11-18 · https://www.youtube.com/@AI비밀무기 · AI 활용 · 업무
+- 2026-11-18 · https://www.youtube.com/@lee_bro · 직장인 커리어·이직
+- 2026-11-18 · https://www.youtube.com/@tagaeza · 직장인 커리어 · 퇴사 후 일상
+- 2026-11-18 · https://www.youtube.com/@dianasbookshelf · 독서·교양
+- 2026-11-18 · https://www.youtube.com/@meji.youtube · 영어 · 원서
+- 2026-11-18 · https://www.youtube.com/@혼자사는키큰언니 · 1인 생활 · 절약 집밥
+- 2026-11-18 · https://www.youtube.com/@heejoheejo · 차분한 일상 · 독서 취향
