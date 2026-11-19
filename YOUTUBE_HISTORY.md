@@ -74,3 +74,13 @@
 - 2026-11-18 · https://www.youtube.com/@meji.youtube · 영어 · 원서
 - 2026-11-18 · https://www.youtube.com/@혼자사는키큰언니 · 1인 생활 · 절약 집밥
 - 2026-11-18 · https://www.youtube.com/@heejoheejo · 차분한 일상 · 독서 취향
+- 2026-11-19 · https://www.youtube.com/@장끼남 · 정리·살림
+- 2026-11-19 · https://www.youtube.com/@minimalanggom · 정리·미니멀 · 절약
+- 2026-11-19 · https://www.youtube.com/@ggyonghouse · 집 꾸미기·공간
+- 2026-11-19 · https://www.youtube.com/@yejin4237 · 40대 1인 생활·사색
+- 2026-11-19 · https://www.youtube.com/@태군의삶 · 1인 생활·차분한 일상
+- 2026-11-19 · https://www.youtube.com/@mj900 · 직장인 일상·커리어
+- 2026-11-19 · https://www.youtube.com/@citizendev9c · AI 활용 · 업무
+- 2026-11-19 · https://www.youtube.com/@designer_dk · AI 활용 · 디자인
+- 2026-11-19 · https://www.youtube.com/@drtorifa · 교양·마음 · 40대
+- 2026-11-19 · https://www.youtube.com/@커밍쏜 · 직장인 커리어 · AI 시대
