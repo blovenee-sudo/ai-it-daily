@@ -84,3 +84,13 @@
 - 2026-11-19 · https://www.youtube.com/@designer_dk · AI 활용 · 디자인
 - 2026-11-19 · https://www.youtube.com/@drtorifa · 교양·마음 · 40대
 - 2026-11-19 · https://www.youtube.com/@커밍쏜 · 직장인 커리어 · AI 시대
+- 2026-11-20 · https://www.youtube.com/@min_sweet_official · 1인 생활·집 꾸미기
+- 2026-11-20 · https://www.youtube.com/@오르막길 · 1인 생활·절약 집밥
+- 2026-11-20 · https://www.youtube.com/@방구석갓생 · 직장인 일상·재테크
+- 2026-11-20 · https://www.youtube.com/@ffivu_05 · 워킹맘 가계
+- 2026-11-20 · https://www.youtube.com/@goguma_vlog · 직장인 일상
+- 2026-11-20 · https://www.youtube.com/@runbuild · AI 활용
+- 2026-11-20 · https://www.youtube.com/@Vibe_RaiN · AI 활용·바이브코딩
+- 2026-11-20 · https://www.youtube.com/@yebaksa · 기록·독서 일상
+- 2026-11-20 · https://www.youtube.com/@recordless · 기록·글쓰기
+- 2026-11-20 · https://www.youtube.com/@ican · 독서·교양
