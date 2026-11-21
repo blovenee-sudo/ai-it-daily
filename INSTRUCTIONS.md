@@ -28,6 +28,7 @@
 - TechCrunch AI: https://techcrunch.com/category/artificial-intelligence/
 - VentureBeat AI: https://venturebeat.com/category/ai/
 - GlobeNewswire (기업 AI 리포트·보도자료): https://www.globenewswire.com/
+- GPT AI Academy Daily AI News (영문 일일 피드): https://www.gptaiacademy.com/ai-news — 최신 호(날짜별 약 13건)의 제목·출처·요약·'Read it' 링크가 HTML에 들어 있어 WebFetch로 읽힌다. 실무 영향이 큰 3~5건만 골라 제목과 요약을 모두 한국어로 번역하고, 원문 제목을 괄호로 병기하며, 링크는 'Read it' 원문 링크를 쓴다. 다른 해외 소스·공식 발표와 같은 기능·릴리스면 한 번만 싣는다.
 
 **AI 기업 공식 발표·릴리스 (실무 검증)**
 
@@ -177,7 +178,7 @@ WeatherAPI.com forecast(q=Seoul, lang=ko)로 이번 주 토/일 날씨를 확인
 - 상단에 오늘 날짜와 총 기사 수, 오늘의 픽 TOP 3 표시
 - 카테고리별로 묶어서 보여줄 것: 쉬운 AI 소식 / IT/AI/스타트업 / 해외 AI 소식(발견 신호) / 공식 발표·릴리스(실무 검증) / 커뮤니티 레이더 / UX·디자인·트렌드 / 경제·비즈니스 / 용산 소식(월요일엔 주간 동네 탐색 포함) / 유튜브 채널 추천
 - 각 항목마다: **[사이트명] 기사 제목** — 한 줄 요약 (링크)
-- 해외 기사는 제목을 한국어로 번역하고 원문 제목을 괄호로 병기
+- 해외 기사는 제목과 한 줄 요약을 한국어로 번역하고 원문 제목을 괄호로 병기
 - 용산 소식은 행사명 · 일정 · 장소 · 대상(가족·어린이 여부) · 링크로 정리
 - 오늘 날짜 기준 새 글이 없으면 "최근 N일 내 주목할 글"로 대체
 - 최근 14일 안에 이미 다룬 같은 기능·릴리스는 중복 제외
