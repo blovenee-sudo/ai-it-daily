@@ -101,3 +101,10 @@
 - 2026-11-21 · https://www.youtube.com/@Anracle · 직장인 일상
 - 2026-11-21 · https://www.youtube.com/@wonderonwaves · 패션·코디
 - 2026-11-21 · https://www.youtube.com/@rora.k01 · 차분한 일상
+- 2026-11-22 · https://www.youtube.com/@보통의혼자 · 1인 생활·차분한 일상
+- 2026-11-22 · https://www.youtube.com/@70프로살림 · 정리·살림
+- 2026-11-22 · https://www.youtube.com/@wooriday · 직장인 일상
+- 2026-11-22 · https://www.youtube.com/@halinote · 직장인 커리어
+- 2026-11-22 · https://www.youtube.com/@ai.yeongseon · AI 활용
+- 2026-11-22 · https://www.youtube.com/@minimal__hoho · 가계·절약
+- 2026-11-22 · https://www.youtube.com/@fashionstyle4060 · 패션·코디
