@@ -94,3 +94,10 @@
 - 2026-11-20 · https://www.youtube.com/@yebaksa · 기록·독서 일상
 - 2026-11-20 · https://www.youtube.com/@recordless · 기록·글쓰기
 - 2026-11-20 · https://www.youtube.com/@ican · 독서·교양
+- 2026-11-21 · https://www.youtube.com/@ProfHanBuhm · AI 활용 · 바이브코딩
+- 2026-11-21 · https://www.youtube.com/@무궁화쌤 · AI 활용 · 초보 눈높이
+- 2026-11-21 · https://www.youtube.com/@SDmoneyplan · 가계·절약 · 워킹맘
+- 2026-11-21 · https://www.youtube.com/@jungriking · 정리·살림
+- 2026-11-21 · https://www.youtube.com/@Anracle · 직장인 일상
+- 2026-11-21 · https://www.youtube.com/@wonderonwaves · 패션·코디
+- 2026-11-21 · https://www.youtube.com/@rora.k01 · 차분한 일상
