@@ -108,3 +108,10 @@
 - 2026-11-22 · https://www.youtube.com/@ai.yeongseon · AI 활용
 - 2026-11-22 · https://www.youtube.com/@minimal__hoho · 가계·절약
 - 2026-11-22 · https://www.youtube.com/@fashionstyle4060 · 패션·코디
+- 2026-11-23 · https://www.youtube.com/@aejoonyeo · 1인 생활·차분한 일상
+- 2026-11-23 · https://www.youtube.com/@careerday_official · 직장인 커리어
+- 2026-11-23 · https://www.youtube.com/@seozz_time · 직장인 일상·가계
+- 2026-11-23 · https://www.youtube.com/@대직장인 · AI 활용 · 업무
+- 2026-11-23 · https://www.youtube.com/@VibecodingUniversity · AI 활용 · 바이브코딩
+- 2026-11-23 · https://www.youtube.com/@phill_ssam · 가계·절약
+- 2026-11-23 · https://www.youtube.com/@minifit_miniunnie · 운동·건강 · 워킹맘
