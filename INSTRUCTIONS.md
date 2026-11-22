@@ -73,12 +73,12 @@
 
 **용산 소식**
 
-수집 범위와 형식은 저장소의 `YONGSAN.md`(Muse와 나눈 수집 범위 문서)를 따르되, 맨 앞의 '분담 변경'이 우선이다. 저장소 호에는 아래만 싣는다.
+수집 범위와 형식은 저장소의 `YONGSAN.md`(Muse가 정리한 문서)의 '클로드(저장소) 담당' 범위만 따른다. 저장소 호에는 아래만 싣는다.
 
 - 용산·이촌 뉴스 검색(키워드: 용산, 이촌, 이촌동, 동부이촌동)
-- 용산구청 새소식(https://www.yongsan.go.kr/portal/bbs/B0000041/list.do?menuNo=200228)과 행사/교육(https://www.yongsan.go.kr/portal/bbs/B0000042/list.do?menuNo=200229) 게시판
-- 구청 공식 유튜브 '용산픽업'(@yongsan-official-channel)의 새 영상 제목
-- 모두 WebFetch·WebSearch로 읽고 브라우저 라이브 확인은 하지 않는다. 나머지 마스터 목록 41곳, 장소별 행사 4곳, 도서관 강좌 2곳, 네이버 카페, 인스타그램·Threads는 Muse가 직접 수집하므로 저장소 호에 넣지 않는다.
+- 용산구청 새소식(https://www.yongsan.go.kr/portal/bbs/B0000041/list.do?menuNo=200228)과 행사/교육(https://www.yongsan.go.kr/portal/bbs/B0000042/list.do?menuNo=200229) 게시판 (그중 어린이·체육·유치원 새소식 우선)
+- 주말 날씨 판정(월요일 호의 '주간 동네 탐색' 2번 블록 참고)
+- 모두 WebFetch·WebSearch로 읽고 브라우저 라이브 확인은 하지 않는다. YONGSAN.md의 'Muse 담당' 항목(마스터 목록 41곳, 장소별 행사, 도서관 강좌, 네이버 카페, 인스타그램·Threads, 월요일 무료 행사·공연전시·당근)은 저장소 호에 넣지 않는다.
 - 결과는 용산·서울 소식 탭의 용산 프로그램 표로 싣는다. Muse가 이 표를 용산 탭에 합쳐 쓴다.
 
 ## 유튜브 채널 추천
