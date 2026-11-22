@@ -73,30 +73,11 @@
 
 **용산 소식**
 
-- 용산구청 홈페이지: https://www.yongsan.go.kr/
-- 용산구청 새소식: https://www.yongsan.go.kr/portal/bbs/B0000041/list.do?menuNo=200228
-- 용산구청 행사/교육: https://www.yongsan.go.kr/portal/bbs/B0000042/list.do?menuNo=200229
-- 용산구청 공식 블로그: https://blog.naver.com/ysnblog
-- 용산구소식 웹진: https://yongsannews.com/
-- 동네소식: https://www.yongsantown.com/
-- 용산구의회: https://yscl.go.kr/
-- 용산iTV: https://blog.naver.com/yongsanitv
-- 딜라이브 뉴스: https://news.dlive.kr/
-- 용산공원 공식 블로그: https://blog.naver.com/yongsanpark_story
-- 용산공원 사이트: https://parkyongsan.kr/front/index.do
-- 용산어린이정원 행사: https://yongsanparkstory.kr/program/event.html?bcCat=5
-- 용산e 플랫폼: https://yongsanyouth.or.kr/mber/crs/list.do?menuNo=1400000
-- 용산구 교육센터: https://yedu.yongsan.go.kr/pms/board/list.do?boardidn=1024&sitecdv=S0000500&decorator=user27EdTotal&menucdv=04010000
-- 용산구 작은도서관 강좌: https://www.yslibrary.or.kr/small/menu/10186/program/30080/lectureList.do
-- 용산구립도서관 강좌: https://www.yslibrary.or.kr/dream/menu/10119/program/30046/lectureList.do
-- 용산역사박물관 교육: https://museum.yongsan.go.kr/edus/index
-- 용산구 육아종합지원센터 프로그램: https://ysccic.or.kr/sub/center/program_form2.htm
-- 용산문화원: http://yongsan.kccf.or.kr/
-- 국립중앙박물관 교육: https://www.museum.go.kr/MUSEUM/contents/M0403010000.do
-- 국립중앙박물관 예정 전시: https://www.museum.go.kr/MUSEUM/contents/M0202020000.do?menuId=upcomming
-- 노들섬 프로그램: https://nodeul.org/programs/
-- 서울예약: https://yeyak.seoul.go.kr/web/search/selectPageListTotalSearch.do
-- 보도 기사 보조 확인: 연합뉴스(https://www.yna.co.kr/), 뉴시스(https://www.newsis.com/), 서울진(https://seoulzine.com/)에서 '용산' 검색
+용산·이촌 소식 수집은 저장소의 `YONGSAN.md`(Muse와 나눈 수집 범위 문서)를 그대로 따른다. 마스터 목록 41곳의 새 게시물 확인, 용산·이촌 뉴스 검색, 장소별 행사 4곳과 도서관 강좌 2곳의 매일 라이브 확인, 수집 기준, 출력 형식이 모두 거기에 있다.
+
+- 인스타그램·Threads 직접 수집은 Muse가 맡으므로 저장소 호에 넣지 않는다.
+- 장소별 행사와 도서관 강좌는 JS·무한스크롤 목록이라 텍스트 fetch만으로는 안 보일 수 있다. 이때는 로그인된 Handlus Chrome MCP(chrome_* 도구)로 목록이 다 뜰 때까지 기다려 라이브로 확인한다.
+- 결과는 용산·서울 소식 탭의 용산 프로그램 표로 싣는다. Muse가 이 표를 용산 탭에 그대로 가져다 쓴다.
 
 ## 유튜브 채널 추천
 
@@ -180,7 +161,7 @@ WeatherAPI.com forecast(q=Seoul, lang=ko)로 이번 주 토/일 날씨를 확인
 - 카테고리별로 묶어서 보여줄 것: 쉬운 AI 소식 / IT/AI/스타트업 / 해외 AI 소식(발견 신호) / 공식 발표·릴리스(실무 검증) / 커뮤니티 레이더 / UX·디자인·트렌드 / 경제·비즈니스 / 용산 소식(월요일엔 주간 동네 탐색 포함) / 유튜브 채널 추천
 - 각 항목마다: **[사이트명] 기사 제목** — 한 줄 요약 (링크)
 - 해외 기사는 제목과 한 줄 요약을 한국어로 번역하고 원문 제목을 괄호로 병기
-- 용산 소식은 행사명 · 일정 · 장소 · 대상(가족·어린이 여부) · 링크로 정리
+- 용산 소식은 `YONGSAN.md`의 '출력 형식'을 따른다(항목: 제목 + 한 줄 요약 + 출처 링크 + 날짜, 장소별 행사: 제목 + 기간/시간 + 장소 + 링크, 강좌: 강좌명 + 대상 + 수강기간 + 접수기간·상태 + 링크)
 - 오늘 날짜 기준 새 글이 없으면 "최근 N일 내 주목할 글"로 대체
 - 최근 14일 안에 이미 다룬 같은 기능·릴리스는 중복 제외
 - 수집하지 못한 사이트는 맨 아래 "수집 제한 사이트"로 모아 표시
