@@ -115,3 +115,9 @@
 - 2026-11-23 · https://www.youtube.com/@VibecodingUniversity · AI 활용 · 바이브코딩
 - 2026-11-23 · https://www.youtube.com/@phill_ssam · 가계·절약
 - 2026-11-23 · https://www.youtube.com/@minifit_miniunnie · 운동·건강 · 워킹맘
+- 2026-11-24 · https://www.youtube.com/@ssaengcho · AI 활용 · 비개발자 도구
+- 2026-11-24 · https://www.youtube.com/@AI비밀무기 · AI 활용 · 직장인 업무
+- 2026-11-24 · https://www.youtube.com/@nimomnaemom · 엄마·육아
+- 2026-11-24 · https://www.youtube.com/@pan-ddu · 직장인 일상 · IT
+- 2026-11-24 · https://www.youtube.com/@tojong_english · 영어 학습
+- 2026-11-24 · https://www.youtube.com/@warming_home · 살림·정리 · 40대 엄마
