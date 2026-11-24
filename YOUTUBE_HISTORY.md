@@ -121,3 +121,10 @@
 - 2026-11-24 · https://www.youtube.com/@pan-ddu · 직장인 일상 · IT
 - 2026-11-24 · https://www.youtube.com/@tojong_english · 영어 학습
 - 2026-11-24 · https://www.youtube.com/@warming_home · 살림·정리 · 40대 엄마
+- 2026-11-25 · https://www.youtube.com/@BBANGDOE · 가계·재테크
+- 2026-11-25 · https://www.youtube.com/@KIMJINJU · 직장인 일상
+- 2026-11-25 · https://www.youtube.com/@kyleschool · AI 활용 · 비개발자 도구
+- 2026-11-25 · https://www.youtube.com/@mutalklab · AI 활용 · 직장인 업무
+- 2026-11-25 · https://www.youtube.com/@weekly_mini · 정리·미니멀
+- 2026-11-25 · https://www.youtube.com/@Goodquestion4u · 엄마·육아
+- 2026-11-25 · https://www.youtube.com/@uxui · 디자인·Figma
