@@ -128,3 +128,13 @@
 - 2026-11-25 · https://www.youtube.com/@weekly_mini · 정리·미니멀
 - 2026-11-25 · https://www.youtube.com/@Goodquestion4u · 엄마·육아
 - 2026-11-25 · https://www.youtube.com/@uxui · 디자인·Figma
+- 2026-11-26 · https://www.youtube.com/@ai.hanbyeol · AI 활용
+- 2026-11-26 · https://www.youtube.com/@AI뚝딱_1 · AI 활용 · 초보 눈높이
+- 2026-11-26 · https://www.youtube.com/@stevesurfing · AI 활용 · 직장인 업무
+- 2026-11-26 · https://www.youtube.com/@visonmktlucas · AI 시대 콘텐츠·마케팅
+- 2026-11-26 · https://www.youtube.com/@수밤이 · 1인 생활
+- 2026-11-26 · https://www.youtube.com/@moodin5650 · 1인 생활 · 직장인 일상
+- 2026-11-26 · https://www.youtube.com/@hinalog · 기록·생산성
+- 2026-11-26 · https://www.youtube.com/@soram · 기록·생산성
+- 2026-11-26 · https://www.youtube.com/@dadokdog · 독서·교양
+- 2026-11-26 · https://www.youtube.com/@삶은부동산 · 내집마련·가계
