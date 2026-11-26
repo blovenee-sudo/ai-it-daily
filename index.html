@@ -2,7 +2,7 @@
 <html lang="ko">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>AI DAILY — 2026.11.26</title>
+<title>AI DAILY — 2026.11.27</title>
 <style>body{margin:0;font:15px/1.65 Arial,sans-serif;color:#111}.bar,.black{background:#000;color:#fff}.bar{padding:8px;text-align:center;font-size:11px;font-weight:bold;letter-spacing:.1em}.wrap{max-width:1040px;margin:auto;padding:0 22px}header{border-bottom:1px solid #ddd;padding:22px 0}.logo{font-size:27px;font-weight:900}.date{float:right;color:#777;font-size:12px}.hero{background:#111;color:#fff;padding:54px 0}.hero h1{margin:8px 0;font:48px/1.05 Georgia,serif}.archive{padding:18px 0;border-bottom:1px solid #ddd}.archive a{display:inline-block;margin:0 8px 8px 0;padding:7px 12px;border:1px solid #111;color:#111;text-decoration:none;font-weight:bold}.stats,.picks{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid #ddd}.stat,.pick{padding:12px;border-right:1px solid #ddd}.stat b{display:block;font-size:40px}.pick{font-size:13px}.pick:first-child{background:#000;color:#fff}.head{margin-top:28px;padding:9px 12px;border:1px solid #111;font-size:25px;font-weight:bold}.note,.tags{color:#666}.item{display:grid;grid-template-columns:1fr 105px;gap:14px;padding:14px 0;border-bottom:1px solid #ddd}.item h3{margin:0;font-size:19px}.item p{margin:4px 0}.item a{align-self:start;background:#000;color:#fff;text-decoration:none;padding:10px;text-align:center;font-weight:bold;font-size:12px}.tags,.limits a{font-size:12px}.actions{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.action{padding:12px;background:#f4f4f4}.limits a{display:inline-block;margin:3px;padding:5px 7px;border:1px solid #ddd;color:#111;text-decoration:none}@media(max-width:650px){.stats,.picks,.actions{grid-template-columns:1fr}.item{grid-template-columns:1fr}.hero h1{font-size:37px}}</style>
 <style>.tabs{display:flex;gap:6px;margin-top:14px}.tab{display:inline-block;border:1px solid #111;background:#fff;padding:6px 10px;color:#111;text-decoration:none;font-weight:bold}.tab:hover,.tab:focus{outline:2px solid #1668d9;outline-offset:-2px}.tab-panel{display:none}#ai{display:block}body:has(.tab-panel:target) #ai{display:none}body:has(#ai:target) #ai{display:block}#ai:target,#local:target,#youtube:target{display:block}body:has(#ai:target) .tab[href="#ai"],body:has(#local:target) .tab[href="#local"],body:has(#youtube:target) .tab[href="#youtube"]{background:#111;color:#fff}.local-table{width:100%;border-collapse:collapse;font-size:13px}.local-table th,.local-table td{padding:10px;border:1px solid #ddd;text-align:left;vertical-align:top}.local-table th{background:#111;color:#fff;white-space:nowrap}.local-table a{color:#111;font-weight:bold}@media(max-width:650px){.local-table{display:block;overflow-x:auto;white-space:normal}}</style>
 <style id="favorites-style">.saved-link{float:right;margin-left:10px;border:1px solid #111;background:#fff;padding:4px 8px;color:#111;font-weight:bold;cursor:pointer}.item{grid-template-columns:1fr 36px 105px}.saved-link span{display:inline-block;min-width:16px;margin-left:3px;background:#111;color:#fff;text-align:center}.fav-toggle{align-self:start;border:1px solid #111;background:#fff;padding:7px 8px;color:#111;font-size:18px;line-height:1;cursor:pointer}.fav-toggle[aria-pressed=true]{background:#111;color:#fff}.table-star{float:right;margin-left:6px;border:0;background:transparent;padding:0;color:#111;font-size:18px;line-height:1;cursor:pointer}.table-star[aria-pressed=true]{color:#d37b00}.favorites-dialog{width:min(620px,calc(100% - 32px));border:1px solid #111;padding:0}.favorites-dialog::backdrop{background:rgba(0,0,0,.45)}.favorites-head{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;border-bottom:1px solid #ddd}.favorites-head h2{margin:0;font-size:20px}.favorites-actions{display:flex;gap:6px}.favorites-close,.favorite-remove,.favorites-export{border:1px solid #111;background:#fff;padding:5px 8px;cursor:pointer}.favorites-export{background:#111;color:#fff}.favorites-list{list-style:none;margin:0;padding:0}.favorites-list li{display:grid;grid-template-columns:1fr auto;gap:12px;padding:14px 16px;border-bottom:1px solid #ddd}.favorites-list a{color:#111;font-weight:bold}.favorites-meta{display:block;color:#666;font-size:12px}.favorites-empty{padding:24px 16px;color:#666}@media(max-width:650px){.date{display:none}.saved-link{margin-left:0}.item{grid-template-columns:1fr 36px 90px}.fav-toggle{padding:7px}.favorites-list li{grid-template-columns:1fr}}</style>
@@ -11,7 +11,7 @@
 <header>
 <div class="wrap">
 <span class="logo">AI DAILY</span>
-<span class="date">2026.11.26 · SEOUL</span>
+<span class="date">2026.11.27 · SEOUL</span>
 <button class="saved-link" type="button" id="favorites-open">모아보기 <span id="favorites-count">0</span>
 </button>
 <nav class="tabs" aria-label="리포트 메뉴">
@@ -26,14 +26,15 @@
 <div class="tab-panel active" id="ai">
 <section class="hero">
 <div class="wrap">
-<small>NOVEMBER 26, 2026</small>
-<h1>AI 증류 논란, 미공개 모델 안전성,<br>그리고 앱이 되는 아티팩트.</h1>
-<p>목요일 호입니다. 클라우드 예약 작업이 직접 읽은 사이트에서 20건을 정리했습니다. 용산구청 게시판은 접속하지 못했고, 유튜브 추천은 구독 확인 수단이 없어 건너뛰었습니다.</p>
+<small>NOVEMBER 27, 2026</small>
+<h1>글쓰기 실력이 바이브코딩을 가른다,<br>AI 장난감 금지, 포토샵 AI 논란.</h1>
+<p>금요일 호입니다. 클라우드 예약 작업이 직접 읽은 사이트에서 22건을 정리했습니다. 용산구청 게시판은 접속하지 못했고, 유튜브 추천은 구독 확인 수단이 없어 건너뛰었습니다.</p>
 </div>
 </section>
 <div class="wrap archive">
 <b>ARCHIVE — 지난 호 보기</b>
 <p>
+<a href="issues/2026-11-27.html">NO.39 · 11/27</a>
 <a href="issues/2026-11-26.html">NO.38 · 11/26</a>
 <a href="issues/2026-11-25.html">NO.37 · 11/25</a>
 <a href="issues/2026-11-24.html">NO.36 · 11/24</a>
@@ -76,7 +77,7 @@
 </div>
 <section class="stats">
 <div class="stat">
-<b>20건</b>오늘의 전체 소식</div>
+<b>22건</b>오늘의 전체 소식</div>
 <div class="stat">
 <b>4건</b>발견 신호</div>
 <div class="stat">
@@ -87,241 +88,254 @@
 <section>
 <h2>핵심 요약</h2>
 <ol>
-<li>앤트로픽이 한 회사를 ‘증류’ 혐의로 지목했다는 Ask HN 글이 432점을 받았다(작성자 주장 기준).</li>
-<li>Axios는 앤트로픽·오픈AI 일부 직원이 미공개 최상위 모델의 안전성을 우려한다고 보도했다. 두 회사 모두 공개 중단은 발표하지 않았다.</li>
-<li>클로드 아티팩트의 데스크톱 앱 설치(베타)와 인스타그램 DM의 Meta Muse 등 AI를 일상 도구로 끌어오는 소식이 이어졌다.</li>
+<li>뉴욕타임스가 사진가들에게 포토샵 최신 업데이트의 AI 기능 때문에 사진에 AI 메타데이터가 남을 수 있다고 알렸다는 보도가 Hacker News에서 634점을 받았다.</li>
+<li>뉴욕주가 아이와 대화하는 AI 장난감의 제조·판매를 5년간 금지하는 법에 서명했다(90일 뒤 시행).</li>
+<li>앤트로픽은 Messages API를 러스트로 옮겨 요청당 CPU를 약 70% 줄였다고 밝혔고, 12월 30일부터 Copilot 코드 리뷰 비용이 기본으로 조직에 청구된다.</li>
 </ol>
 </section>
 <section class="picks">
 <div class="pick">
-<b>TOP 1 · 앤트로픽 “증류” 혐의 지목 Ask HN, 432점</b>
-<p>HN에서 가장 큰 반응을 얻은 AI 글입니다. 작성자 주장 기준이라 사실 확인은 안 됐습니다.</p>
+<b>TOP 1 · NYT, 사진가에게 “포토샵 AI 업데이트 주의” 경고</b>
+<p>Verge 보도 기준이며 HN 634점. 사진에 AI 생성 메타데이터가 남을 수 있다는 점이 쟁점입니다.</p>
 </div>
 <div class="pick">
-<b>TOP 2 · 미공개 AI 모델 안전성 우려 보도(Axios)</b>
-<p>앤트로픽·오픈AI 일부 직원의 우려가 전해졌지만 두 회사는 공개 중단을 발표하지 않았습니다.</p>
+<b>TOP 2 · 뉴욕주, AI 대화 장난감 5년 금지</b>
+<p>연말 선물 시즌에 서명됐고 90일 뒤 시행됩니다. 주지사실 발표 기준입니다.</p>
 </div>
 <div class="pick">
-<b>TOP 3 · 클로드 아티팩트, 맥·윈도 앱으로 설치</b>
-<p>만든 도구를 내 컴퓨터 앱처럼 쓸 수 있게 됩니다. 베타이며 안내문 기준입니다.</p>
+<b>TOP 3 · Anthropic, Messages API 러스트 전환</b>
+<p>요청당 CPU 약 70% 감소, 클로드 코드 첫 토큰 시간 약 20% 단축(회사 발표 기준).</p>
 </div>
 </section>
 <section>
-<div class="head black">쉬운 AI 소식 <small>EASY AI · 3건</small>
+<div class="head black">쉬운 AI 소식 <small>EASY AI · 4건</small>
 </div>
-<p class="note">전문 용어 없이 정리했습니다. 보도·원문 소개 기준이며 성능은 독립 검증 전입니다. 바이브코딩 트렌드·활용 사례는 오늘 새 글을 확인하지 못해 싣지 않았습니다.</p>
+<p class="note">전문 용어 없이 정리했습니다. 보도·원문 소개 기준이며 성능은 독립 검증 전입니다.</p>
 <article class="item">
 <div>
-<h3>[바로 쓰는 AI] 클로드 아티팩트를 맥·윈도 앱으로 설치 — 자주 쓰는 도구를 내 컴퓨터 아이콘으로</h3>
-<p>클로드가 만든 작은 도구(아티팩트)를 데스크톱 앱처럼 설치할 수 있게 됐어요(베타). 앱마다 아이콘과 창이 생기고, 원본이 바뀌면 같이 업데이트되며 알림 권한은 앱별로 정할 수 있다고 해요. (Anthropic 안내 기준)</p>
-<span class="tags">Claude · 11/25</span>
+<h3>[바로 쓰는 AI] 아이 선물로 AI 대화 장난감 고르기 전에 — 뉴욕주가 5년간 판매 금지</h3>
+<p>인터넷에 연결돼 아이와 대화하는 AI 인형·로봇이 뉴욕주에서 5년간 제조·판매 금지가 됐어요(90일 뒤 시행). 주지사는 연말 선물을 사기 전에 안전·개인정보 위험을 살펴보라고 당부했어요. (뉴욕주 발표 기준)</p>
+<span class="tags">뉴욕주지사실 · 11/24</span>
 </div>
-<a href="https://claude.com/resources/articles/install-as-app">원문 보기 →</a>
+<a href="https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot">원문 보기 →</a>
 </article>
 <article class="item">
 <div>
-<h3>[바로 쓰는 AI] 인스타그램 DM에서 Muse에게 저장한 글 정리 맡기기</h3>
-<p>Meta가 인스타그램 DM에 AI 도우미 Muse를 넣었어요. 저장해 둔 게시물을 여행 계획처럼 묶어 정리해 준다고 해요. 미국·캐나다부터 시작이라 한국 제공은 확인되지 않았어요. (Engadget 보도 기준)</p>
-<span class="tags">Engadget · 11/25</span>
-</div>
-<a href="https://www.engadget.com/2326663/meta-is-bringing-muse-to-instagram/">원문 보기 →</a>
-</article>
-<article class="item">
-<div>
-<h3>[바로 쓰는 AI] 클로드에게 같은 설명을 반복하지 않는 법 — 프로젝트 지침·스킬·예약 작업</h3>
-<p>규칙을 반복해서 설명한다면 프로젝트 지침, 특정 작업이 반복되면 스킬, 같은 시간에 하는 일이면 예약 작업을 쓰라는 안내 글이에요. 날짜는 확인하지 못했어요.</p>
+<h3>[바로 쓰는 AI] 클로드를 쓸 때마다 같은 규칙을 다시 붙여 넣고 있다면</h3>
+<p>새 대화를 열 때마다 문서 작성 규칙을 다시 붙여 넣는 불편을 줄이는 클로드 활용 팁을 모은 글이에요. 자세한 방법은 원문에서 확인하세요. 게시일은 확인하지 못했어요.</p>
 <span class="tags">한빛미디어 채널H · 날짜 미확인</span>
 </div>
-<a href="https://www.hanbit.co.kr/channel-h/view/7738">원문 보기 →</a>
+<a href="https://www.hanbit.co.kr/channel-h/view/7740">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[바이브코딩] 말로 앱 만들기, 글쓰기 실력이 결과를 가른다는 연구</h3>
+<p>대학생 100명을 본 연구에서 글쓰기 실력과 컴퓨터 과학 성취가 말로 설명해 코딩하는 ‘바이브코딩’ 성과를 예측했어요. 프롬프트를 또박또박 쓰는 연습이 도움이 될 수 있다는 뜻이에요. (GPT AI Academy 소개 기준, 논문 원문 미확인)</p>
+<span class="tags">arXiv · GPT AI Academy 11/26</span>
+</div>
+<a href="https://arxiv.org/abs/2603.14133">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[활용 사례] GPT-6.2 Astra가 1808년 익명 스케치북의 그린 사람을 22분 만에 추정</h3>
+<p>역사학자가 예일대 소장 스케치북 사진을 AI에 보여 주자 프랑스 귀족을 작가로 지목했고, 여행 일기의 ‘스케치를 했다’는 기록이 이를 뒷받침했다고 해요. 한 연구자의 소개 글 기준이며 독립 검증은 확인하지 못했어요.</p>
+<span class="tags">Generative History · GPT AI Academy 11/26</span>
+</div>
+<a href="https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical">원문 보기 →</a>
 </article>
 </section>
 <section>
 <div class="head black">IT/AI/스타트업 <small>KOREA · 7건</small>
 </div>
-<p class="note">벤처스퀘어·스타트업레시피·beSUCCESS 목록에서 골랐고 게시일은 확인하지 못한 글이 많습니다.</p>
+<p class="note">벤처스퀘어·아웃스탠딩·스타트업레시피·이오플래닛·NAVER D2 목록에서 골랐고 게시일을 확인하지 못한 글은 ‘날짜 미확인’으로 표기했습니다.</p>
 <article class="item">
 <div>
-<h3>[벤처스퀘어] 실리콘밸리 AI 창업자들이 서울로 모인 이유…킨드레드 벤처스가 주목한 한국의 경쟁력</h3>
-<p>AI Wave Seoul 2026 행사에서 해외 AI 창업자들이 본 한국의 강점을 다룬 글.</p>
-<span class="tags">AI 창업 · 11/25</span>
+<h3>[벤처스퀘어] AI 콘텐츠의 다음 물결은 한국에서…힉스필드, 첫 한국 CPP로 새로운 시대 열다</h3>
+<p>AI 영상·콘텐츠 서비스 힉스필드의 한국 첫 CPP 소식을 다룬 글. 제목 기준으로만 확인했다.</p>
+<span class="tags">AI 영상 · 11/26</span>
 </div>
-<a href="https://www.venturesquare.net/1131447/">원문 보기 →</a>
+<a href="https://www.venturesquare.net/1131838/">원문 보기 →</a>
 </article>
 <article class="item">
 <div>
-<h3>[벤처스퀘어] 구글, 프로야구 팬덤에 AI 검색 접목…KBO와 2027 시즌 공식 파트너십 체결</h3>
-<p>구글이 KBO와 2027 리그 공식 검색 파트너십을 맺고 검색·제미나이를 팬 경험에 접목한다.</p>
-<span class="tags">AI 검색 · 날짜 미확인</span>
+<h3>[벤처스퀘어] 인핸스, 기업 업무 자동화 기술 국방으로 확장…국방정보본부 AI 민간자문기업 위촉</h3>
+<p>에이전틱 AI 기업 인핸스가 국방정보본부의 AI 민간자문기업으로 위촉돼 2027년 말까지 데이터 표준화와 전문기술 지원 등을 맡는다.</p>
+<span class="tags">에이전틱 AI · 날짜 미확인</span>
 </div>
-<a href="https://www.venturesquare.net/1131515/">원문 보기 →</a>
+<a href="https://www.venturesquare.net/1131652/">원문 보기 →</a>
 </article>
 <article class="item">
 <div>
-<h3>[벤처스퀘어] 모픽AI, 배우 목소리 살려 90개 이상 언어로 더빙…영상 콘텐츠 해외 유통 장벽 낮춘다</h3>
-<p>원래 배우의 목소리를 살린 채 90개 이상 언어로 영상을 더빙하는 AI 서비스 소개.</p>
-<span class="tags">AI 더빙 · 날짜 미확인</span>
+<h3>[아웃스탠딩] 1년도 안 됐는데 현백과 쿠팡이 쓰는 AI 상세페이지 서비스…고우빈 후커블 대표 인터뷰</h3>
+<p>AI 에이전트가 인력 중심 외주 시장의 상세페이지 제작을 어떻게 대체하는지 다룬 인터뷰.</p>
+<span class="tags">AI 서비스 · 11/24</span>
 </div>
-<a href="https://www.venturesquare.net/1131553/">원문 보기 →</a>
+<a href="https://outstanding.kr/hookable20261124">원문 보기 →</a>
 </article>
 <article class="item">
 <div>
-<h3>[스타트업레시피] [AI서머리] 킨드레드 벤처스, 서울서 AI 웨이브 개최‧배민, 딜리로 아파트 문 앞 로봇 배달 추진</h3>
-<p>AI 행사 개최와 배달 로봇의 아파트 문 앞 배달 추진 소식을 묶은 요약.</p>
+<h3>[아웃스탠딩] 인생네컷이 자본잠식에 빠지는 동안, 포토이즘은 어떻게 상장을 추진할 수 있었나</h3>
+<p>인생네컷이 2023년부터 내리막을 걸은 배경과 포토이즘의 상장 추진을 비교한 분석 글.</p>
+<span class="tags">스타트업 분석 · 11/26</span>
+</div>
+<a href="https://outstanding.kr/photoism20261126">원문 보기 →</a>
+</article>
+<article class="item">
+<div>
+<h3>[스타트업레시피] [AI서머리] 크릿벤처스, 웹툰 IP 기업 클링크 후속 투자‧네이버클라우드, 공공 이미지 생성 AI 도입</h3>
+<p>웹툰 IP 기업 후속 투자와 네이버클라우드의 공공 이미지 생성 AI 도입 소식을 묶은 요약.</p>
 <span class="tags">요약 · 날짜 미확인</span>
 </div>
-<a href="https://startuprecipe.co.kr/archives/5842513">원문 보기 →</a>
+<a href="https://startuprecipe.co.kr/archives/5842694">원문 보기 →</a>
 </article>
 <article class="item">
 <div>
-<h3>[스타트업레시피] [AI서머리] 멜라카, AI 제작도구로 100만달러 수출계약‧세종테크노파크, 지역 디지털기업 성장 지원</h3>
-<p>AI 제작도구 스타트업의 수출 계약과 지역 디지털기업 지원 소식을 묶은 요약.</p>
-<span class="tags">요약 · 날짜 미확인</span>
+<h3>[이오플래닛] 『일을 버려라!』를 쓴 DHH, 요즘은 에이전트와 하루 16시간 일한다</h3>
+<p>책 『일을 버려라!』 저자 DHH가 AI 에이전트와 일하는 방식을 소개한 글. 제목 기준으로만 확인했다.</p>
+<span class="tags">AI 에이전트 · 날짜 미확인</span>
 </div>
-<a href="https://startuprecipe.co.kr/archives/5842552">원문 보기 →</a>
+<a href="https://eopla.net/magazines/49432">원문 보기 →</a>
 </article>
 <article class="item">
 <div>
-<h3>[beSUCCESS] 빅시프트, 네이버클라우드 ‘Greenhouse 2.0’ 선정…한국어 AI 검색 분석 기능 고도화</h3>
-<p>한국어 AI 검색 분석 기능을 고도화하는 스타트업이 네이버클라우드 프로그램에 선정됐다.</p>
-<span class="tags">AI 검색 · 날짜 미확인</span>
+<h3>[NAVER D2] AI가 만든 결과를 그대로 믿고 계신가요?</h3>
+<p>테스트는 전부 통과했는데 실제로는 결함이 남아 있던 경험에서 출발해 AI 결과물 검증을 다룬 사내 발표(NAVER Engineering Day 10th).</p>
+<span class="tags">AI 검증 · 날짜 미확인</span>
 </div>
-<a href="https://besuccess.com/?p=188299">원문 보기 →</a>
-</article>
-<article class="item">
-<div>
-<h3>[beSUCCESS] DHP, 미국 의료 멀티에이전트 AI 스타트업 ‘휴버’에 시드 투자</h3>
-<p>한·미 의료 현장을 함께 겨냥하는 의료 AI 스타트업에 시드 투자가 이뤄졌다.</p>
-<span class="tags">투자 · 날짜 미확인</span>
-</div>
-<a href="https://besuccess.com/?p=188296">원문 보기 →</a>
+<a href="https://d2.naver.com/helloworld/5512498">원문 보기 →</a>
 </article>
 </section>
 <section>
 <div class="head black">해외 AI 소식 <small>DISCOVERY SIGNALS · 4건</small>
 </div>
-<p class="note">Hacker News(포인트 100 이상)·GPT AI Academy 11/25 호·The Verge 목록에서 골랐습니다. TechCrunch(접근 차단)·VentureBeat(요청 제한)는 읽지 못했습니다.</p>
+<p class="note">Hacker News(포인트 100 이상)·GPT AI Academy 11/26 호·The Verge에서 골랐습니다. 이미 지난 호에 실린 Axios 미공개 모델 보도 등은 제외했습니다.</p>
 <article class="item">
 <div>
-<h3>[Hacker News] Ask HN: 앤트로픽이 우리 회사를 증류(distilling) 혐의로 지목했는데, 아니라는 걸 어떻게 증명하나 (Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?)</h3>
-<p>작성자 주장 기준의 질문 글로 사실 확인은 안 됐다. 다른 회사 모델 출력으로 자기 모델을 만드는 ‘증류’ 논란에 개발자 반응이 몰렸다. 커뮤니티 관찰이므로 참고만 하세요.</p>
-<span class="tags">HN 432점 · 11/24</span>
+<h3>[Hacker News·The Verge] 뉴욕타임스, 사진가들에게 ‘AI 기능 때문에 포토샵 업데이트 말라’ 경고 (The New York Times warns photographers not to update Photoshop over AI features)</h3>
+<p>NYT가 프리랜서 사진가에게 보낸 메일에서 포토샵 최신 버전의 AI 기능이 ‘눈에 띄지 않는 방식’으로 쓰여 사진에 AI 생성 메타데이터가 남을 수 있다고 알렸다고 The Verge가 보도했다. 커뮤니티 관찰이므로 참고만 하세요.</p>
+<span class="tags">HN 634점 · 11/24</span>
 </div>
-<a href="https://news.ycombinator.com/item?id=50630809">원문 보기 →</a>
+<a href="https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features">원문 보기 →</a>
 </article>
 <article class="item">
 <div>
-<h3>[GPT AI Academy·Axios] AI 연구자들, 미공개 모델 안전성 우려 제기 (AI researchers raise safety concerns about unreleased models)</h3>
-<p>Axios 보도로, 앤트로픽·오픈AI 일부 직원이 최고 성능 미공개 모델이 공개하기엔 안전하지 않다고 본다고 한다. 두 회사는 공개 중단을 발표하지 않았다.</p>
-<span class="tags">Axios · 11/24</span>
+<h3>[GPT AI Academy·TechCrunch] 아마존과 메타, AI 에이전트 Muse 차단 해제 협상 중 (Amazon and Meta in talks to lift Muse blockade)</h3>
+<p>포천 보도로, 두 회사가 9월부터 이어진 차단을 풀고 Muse가 아마존 스토어에 직접 연결되는 방안을 여러 차례 논의했다. 검색 결과 표시와 광고 방식이 쟁점이며 양사 CEO 승인이 필요하다.</p>
+<span class="tags">TechCrunch · 11/25</span>
 </div>
-<a href="https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks">원문 보기 →</a>
+<a href="https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/">원문 보기 →</a>
 </article>
 <article class="item">
 <div>
-<h3>[GPT AI Academy·GitHub] 오픈AI, VP와 VNP가 다르다는 증명 주장 논문 공개 (OpenAI posts a claimed proof separating VP and VNP)</h3>
-<p>내부 모델이 만든 증명이라는 주장이며, P 대 NP 문제를 푼 것은 아니라고 소개된다. 독립 검증 전이다.</p>
-<span class="tags">OpenAI preprint · 11/23</span>
+<h3>[GPT AI Academy·alphaXiv] 오픈AI, 행렬 곱셈 지수가 정확히 2.25라는 증명 주장 (OpenAI claims the matrix multiplication exponent is exactly 2.25)</h3>
+<p>10월 알고리즘과 맞는 하한을 제시했다는 주장이다. 논문은 검증 전이고 형식화(Lean)도 일부 회로에만 적용돼 실제 계산이 빨라진다는 뜻은 아니다.</p>
+<span class="tags">alphaXiv · 11/26</span>
 </div>
-<a href="https://github.com/openai/math/blob/main/preprints/VP-and-VNP-are-different-November-23-2026/paper.pdf">원문 보기 →</a>
+<a href="https://www.alphaxiv.org/abs/2611.matrix-multiplication-exponent-lower-bound">원문 보기 →</a>
 </article>
 <article class="item">
 <div>
-<h3>[The Verge] 닛싱, AI 이어버드와 충전 케이스 전체 공개 (Nothing offers a full look at its AI earbuds and charging case)</h3>
-<p>AI 기능을 내세운 이어버드의 외관을 공개했다는 보도. 제목 기준으로만 확인했다.</p>
-<span class="tags">기기 · 날짜 미확인</span>
+<h3>[GPT AI Academy·GitHub] 구글, 코딩 에이전트에 제미나이를 붙이는 오픈소스 CLI 공개 (Google's open-source CLI plugs Gemini into coding agents)</h3>
+<p>실험적 Gemini API CLI로 코덱스·클로드 코드 같은 코딩 에이전트가 API 키만으로 제미나이 모델을 쓸 수 있고 텍스트·미디어 생성, 파일 분석, 백그라운드 에이전트 실행을 지원한다고 소개된다.</p>
+<span class="tags">GitHub · 11/26</span>
 </div>
-<a href="https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal">원문 보기 →</a>
+<a href="https://github.com/google-gemini/gemini-api-cli">원문 보기 →</a>
 </article>
 </section>
 <section>
 <div class="head">공식 발표·릴리스 <small>VERIFIED · 2건</small>
 </div>
-<p class="note">OpenAI 뉴스·GitHub 체인지로그를 읽었습니다. Anthropic 뉴스는 최근 글이 11/9 이전이라 새 글이 없었고, 클로드 아티팩트 앱 설치는 쉬운 AI 소식에 실었습니다. GPT-6 단백질 설계 등 지난 호 소식은 제외했습니다.</p>
+<p class="note">Anthropic 뉴스·GitHub 체인지로그를 읽었습니다. OpenAI 뉴스는 11/24 이후 새 글이 없었고, 지난 호에 실린 글은 제외했습니다.</p>
 <article class="item">
 <div>
-<h3>[OpenAI] 코덱스와 아스트라로 먼 행성 찾기 (Searching for distant planets with Astra)</h3>
-<p>아마추어 천문가 두 명이 코덱스와 아스트라로 NASA 케플러·TESS 공개 자료에서 외계행성 후보를 찾은 사례. 회사 소개 글 기준.</p>
-<span class="tags">OpenAI · 11/24</span>
+<h3>[Anthropic] Messages API를 파이썬에서 러스트로 옮긴 과정 (Migrating our Messages API to Rust)</h3>
+<p>클로드가 첫 버전을 약 일주일 만에 썼고, 요청당 CPU를 약 70% 줄이며 클로드 코드 요청의 첫 토큰 시간 중앙값을 약 20% 줄였다고 설명한다. 회사 발표 기준.</p>
+<span class="tags">Anthropic · 11/25</span>
 </div>
-<a href="https://openai.com/index/searching-for-distant-planets-with-astra/">원문 보기 →</a>
+<a href="https://www.anthropic.com/research/migrating-api-to-rust">원문 보기 →</a>
 </article>
 <article class="item">
 <div>
-<h3>[GitHub 체인지로그] 12월 1일부터 사용량 보고서에 사용자 ID 열 추가</h3>
-<p>사용량 보고서를 가공해 쓰는 팀은 새 열 때문에 형식이 바뀌는지 미리 확인해 볼 만하다. 제목 기준으로만 확인했다.</p>
-<span class="tags">GitHub · 11/23</span>
+<h3>[GitHub 체인지로그] 12월 30일부터 Copilot 코드 리뷰 비용이 기본으로 조직에 청구</h3>
+<p>Copilot Business·Enterprise 조직이 청구 방식을 고르지 않았다면 12월 30일부터 조직에 청구된다. 기존 방식(멤버 청구)을 유지하려면 그 전에 ‘Member’를 선택해야 한다.</p>
+<span class="tags">GitHub · 11/25</span>
 </div>
-<a href="https://github.blog/changelog/2026-11-23-usage-reports-will-include-a-user-id-column-starting-december-1">원문 보기 →</a>
+<a href="https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization">원문 보기 →</a>
 </article>
 </section>
 <section>
 <div class="head">커뮤니티 레이더 <small>COMMUNITY RADAR · 0건</small>
 </div>
-<p class="note">Reddit·note.com은 읽지 않아 싣지 않았습니다. Hacker News 반응은 해외 AI 소식에 포함했습니다.</p>
+<p class="note">Reddit·note.com은 이번 호에서 읽지 않아 싣지 않았습니다. Hacker News 반응은 해외 AI 소식에 포함했습니다.</p>
 </section>
 <section>
 <div class="head">UX·디자인·트렌드 <small>UX · DESIGN · TREND · 4건</small>
 </div>
-<p class="note">디지털인사이트·요즘IT 목록에서 골랐고 게시일은 확인하지 못한 글이 많습니다. canda.blog·뉴스젤리의 새 글은 없었습니다.</p>
+<p class="note">디지털인사이트·요즘IT·뉴스젤리 목록에서 골랐습니다. canda.blog는 최신 글이 2026년 1월이라 새 글이 없었습니다.</p>
 <article class="item">
 <div>
-<h3>[디지털인사이트] 어도비 대체할 디자인 툴? 아트크래프트에 대한 오해와 진실</h3>
-<p>어도비의 대안으로 거론되는 디자인 툴 아트크래프트를 둘러싼 오해를 짚는 글.</p>
+<h3>[디지털인사이트] AI가 직접 디자인하는 시대, 어도비 맥스 2026가 내보인 승부수는?</h3>
+<p>어도비 맥스 2026에서 공개된 AI 디자인 기능과 전략을 다룬 글. 제목 기준으로만 확인했다.</p>
 <span class="tags">디자인 툴 · 날짜 미확인</span>
 </div>
-<a href="https://ditoday.com/%ec%96%b4%eb%8f%84%eb%b9%84-%eb%8c%80%ec%b2%b4%ed%95%a0-%eb%94%94%ec%9e%90%ec%9d%b8-%ed%88%b4-%ec%95%84%ed%8a%b8%ed%81%ac%eb%9e%98%ed%94%84%ed%8a%b8%ec%97%90-%eb%8c%80%ed%95%9c-%ec%98%a4%ed%95%b4/">원문 보기 →</a>
+<a href="https://ditoday.com/ai%ea%b0%80-%ec%a7%81%ec%a0%91-%eb%94%94%ec%9e%90%ec%9d%b8%ed%95%98%eb%8a%94-%ec%8b%9c%eb%8c%80-%ec%96%b4%eb%8f%84%eb%b9%84-%eb%a7%a5%ec%8a%a4-2026%ea%b0%80-%eb%82%b4%eb%b3%b4%ec%9d%b8-%ec%8a%b9/">원문 보기 →</a>
 </article>
 <article class="item">
 <div>
-<h3>[디지털인사이트] “고객이 덜 생각하도록” 우리은행의 AI 키오스크 UX 개발기</h3>
-<p>AI 키오스크를 만들며 고객이 덜 고민하게 설계한 과정을 다룬 글.</p>
+<h3>[디지털인사이트] 앤트로픽 ‘AI 개발 플레이북’ 보니, UX 리서치 없었다</h3>
+<p>앤트로픽의 AI 개발 플레이북에 UX 리서치 단계가 빠져 있다는 점을 짚은 글. 제목 기준으로만 확인했다.</p>
 <span class="tags">UX · 날짜 미확인</span>
 </div>
-<a href="https://ditoday.com/%ea%b3%a0%ea%b0%9d%ec%9d%b4-%eb%8d%9c-%ec%83%9d%ea%b0%81%ed%95%98%eb%8f%84%eb%a1%9d-%ec%9a%b0%eb%a6%ac%ec%9d%80%ed%96%89%ec%9d%98-ai-%ed%82%a4%ec%98%a4%ec%8a%a4%ed%81%ac-ux-%ea%b0%9c/">원문 보기 →</a>
+<a href="https://ditoday.com/%ec%95%a4%ed%8a%b8%eb%a1%9c%ed%94%bd-ai-%ea%b0%9c%eb%b0%9c-%ed%94%8c%eb%a0%88%ec%9d%b4%eb%b6%81-%eb%b3%b4%eb%8b%88-ux-%eb%a6%ac%ec%84%9c%ec%b9%98-%ec%97%86%ec%97%88%eb%8b%a4/">원문 보기 →</a>
 </article>
 <article class="item">
 <div>
-<h3>[디지털인사이트] AI 시대, 서체 디자이너는 글자 형태 너머 무엇을 정해야 할까?</h3>
-<p>AI가 글자를 만드는 시대에 서체 디자이너의 역할을 묻는 글.</p>
-<span class="tags">타이포 · 날짜 미확인</span>
+<h3>[요즘IT] 국내 FDE 지도 2026: FDE는 무슨 일을 할까</h3>
+<p>고객 현장에 파견돼 제품을 맞춰 구현하는 FDE 직무가 국내에서 어떤 모습인지 짚은 글. 최근 글 목록 기준.</p>
+<span class="tags">직무 트렌드 · 최근 글</span>
 </div>
-<a href="https://ditoday.com/ai-%ec%8b%9c%eb%8c%80-%ec%84%9c%ec%b2%b4-%eb%94%94%ec%9e%90%ec%9d%b4%eb%84%88%eb%8a%94-%ea%b8%80%ec%9e%90-%ed%98%95%ed%83%9c-%eb%84%88%eb%a8%b8-%eb%ac%b4%ec%97%87%ec%9d%84-%ec%a0%95%ed%95%b4%ec%95%bc/">원문 보기 →</a>
+<a href="https://yozm.wishket.com/magazine/detail/4031/">원문 보기 →</a>
 </article>
 <article class="item">
 <div>
-<h3>[요즘IT] AI가 "개발 완료"라고 하면, 어디까지 믿어도 될까</h3>
-<p>AI가 작업 완료를 말할 때 어디까지 검증해야 하는지 다룬 글. 최근 글 목록 기준.</p>
-<span class="tags">AI 개발 · 최근 글</span>
+<h3>[뉴스젤리] [위클리 시각화] 뉴욕에서 가장 특별한 개는 어느 동네에 살까요?</h3>
+<p>뉴욕 반려견 데이터를 단계구분도로 시각화한 위클리 글. 제목 기준으로만 확인했다.</p>
+<span class="tags">데이터 시각화 · 날짜 미확인</span>
 </div>
-<a href="https://yozm.wishket.com/magazine/detail/4039/">원문 보기 →</a>
+<a href="https://newsjel.ly/?post_type=post&p=19096">원문 보기 →</a>
 </article>
 </section>
 <section>
-<div class="head">경제·비즈니스 <small>ECONOMY · 0건</small>
+<div class="head">경제·비즈니스 <small>ECONOMY · 1건</small>
 </div>
-<p class="note">뉴닉은 본문 목록을 읽지 못했고, 어피티는 날짜·제목을 확인할 수 있는 새 글이 없어 싣지 않았습니다.</p>
+<p class="note">뉴닉은 본문 목록을 읽지 못했고, 어피티는 날짜가 확인되는 새 글이 없어 최근 글 1건만 실었습니다.</p>
+<article class="item">
+<div>
+<h3>[어피티] 환율이 떨어졌는데, 지금 달러를 사도 될까요?</h3>
+<p>원·달러 환율이 크게 움직일 때 달러를 어떤 계좌에서 어떻게 살지 고민하는 초보자를 위한 설명 영상 소개. 게시일은 확인하지 못했다.</p>
+<span class="tags">환율 · 날짜 미확인</span>
+</div>
+<a href="https://www.youtube.com/watch?v=fJSV0EqFuqc">원문 보기 →</a>
+</article>
 </section>
 <section>
 <div class="head">수집 제한 사이트 <small>COLLECTION LIMITS</small>
 </div>
-<p class="note">오늘 호는 클라우드 예약 작업이 curl로 각 사이트 주소를 읽어 만들었습니다. 아래는 읽지 못했거나 날짜·본문을 확인하지 못해 싣지 않은 곳입니다. 확인하지 못한 내용은 싣지 않았습니다.</p>
+<p class="note">이번 호는 클라우드 예약 작업이 WebFetch 도구 없이 curl로 각 사이트 주소를 직접 읽어 만들었습니다. 아래는 읽지 못했거나 새 글을 확인하지 못해 싣지 않은 곳입니다. 확인하지 못한 내용은 싣지 않았습니다.</p>
 <div class="limits">
-<a href="https://platum.kr/trends">Platum(접근 차단)</a>
-<a href="https://outstanding.kr">아웃스탠딩</a>
-<a href="https://eopla.net/">이오플래닛</a>
-<a href="https://blog.sknetworks.co.kr/?cat=1323">SKN AI트렌드</a>
-<a href="https://news.appstory.co.kr/news/">앱스토리</a>
-<a href="https://d2.naver.com/home">NAVER D2(날짜 미확인)</a>
-<a href="https://techcrunch.com/category/artificial-intelligence/">TechCrunch AI(차단)</a>
-<a href="https://venturebeat.com/category/ai/">VentureBeat AI(요청 제한)</a>
-<a href="https://www.reddit.com/r/LocalLLaMA/">Reddit</a>
-<a href="https://note.com/search?q=生成AI">note.com</a>
-<a href="https://newneek.co/">뉴닉</a>
-<a href="https://uppity.co.kr/">어피티</a>
+<a href="https://platum.kr/trends">Platum(접근 차단 403)</a>
+<a href="https://blog.sknetworks.co.kr/?cat=1323">SKN AI트렌드(접속 실패)</a>
+<a href="https://news.appstory.co.kr/news/">앱스토리(접속 실패)</a>
+<a href="https://www.besuccess.com/category/news/">beSUCCESS(날짜 미확인으로 제외)</a>
+<a href="https://techcrunch.com/category/artificial-intelligence/">TechCrunch AI(GPT AI Academy 경유만 반영)</a>
+<a href="https://venturebeat.com/category/ai/">VentureBeat AI(이번 호 미수집)</a>
+<a href="https://www.reddit.com/r/LocalLLaMA/">Reddit(미수집)</a>
+<a href="https://note.com/search?q=生成AI">note.com(미수집)</a>
+<a href="https://newneek.co/">뉴닉(본문 목록 읽지 못함)</a>
 <a href="https://www.yongsan.go.kr/portal/bbs/B0000041/list.do?menuNo=200228">용산구청 새소식(접속 실패)</a>
 <a href="https://www.yongsan.go.kr/portal/bbs/B0000042/list.do?menuNo=200229">용산구청 행사/교육(접속 실패)</a>
 <a href="https://www.youtube.com/feed/channels">YouTube 구독 확인(로그인 브라우저 없음)</a>
-<a href="https://think-note.com/">생각노트·서핏·트렌드라이트·오픈애즈(새 글 확인 못함)</a>
+<a href="https://think-note.com/">생각노트·서핏·오픈애즈·트렌드라이트(새 글 확인 못함)</a>
 </div>
 </section>
 </div>
@@ -330,7 +344,7 @@
 <div class="wrap">
 <small>YONGSAN · SEOUL</small>
 <h1>오늘은 용산 소식을<br>가져오지 못했습니다.</h1>
-<p>11월 26일 목요일 호입니다. 용산구청 새소식·행사/교육 게시판에 접속하지 못했고, 이촌·용산 뉴스 검색에서도 오늘 날짜의 새 기사를 확인하지 못했습니다. 확인하지 않은 내용은 싣지 않았습니다. 목요일이라 주간 동네 탐색은 월요일 호에만 싣습니다.</p>
+<p>11월 27일 금요일 호입니다. 용산구청 새소식·행사/교육 게시판에 접속하지 못했고, 이촌·용산 뉴스 검색에서도 오늘 날짜의 새 기사를 확인하지 못했습니다. 확인하지 않은 내용은 싣지 않았습니다. 금요일이라 주간 동네 탐색은 월요일 호에만 싣습니다.</p>
 </div>
 </section>
 <section>
@@ -343,53 +357,9 @@
 <section class="hero">
 <div class="wrap">
 <small>YOUTUBE PICKS</small>
-<h1>AI 활용부터 1인 생활·기록·내집마련까지, 10채널.</h1>
-<p>구독 418개와 나중에 볼 동영상 56개를 오늘 다시 읽고, 구독·이전 추천 채널은 제외했습니다. 구독자 1만 명 이상 한국인 크리에이터 중 최근 영상 날짜를 직접 확인한 채널만 골랐습니다.</p>
+<h1>오늘은 유튜브 추천을 건너뛰었습니다.</h1>
+<p>추천 선정 전에 로그인된 브라우저로 구독 목록을 확인해야 하는데, 이번 클라우드 실행에는 그 수단이 없어 구독 채널과 겹치는 추천을 막을 수 없었습니다. 확인하지 않은 채널은 싣지 않았고 YOUTUBE_HISTORY.md도 갱신하지 않았습니다.</p>
 </div>
-</section>
-<section>
-<div class="head black">이번 추천 <small>10 CHANNEL</small>
-</div>
-<table class="local-table">
-<thead>
-<tr>
-<th>채널명</th><th>어떤 채널인지</th><th>닮은 구독 채널 또는 범주</th><th>링크</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>진한별의 AI 연구소</td><td>어려워 보이는 AI 도구를 쉽고 자세하게 따라 하도록 풀어 주는 채널(구독 약 2.04만). 최근 영상 4일 전 확인.</td><td>AI 활용 (퇴근길 AI·노디 AI 구독과 비슷) · 한국</td><td><a href="https://www.youtube.com/@ai.hanbyeol">원문 보기 →</a></td>
-</tr>
-<tr>
-<td>AI 뚝딱</td><td>공부보다 직접 써 보기를 내세워 쉽고 실용적인 AI 활용법을 소개하는 채널(구독 약 3.6만). 최근 영상 5일 전 확인.</td><td>AI 활용 · 초보 눈높이 (지원쌤은 AI,영어 전문 구독과 비슷) · 한국</td><td><a href="https://www.youtube.com/@AI뚝딱_1">원문 보기 →</a></td>
-</tr>
-<tr>
-<td>스티브의 파도타기 | AI 시대 일하는 법</td><td>중소기업 실무에서 AI·자동화로 반복 업무를 줄인 경험을 나누는 채널(구독 약 2.98만). 최근 영상 3일 전 확인.</td><td>AI 활용 · 직장인 업무 (AI 비밀무기 추천·퇴근길 AI 구독과 비슷) · 한국</td><td><a href="https://www.youtube.com/@stevesurfing">원문 보기 →</a></td>
-</tr>
-<tr>
-<td>비전 마케터, 루카스</td><td>AI 시대에 살아남는 콘텐츠·유튜브 운영법을 다루는 마케팅 채널(구독 약 4.92만). 최근 영상 16시간 전 확인. 나중에 볼 동영상에 저장한 채널.</td><td>AI 시대 콘텐츠·마케팅 (커밍쏜·윤석종 구독과 비슷) · 한국</td><td><a href="https://www.youtube.com/@visonmktlucas">원문 보기 →</a></td>
-</tr>
-<tr>
-<td>수밤이</td><td>서울에서 혼자 사는 일상과 먹는 이야기를 담은 브이로그 채널(구독 약 24.4만). 최근 영상 9일 전 확인.</td><td>1인 생활 (보통의 혼자·MJ 구독과 비슷) · 한국</td><td><a href="https://www.youtube.com/@수밤이">원문 보기 →</a></td>
-</tr>
-<tr>
-<td>무딘 moodin</td><td>교사의 퇴근 후 일상을 차분하게 담은 브이로그 채널(구독 약 1.53만). 최근 영상 1개월 전 확인.</td><td>1인 생활 · 직장인 일상 (진주 JINJU·서크크 구독과 비슷) · 한국</td><td><a href="https://www.youtube.com/@moodin5650">원문 보기 →</a></td>
-</tr>
-<tr>
-<td>희나 HINA</td><td>기록·시간 관리·아이패드 활용 등 자기 관리 루틴을 다루는 채널(구독 약 7.46만). 최근 영상 2주 전 확인.</td><td>기록·생산성 (단단_최소 기록의 법칙·방구석갓생 구독과 비슷) · 한국</td><td><a href="https://www.youtube.com/@hinalog">원문 보기 →</a></td>
-</tr>
-<tr>
-<td>소람 soram</td><td>아이패드·단축어·노션으로 일상을 기록하는 채널(구독 약 22.6만). 최근 영상 11일 전 확인.</td><td>기록·생산성 (단단_최소 기록의 법칙 구독과 비슷) · 한국</td><td><a href="https://www.youtube.com/@soram">원문 보기 →</a></td>
-</tr>
-<tr>
-<td>다독독 :: 책 읽는 서당개</td><td>책을 읽고 내용을 정리해 소개하는 독서 채널(구독 약 2.24만). 최근 영상 7일 전 확인.</td><td>독서·교양 (책과삶·이혜성의 1% 북클럽 구독과 비슷) · 한국</td><td><a href="https://www.youtube.com/@dadokdog">원문 보기 →</a></td>
-</tr>
-<tr>
-<td>삶은, 부동산_내집마련으로 투자까지</td><td>종잣돈에서 시작한 내집마련 경험과 현장 위주 부동산 정보를 나누는 채널(구독 약 1.03만). 최근 영상 3일 전 확인.</td><td>내집마련·가계 (내집마련 친구 스페이씨·집코노미 구독과 비슷) · 한국</td><td><a href="https://www.youtube.com/@삶은부동산">원문 보기 →</a></td>
-</tr>
-</tbody>
-</table>
-<p class="note">클러스터: AI 활용 3, 1인 생활 2, 기록·생산성 2, AI 시대 콘텐츠 1, 독서 1, 내집마련 1. 최근 나중에 볼 동영상에 AI 시대 일하는 법 영상이 많이 늘어 AI 비중을 3건(3분의 1 이하)으로 유지했습니다. 구독자 1만 미만(영진 등), 3개월 이상 업로드가 없는 채널, AI 생성 콘텐츠 채널, 해외 거주 일상·기업 채널은 제외했습니다.</p>
 </section>
 </div>
 </main>
