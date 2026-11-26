@@ -138,3 +138,12 @@
 - 2026-11-26 · https://www.youtube.com/@soram · 기록·생산성
 - 2026-11-26 · https://www.youtube.com/@dadokdog · 독서·교양
 - 2026-11-26 · https://www.youtube.com/@삶은부동산 · 내집마련·가계
+- 2026-11-27 · https://www.youtube.com/@mobum_ai · AI 활용 · 업무 자동화
+- 2026-11-27 · https://www.youtube.com/@routeai · AI 활용 · 직장인 업무
+- 2026-11-27 · https://www.youtube.com/@EasyDesign_ED · 디자인·AI
+- 2026-11-27 · https://www.youtube.com/@bibl_tm · AI 시대 콘텐츠·유튜브
+- 2026-11-27 · https://www.youtube.com/@drgardener · 기록·생산성
+- 2026-11-27 · https://www.youtube.com/@dadokie · 독서·교양
+- 2026-11-27 · https://www.youtube.com/@korealawyer2043 · 교양·사회
+- 2026-11-27 · https://www.youtube.com/@uminnym · 일상 브이로그
+- 2026-11-27 · https://www.youtube.com/@TV-np9yq · 운동·건강
