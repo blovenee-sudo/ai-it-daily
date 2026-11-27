@@ -147,3 +147,13 @@
 - 2026-11-27 · https://www.youtube.com/@korealawyer2043 · 교양·사회
 - 2026-11-27 · https://www.youtube.com/@uminnym · 일상 브이로그
 - 2026-11-27 · https://www.youtube.com/@TV-np9yq · 운동·건강
+- 2026-11-28 · https://www.youtube.com/@d.Ai.ly_Ai · AI 활용 · 초보 눈높이
+- 2026-11-28 · https://www.youtube.com/@홍아린AI · AI 활용 · 도구 비교
+- 2026-11-28 · https://www.youtube.com/@innerlead · AI 활용 · 비개발자 도구
+- 2026-11-28 · https://www.youtube.com/@1404haru · 살림·일상
+- 2026-11-28 · https://www.youtube.com/@sook3190 · 정리·미니멀
+- 2026-11-28 · https://www.youtube.com/@이은영의k공간정리 · 정리·미니멀
+- 2026-11-28 · https://www.youtube.com/@jaminh · 1인 생활 · 기록
+- 2026-11-28 · https://www.youtube.com/@leehyunyi · 워킹맘·육아
+- 2026-11-28 · https://www.youtube.com/@leeminjoo_6 · 육아 · 집밥
+- 2026-11-28 · https://www.youtube.com/@gomhee · 가계·재테크
